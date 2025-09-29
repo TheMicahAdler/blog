@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Your Blog Title</title>
+<link>https://yourusername.github.io/yourrepo/save-for-who-knows-what/research-old/</link>
+<atom:link href="https://yourusername.github.io/yourrepo/save-for-who-knows-what/research-old/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.21</generator>
+<lastBuildDate>Mon, 05 May 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Towards Combinatorial Interpretability of Neural Computation</title>
+  <dc:creator>Micah Adler</dc:creator>
+  <dc:creator>Dan Alistarh</dc:creator>
+  <dc:creator>Nir Shavit</dc:creator>
+  <link>https://yourusername.github.io/yourrepo/save-for-who-knows-what/research-old/posts/combinatorial-interpretability.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><strong>Paper:</strong> <a href="https://arxiv.org/abs/2504.08842">arXiv:2504.08842</a></p>
+
+
+
+ ]]></description>
+  <category>Mechanistic Interpretability</category>
+  <category>Theory</category>
+  <category>Boolean Computation</category>
+  <guid>https://yourusername.github.io/yourrepo/save-for-who-knows-what/research-old/posts/combinatorial-interpretability.html</guid>
+  <pubDate>Mon, 05 May 2025 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>On the Complexity of Neural Computation in Superposition</title>
+  <dc:creator>Micah Adler</dc:creator>
+  <dc:creator>Nir Shavit</dc:creator>
+  <link>https://yourusername.github.io/yourrepo/save-for-who-knows-what/research-old/posts/complexity-superposition.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><strong>Paper:</strong> <a href="https://arxiv.org/abs/2409.15318">arXiv:2409.15318</a></p>
+
+
+
+ ]]></description>
+  <category>Mechanistic Interpretability</category>
+  <category>Theory</category>
+  <category>Superposition</category>
+  <category>Complexity</category>
+  <guid>https://yourusername.github.io/yourrepo/save-for-who-knows-what/research-old/posts/complexity-superposition.html</guid>
+  <pubDate>Fri, 18 Apr 2025 04:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

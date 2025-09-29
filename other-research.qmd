@@ -1,0 +1,736 @@
+---
+title: Research Publications
+#subtitle: A list of my work
+title-block-banner: images/blog-banner.png
+image: images/blog-card.png
+format: html
+toc: true
+---
+::: {.intro}
+
+I am interested in a broad range of topics across Computer Science and
+related fields, and have been fortunate to find incredible
+collaborators in these many areas.  My deeper expertise is on
+algorithms, stochastic processes, and information theory.  Most of my
+research involves applications of these kinds of techniques.
+
+:::
+
+<!-- Keyword filter toolbar -->
+<div id="keyword-filter"></div>
+<div id="no-matches" class="callout callout-warning hidden">
+  <div class="callout-body">
+    <p>No publications match your current filters.</p>
+  </div>
+</div>
+
+<!-- Publications list -->
+<div id="pubs">
+
+<details><summary>Journal Publications</summary>
+
+* **[Efficient Algorithms for Neighbor Discovery in Wireless Networks](https://web.cs.umass.edu/publication/docs/2010/UM-CS-2010-066.pdf).**
+  <span class="pub-topics" data-topics='["Wireless Networks"]' hidden></span>
+  *Sudarshan Vasudevan, Micah Adler, Dennis Goeckel, Don Towsley.*
+  IEEE/ACM Transactions on Networking. **21**(1): 69–83 (2013).
+
+* **[Approximating Optimal Binary Decision Trees](https://www.cs.williams.edu/~heeringa/publications/approx2008.pdf).**
+  <span class="pub-topics" data-topics='["Search Structures"]' hidden></span>
+  *Micah Adler, Brent Heeringa.*
+  Algorithmica **62**(3–4): 1112–1121 (2012).
+
+* **[Algorithms for optimizing the bandwidth cost of content delivery](https://people.cs.umass.edu/~ramesh/Site/PUBLICATIONS_files/AdlerSV11.pdf).**
+  <span class="pub-topics" data-topics='["Streaming Media & Content Distribution"]' hidden></span>
+  *Micah Adler, Ramesh K. Sitaraman, Harish Venkataramani.*
+  Computer Networks **55**(18): 4007–4020 (2011).
+
+* **[On Exploiting Node‑Heterogeneous Clusters Optimally](https://graal.ens-lyon.fr/~lmarchal/scheduling/articles-2011/rosenberg_divisible_return_fifo.pdf).**
+  <span class="pub-topics" data-topics='["Heterogeneous Clusters"]' hidden></span>
+  *Micah Adler, Ying Gong, Arnold L. Rosenberg.*
+  Theory Comput. Syst. **42**(4): 465–487 (2008).
+
+* **[Passive‑Logging Attacks Against Anonymous Communications Systems](https://people.cs.georgetown.edu/~clay/research/pubs/wright-tissec-2008.pdf).**
+  <span class="pub-topics" data-topics='["Anonymous Communication & Privacy"]' hidden></span>
+  *Matthew K. Wright, Micah Adler, Brian Neil Levine, Clay Shields.*
+  ACM Trans. Inf. Syst. Secur. **11**(2): 3:1–3:34 (2008).
+
+* **[Tradeoffs in Probabilistic Packet Marking for IP Traceback](https://cse.buffalo.edu/~hungngo/classes/2003/Markov_Chains/papers/p407-adler.pdf).**
+  <span class="pub-topics" data-topics='["IP Traceback & Packet Marking", "Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler.*
+  Journal of the ACM **52**(2): 217–244 (2005).
+
+* **[The Predecessor Attack: An Analysis of a Threat to Anonymous Communications Systems](https://www.freehaven.net/anonbib/cache/Wright:2004.pdf).**
+  <span class="pub-topics" data-topics='["Anonymous Communication & Privacy"]' hidden></span>
+  *Matthew K. Wright, Micah Adler, Brian N. Levine, Clay Shields.*
+  ACM Transactions on Information and System Security **7**(4) (2005).
+
+* **[Pricing Multicasting in More Flexible Network Models](https://dna-pubs.cs.columbia.edu/uploads/37365814-c1cb-40d8-8d8f-ddb54ef0639a.pdf).**
+  <span class="pub-topics" data-topics='["Multicasting"]' hidden></span>
+  *Micah Adler, Dan Rubenstein.*
+  Transactions on Algorithms **1**(1) (2005).
+
+* **[Tight Bounds for the Performance of Longest in System on DAGs](https://www.irif.fr/~adiro/publ/AR.pdf).**
+  <span class="pub-topics" data-topics='["Scheduling & Queues"]' hidden></span>
+  *Micah Adler, Adi Rosén.*
+  Journal of Algorithms **55**(2): 101–112 (2005).
+
+* **[Optimal Proxy Cache Allocation for Efficient Streaming Media Distribution](https://nlab.engr.uconn.edu/papers/wang02_infocom_proxy.pdf).**
+  <span class="pub-topics" data-topics='["Streaming Media & Content Distribution"]' hidden></span>
+  *Bing Wang, Subhabrata Sen, Micah Adler, Don Towsley.*
+  IEEE Transactions on Multimedia (Special Issue on Streaming Media) **6**(2): April 2004.
+
+* **[Randomized Pursuit–Evasion in Graphs](https://home.ttic.edu/~harry/pdf/hunter_rabbit.pdf).**
+  <span class="pub-topics" data-topics='["Pursuit–Evasion"]' hidden></span>
+  *Micah Adler, Harald Räcke, Naveen Sivadasan, Christian Sohler, Berthold Vöcking.*
+  Combinatorics, Probability & Computing **12**(3) (2003).
+
+* **[Time‑Constrained Scheduling of Weighted Packets on Trees and Meshes](https://repository.upenn.edu/handle/20.500.14332/6126).**
+  <span class="pub-topics" data-topics='["Scheduling & Queues"]' hidden></span>
+  *Micah Adler, Sanjeev Khanna, Rajmohan Rajaraman, Adi Rosén.*
+  Algorithmica **36**(2): 123–152 (April 2003).
+
+* **[Scheduling Time‑Constrained Communication in Linear Networks](https://people.cs.umass.edu/~ramesh/Site/PUBLICATIONS_files/AdlerRSU98.pdf).**
+  <span class="pub-topics" data-topics='["Scheduling & Queues"]' hidden></span>
+  *Micah Adler, Arnold L. Rosenberg, Ramesh K. Sitaraman, Walter Unger.*
+  Theory of Computing Systems **35**(6): 599–623 (October 2002).
+
+* **[Scheduling Space‑Sharing for Internet Advertising](http://theory.stanford.edu/~matias/papers/space_sharing.pdf).**
+  <span class="pub-topics" data-topics='["Scheduling & Queues", "Advertising"]' hidden></span>
+  *Micah Adler, Phillip B. Gibbons, Yossi Matias.*
+  Journal of Scheduling **5**(2): 103–119 (March 2002).
+
+* **[An n! Lower Bound on Formula Size](https://people.cs.umass.edu/~immerman/pub/factorial.pdf).**
+  <span class="pub-topics" data-topics='["Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler, Neil Immerman.*
+  ACM Transactions on Computational Logic **4**(3): 296–314 (July 2003). (LICS 2001 special issue.)
+
+* **[Protocols for Asymmetric Communication Channels](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/phrensy/pub/papers/AdlerM98.pdf).**
+  <span class="pub-topics" data-topics='["Network Capacity & Information Theory", "Asymmetric Communication"]' hidden></span>
+  *Micah Adler, Bruce Maggs.*
+  Journal of Computer and System Sciences **63**(4): 573–596 (December 2001). (FOCS ’98 special issue.)
+
+* **[Compression Using Efficient Multicasting](https://dl.acm.org/doi/10.1145/335305.335324).**
+  <span class="pub-topics" data-topics='["Multicasting", "Parallel Bandwidth"]' hidden></span>
+  *Micah Adler, Tom Leighton.*
+  Journal of Computer and System Sciences **63**(1): 127–145 (August 2001). (Internet algorithms special issue.)
+
+* **[Efficient Communication Strategies for Ad‑Hoc Wireless Networks](https://dl.acm.org/doi/pdf/10.1145/277651.277692).**
+  <span class="pub-topics" data-topics='["Wireless Networks"]' hidden></span>
+  *Micah Adler, Christian Scheideler.*
+  Theory of Computing Systems **33**(5): 337–391 (October 2000). (SPAA ’98 special issue.)
+
+* **[Parallel Sorting With Limited Bandwidth](https://dl.acm.org/doi/10.1145/215399.215431).**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Parallel Bandwidth", "Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler, John W. Byers, Richard M. Karp.*
+  SIAM Journal on Computing **29**(6): 1997–2015 (April 2000).
+
+* **[Modeling Parallel Bandwidth: Local vs. Global Restrictions](https://www.cs.utexas.edu/users/vijaya/pubs/bandwidth.pdf).**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Parallel Bandwidth"]' hidden></span>
+  *Micah Adler, Phillip B. Gibbons, Yossi Matias, Vijaya Ramachandran.*
+  Algorithmica **24**(3–4): 381–404 (1999). (Coarse‑grained parallel algorithms special issue.)
+
+* **[Parallel Randomized Load Balancing](https://www.eecs.harvard.edu/~michaelm/postscripts/rsa1998.pdf).**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Load Balancing & Work Sharing"]' hidden></span>
+  *Micah Adler, Soumen Chakrabarti, Michael Mitzenmacher, Lars Rasmussen.*
+  Random Structures & Algorithms **13**(2): 159–188 (Sept 1998).
+
+* **[Asynchronous Shared Memory Search Structures](https://dl.acm.org/doi/pdf/10.1145/237502.237506).**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Search Structures"]' hidden></span>
+  *Micah Adler.*
+  Theory of Computing Systems **31**: 377–401 (1998). (SPAA ’96 special issue.)
+</details>
+
+<details><summary>Publications in Selective Refereed Conferences</summary>
+
+* **[Search Space Reductions for Nearest-Neighbor Queries](https://ovf2dbuhz3kkjzkc.vyomaonline.com/studymaterial/uploads/pdf/2020/12/05_3f9debe8560161dfae5d6f466b5f21c1.pdf#page=565_).**
+  <span class="pub-topics" data-topics='["Search Structures"]' hidden></span>
+  *M Adler, B Heeringa.*
+  International Conference on Theory and Applications of Models of Computation … (2008).
+
+* **[On the Capacity of Information Networks](https://www.cs.ubc.ca/~nickhar/papers/Capacity/Capacity-Soda.pdf).**
+  <span class="pub-topics" data-topics='["Network Capacity & Information Theory", "Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler, Nicholas Harvey, Kamal Jain, Robert Kleinberg, April Rasala Lehman.*
+  Proceedings of ACM–SIAM Symposium on Discrete Algorithms (SODA), January 2006.
+
+* **[Lower Bounds for Asymmetric Communication Channels and Distributed Source Coding](https://www.cs.ubc.ca/~nickhar/papers/AsymmetricCommunication/Coding-CameraReady.pdf).**
+  <span class="pub-topics" data-topics='["Network Capacity & Information Theory", "Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler, Erik Demaine, Nicholas Harvey, Mihai Patrascu.*
+  Proceedings of ACM–SIAM Symposium on Discrete Algorithms (SODA), January 2006.
+
+* **[On optimal communication cost for gathering correlated data through wireless sensor networks](https://pdos.csail.mit.edu/~jaya/RELATED-PAPERS/mobicom/2006/p310_gathering.pdf).**
+  <span class="pub-topics" data-topics='["Wireless Networks", "Sensor Networks", "Asymmetric Communication"]' hidden></span>
+  *J Liu, M Adler, D Towsley, C Zhang.*
+  Proceedings of the 12th annual international conference on Mobile Computing (MobiCom) 2006.
+
+* **[Efficient Probabilistic Packet Marking](https://csr.bu.edu/icnp2005/papers/33_qdong-eppm.pdf).**
+  <span class="pub-topics" data-topics='["IP Traceback & Packet Marking"]' hidden></span>
+  *Qunfeng Dong, Micah Adler, Suman Banerjee, Kazu Hirata.*
+  Proceedings of International Conference on Network Protocols (ICNP), November 2005.
+
+* **[Minimum Energy Reliable Paths Using Unreliable Wireless Links](https://pages.cs.wisc.edu/~qunfeng/papers/mobihoc2005.pdf).**
+  <span class="pub-topics" data-topics='["Wireless Networks"]' hidden></span>
+  *Qunfeng Dong, Micah Adler, Suman Banerjee, Archan Misra.*
+  Proceedings of ACM MobiHoc, May 2005.
+
+* **[Towards Asymptotic Optimality in Probabilistic Packet Marking](https://www.eecs.yorku.ca/~jeff/research/micah/stoc.pdf).**
+  <span class="pub-topics" data-topics='["IP Traceback & Packet Marking", "Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler, Jeff Edmonds, Jiří Matoušek.*
+  Proceedings of the 37th ACM Symposium on Theory of Computing (STOC), 2005.
+
+* **[Optimal Peer Selection for P2P Downloading and Streaming](https://research.engineering.nyu.edu/~suel/papers/peer.pdf).**
+  <span class="pub-topics" data-topics='["Streaming Media & Content Distribution", "Peer-to-Peer Networks"]' hidden></span>
+  *Micah Adler, Rakesh Kumar, Keith Ross, Dan Rubenstein, Torsten Suel, David Yao.*
+  Proceedings of IEEE INFOCOM, 2005.
+
+* **[Collecting Correlated Information from a Sensor Network](https://web.cs.umass.edu/publication/docs/2004/UM-CS-2004-070.pdf).**
+  <span class="pub-topics" data-topics='["Sensor Networks", "Asymmetric Communication"]' hidden></span>
+  *Micah Adler.*
+  Proceedings of the 16th Annual ACM–SIAM Symposium on Discrete Algorithms (SODA), 2005.
+
+* **Load Balancing in Hypercubic Distributed Hash Tables with Heterogeneous Processors.**
+  <span class="pub-topics" data-topics='["Heterogeneous Clusters", "Heterogeneous Clusters"]' hidden></span>
+  *Junning Liu, Micah Adler.*
+  Proceedings of European Symposium on Algorithms (ESA), 2004.
+
+* **[Optimal Website Design with the Constrained Subtree Selection Problem](https://www.cs.williams.edu/~heeringa/publications/heeringa-icalp2004.pdf).**
+  <span class="pub-topics" data-topics='["Streaming Media & Content Distribution", "The Web"]' hidden></span>
+  *Brent Heeringa, Micah Adler.*
+  Proceedings of International Colloquium on Automata, Languages, and Programming (ICALP), 2004.
+
+* **Two optimal peer selection problems.**
+  <span class="pub-topics" data-topics='["Peer-to-Peer Networks"]' hidden></span>
+  *M Adler, R Kumar, K Ross, D Rubenstein, D Turner, DD Yao.*
+  ACM SIGMETRICS Performance Evaluation Review 32 (2), 28–30 (2004).
+
+* **On Using Multicast for Streaming Video across Wide Area Network.**
+  <span class="pub-topics" data-topics='["Streaming Media & Content Distribution", "Multicasting"]' hidden></span>
+  *Bing Wang, Subhabrata Sen, Micah Adler, Don Towsley.*
+  Proceedings of IEEE GLOBECOM, 2003.
+
+* **[A Stochastic Process on the Hypercube with Applications to Peer‑to‑Peer Networks](https://dspace.mit.edu/bitstream/handle/1721.1/29831/MIT-CSAIL-TR-2003-003.pdf?sequence=2).**
+  <span class="pub-topics" data-topics='["Load Balancing & Work Sharing", "Peer-to-Peer Networks"]' hidden></span>
+  *Micah Adler, Eran Halperin, Richard Karp, Vijay Vazirani.*
+  Proceedings of the 35th ACM Symposium on Theory of Computing (STOC), 2003.
+
+* **Optimal Sharing of Bags of Tasks in Heterogeneous Clusters.**
+  <span class="pub-topics" data-topics='["Load Balancing & Work Sharing", "Heterogeneous Clusters"]' hidden></span>
+  *Micah Adler, Ying Gong, Arnold L. Rosenberg.*
+  Proceedings of the 15th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), 2003.
+
+* **[A Proportionate Fair Scheduling Rule with Good Worst‑Case Performance](https://www.cs.ox.ac.uk/people/leslieann.goldberg/papers/buckets.pdf).**
+  <span class="pub-topics" data-topics='["Scheduling & Queues", "Load Balancing & Work Sharing"]' hidden></span>
+  *Micah Adler, Petra Berenbrink, Tom Friedetzky, Leslie Goldberg, Paul Goldberg, Mike Paterson.*
+  Proceedings of the 15th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), 2003.
+
+* **Asymptotically Optimal Worksharing in HNOWs: How Long is “Sufficiently Long?”**
+  <span class="pub-topics" data-topics='["Load Balancing & Work Sharing", "Heterogeneous Clusters"]' hidden></span>
+  *Micah Adler, Ying Gong, Arnold L. Rosenberg.*
+  Proceedings of the 36th Annual Simulation Symposium, 2003.
+
+* **[Estimation of Congestion Price Using Probabilistic Packet Marking](https://infocom2003.ieee-infocom.org/papers/50_04.PDF).**
+  <span class="pub-topics" data-topics='["IP Traceback & Packet Marking"]' hidden></span>
+  *Micah Adler, Jin‑Yi Cai, Jonathan K. Shapiro, Don Towsley.*
+  Proceedings of IEEE INFOCOM, 2003.
+
+* **[Defending Anonymous Communication Against Passive Logging Attacks](https://people.cs.georgetown.edu/~clay/research/pubs/wright-passive.pdf).**
+  <span class="pub-topics" data-topics='["Anonymous Communication & Privacy"]' hidden></span>
+  *Matthew Wright, Micah Adler, Brian N. Levine, Clay Shields.*
+  Proceedings of IEEE Symposium on Security and Privacy, 2003.
+
+* **[Randomized Pursuit–Evasion in Graphs](https://home.ttic.edu/~harry/pdf/hunter_rabbit.pdf).**
+  <span class="pub-topics" data-topics='["Pursuit–Evasion"]' hidden></span>
+  *Micah Adler, Harald Räcke, Naveen Sivadasan, Christian Sohler, Berthold Vöcking.*
+  Proceedings of the 29th International Colloquium on Automata, Languages, and Programming (ICALP), 2002.
+
+* **[Tradeoffs in Probabilistic Packet Marking for IP Traceback](https://cse.buffalo.edu/~hungngo/classes/2003/Markov_Chains/papers/p407-adler.pdf).**
+  <span class="pub-topics" data-topics='["IP Traceback & Packet Marking", "Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler.*
+  Proceedings of the 34th ACM Symposium on Theory of Computing (STOC), 2002.
+
+* **[An Analysis of the Degradation of Anonymous Protocols](https://people.cs.georgetown.edu/~clay/research/pubs/wright.ndss01.pdf).**
+  <span class="pub-topics" data-topics='["Anonymous Communication & Privacy"]' hidden></span>
+  *Matthew Wright, Micah Adler, Brian N. Levine, Clay Shields.*
+  Proceedings of the Symposium on Network and Distributed System Security (NDSS), 2002.
+
+* **[Optimal Proxy Cache Allocation for Efficient Streaming Media Distribution](https://nlab.engr.uconn.edu/papers/wang02_infocom_proxy.pdf).**
+  <span class="pub-topics" data-topics='["Streaming Media & Content Distribution"]' hidden></span>
+  *Bing Wang, Subhabrata Sen, Micah Adler, Don Towsley.*
+  Proceedings of IEEE INFOCOM, 2002.
+
+* **[Tight Bounds for the Performance of Longest in System on DAGs](https://www.irif.fr/~adiro/publ/AR.pdf).**
+  <span class="pub-topics" data-topics='["Scheduling & Queues"]' hidden></span>
+  *Micah Adler, Adi Rosén.*
+  Proceedings of the 19th International Symposium on Theoretical Aspects of Computer Science (STACS), 2002.
+
+* **Pricing Multicasting in More Practical Network Models.**
+  <span class="pub-topics" data-topics='["Multicasting"]' hidden></span>
+  *Micah Adler, Dan Rubenstein.*
+  Proceedings of the 13th Annual ACM–SIAM Symposium on Discrete Algorithms (SODA), 2002.
+
+* **Tree Layout for Internal Network Characterizations in Multicast Networks.**
+  <span class="pub-topics" data-topics='["Multicasting"]' hidden></span>
+  *Micah Adler, Tian Bu, Ramesh K. Sitaraman, Don Towsley.*
+  Proceedings of the 3rd International Workshop on Networked Group Communication (NGC), 2001.
+
+* **Channelization Problem in Large Scale Data Dissemination.**
+  <span class="pub-topics" data-topics='["Streaming Media & Content Distribution"]' hidden></span>
+  *Micah Adler, Zihui Ge, James Kurose, Don Towsley, Stephen Zabele.*
+  Proceedings of the 9th IEEE International Conference on Network Protocols (ICNP), 2001.
+
+* **[An n! Lower Bound on Formula Size](https://people.cs.umass.edu/~immerman/pub/factorial.pdf).**
+  <span class="pub-topics" data-topics='["Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler, Neil Immerman.*
+  Proceedings of IEEE Symposium on Logic in Computer Science (LICS), 2001.
+
+* **New Protocols for Asymmetric Communication Channels.**
+  <span class="pub-topics" data-topics='["Network Capacity & Information Theory", "Asymmetric Communication"]' hidden></span>
+  *John Watkinson, Micah Adler, Faith Fich.*
+  Proceedings of the 8th International Colloquium on Structural Information and Communication Complexity (SIROCCO), 2001.
+
+* **[Deadline Fair Scheduling: Bridging the Theory and Practice of Proportionate‑Fair Scheduling in Multiprocessor Servers](https://lass.cs.umass.edu/papers/ps/TR00-38-Dec00.pdf).**
+  <span class="pub-topics" data-topics='["Scheduling & Queues"]' hidden></span>
+  *Abhishek Chandra, Micah Adler, Prashant Shenoy.*
+  Proceedings of IEEE Real‑Time Technology and Applications Symposium (RTAS), 2001.
+
+* **[Towards Compressing Web Graphs](https://www.eecs.harvard.edu/~michaelm/postscripts/dcc2001b.pdf).**
+  <span class="pub-topics" data-topics='["Streaming Media & Content Distribution", "The Web"]' hidden></span>
+  *Micah Adler, Michael Mitzenmacher.*
+  Proceedings of the Data Compression Conference (DCC), 2001.
+
+* **Proxy-based distribution of streaming video over unicast/multicast connections.**
+  <span class="pub-topics" data-topics='["Streaming Media & Content Distribution", "Multicasting"]' hidden></span>
+  *B Wang, S Sen, M Adler, D Towsley.*
+  Proc. IEEE Infocom 2002 (2001).
+
+* **[Compression Using Efficient Multicasting](https://dl.acm.org/doi/pdf/10.1145/335305.335324).**
+  <span class="pub-topics" data-topics='["Multicasting", "Parallel Bandwidth"]' hidden></span>
+  *Micah Adler, Tom Leighton.*
+  Proceedings of the 32nd ACM Symposium on Theory of Computing (STOC), 2000.
+
+* **[Surplus Fair Scheduling: A Proportional‑Share CPU Scheduling Algorithm for Symmetric Multiprocessors](https://www-users.cse.umn.edu/~chandra/papers/osdi00/paper.pdf).**
+  <span class="pub-topics" data-topics='["Scheduling & Queues"]' hidden></span>
+  *Abhishek Chandra, Micah Adler, Pawan Goyal, Prashant Shenoy.*
+  Proceedings of the 4th Symposium on Operating System Design and Implementation (OSDI), 2000.
+
+* **[Tight Size Bounds for Packet Headers in Narrow Meshes](https://www.cs.ox.ac.uk/people/leslieann.goldberg/papers/endtoend.pdf).**
+  <span class="pub-topics" data-topics='["Network Protocols & Complexity"]' hidden></span>
+  *Micah Adler, Faith Fich, Leslie Ann Goldberg, Mike Paterson.*
+  Proceedings of the 27th International Colloquium on Automata, Languages, and Programming (ICALP), 2000.
+
+* **The Complexity of End‑to‑End Communication in Memoryless Networks.**
+  <span class="pub-topics" data-topics='["Network Protocols & Complexity", "Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler, Faith Fich.*
+  Proceedings of the 18th ACM Symposium on Principles of Distributed Computing (PODC), 1999.
+
+* **[Time‑Constrained Scheduling of Weighted Packets on Trees and Meshes](https://dl.acm.org/doi/pdf/10.1145/305619.305620).**
+  <span class="pub-topics" data-topics='["Scheduling & Queues"]' hidden></span>
+  *Micah Adler, Sanjeev Khanna, Rajmohan Rajaraman, Adi Rosén.*
+  Proceedings of the 11th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1999.
+
+* **[Protocols for Asymmetric Communication Channels](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/phrensy/pub/papers/AdlerM98.pdf).**
+  <span class="pub-topics" data-topics='["Network Capacity & Information Theory", "Asymmetric Communication"]' hidden></span>
+  *Micah Adler, Bruce Maggs.*
+  Proceedings of the 39th IEEE Symposium on Foundations of Computer Science (FOCS), 1998.
+
+* **Communication‑Optimal Parallel Minimum Spanning Tree Algorithms.**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Parallel Bandwidth"]' hidden></span>
+  *Micah Adler, Wolfgang Dittrich, Ben Juurlink, Mirosław Kutylowski, Ingo Rieping.*
+  Proceedings of the 10th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1998.
+
+* **Efficient Communication Strategies for Ad‑Hoc Wireless Networks.**
+  <span class="pub-topics" data-topics='["Wireless Networks"]' hidden></span>
+  *Micah Adler, Christian Scheideler.*
+  Proceedings of the 10th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1998.
+
+* **[Scheduling Time‑Constrained Communication in Linear Networks](https://people.cs.umass.edu/~ramesh/Site/PUBLICATIONS_files/AdlerRSU98.pdf).**
+  <span class="pub-topics" data-topics='["Scheduling & Queues"]' hidden></span>
+  *Micah Adler, Arnold L. Rosenberg, Ramesh K. Sitaraman, Walter Unger.*
+  Proceedings of the 10th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1998.
+
+* **Analyzing an Infinite Parallel Job Allocation Process.**
+  <span class="pub-topics" data-topics='["Load Balancing & Work Sharing", "Parallel Algorithms"]' hidden></span>
+  *Micah Adler, Petra Berenbrink, Klaus Schröder.*
+  Proceedings of the 6th European Symposium on Algorithms (ESA), 1998.
+
+* **[A Modular Analysis of Network Transmission Protocols](https://www.researchgate.net/publication/2610374_A_Modular_Analysis_of_Network_Transmission_Protocols).**
+  <span class="pub-topics" data-topics='["Network Protocols & Complexity"]' hidden></span>
+  *Micah Adler, Yair Bartal, John W. Byers, Michael Luby, Danny Raz.*
+  Proceedings of the Israeli Symposium on Theory of Computing and Systems (ISTCS), 1997.
+
+* **[Modeling Parallel Bandwidth: Local vs. Global Restrictions](https://www.cs.utexas.edu/users/vijaya/pubs/bandwidth.pdf).**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Parallel Bandwidth"]' hidden></span>
+  *Micah Adler, Phillip B. Gibbons, Yossi Matias, Vijaya Ramachandran.*
+  Proceedings of the 9th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1997.
+
+* **[Asynchronous Shared Memory Search Structures](https://dl.acm.org/doi/pdf/10.1145/237502.237506).**
+  *Micah Adler.*
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Search Structures"]' hidden></span>
+  Proceedings of the 8th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1996.
+
+* **New Coding Techniques for Improved Bandwidth Utilization.**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Parallel Bandwidth"]' hidden></span>
+  *Micah Adler.*
+  Proceedings of the 37th IEEE Symposium on Foundations of Computer Science (FOCS), 1996.
+
+* **Parallel Sorting With Limited Bandwidth.**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Parallel Bandwidth", "Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler, John W. Byers, Richard M. Karp.*
+  Proceedings of the 7th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1995.
+
+* **[Parallel Randomized Load Balancing](https://www.eecs.harvard.edu/~michaelm/postscripts/rsa1998.pdf).**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Load Balancing & Work Sharing"]' hidden></span>
+  *Micah Adler, Soumen Chakrabarti, Michael Mitzenmacher, Lars Rasmussen.*
+  Proceedings of the 27th ACM Symposium on Theory of Computing (STOC), 1995.
+
+* **Scheduling Parallel Communication: The h‑Relation Problem.**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Parallel Bandwidth"]' hidden></span>
+  *Micah Adler, John W. Byers, Richard M. Karp.*
+  Symposium on Mathematical Foundations of Computer Science (MFCS), 1995.
+
+* **AT² Bounds for a Class of VLSI Problems and String Matching.**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Parallel Bandwidth", "Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler, John W. Byers.*
+  Proceedings of the 6th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1994.
+
+* **[Selection in the Presence of Noise: The Design of Playoff Systems](https://www.cs.cmu.edu/~harchol/Papers/SODA94-ranking.pdf).**
+  <span class="pub-topics" data-topics='["Tournament & Selection Design"]' hidden></span>
+  *Micah Adler, Peter Gemmel, Mor Harchol, Richard M. Karp, Claire Kenyon.*
+  Proceedings of the 5th ACM–SIAM Symposium on Discrete Algorithms (SODA), 1994.
+
+</details>
+
+<details><summary>Patents</summary>
+
+* **[Fraud protection in an incentivized computer system](https://patents.google.com/patent/US20130275195A1/en).**
+  <span class="pub-topics" data-topics='["Incentivized Systems & Fraud"]' hidden></span>
+  *K Gabryelski, MD Corner, A Kalish, MA Adler.*
+  US Patent App. 13/804,154 (2013).
+
+* **[Real-time bidding optimization through utilization of mobile characteristics](https://patents.google.com/patent/US20130198011A1/en).**
+  <span class="pub-topics" data-topics='["Advertising"]' hidden></span>
+  *MD Corner, K Gabryelski, BN Levine, MA Adler.*
+  US Patent App. 13/804,092 (2013).
+
+* **[Temporal tracking of mobile user behavior with respect to web-based advertisements associated with temporary and keyed id use in digital media content](https://patents.google.com/patent/US20120265599A1/en).**
+  <span class="pub-topics" data-topics='["Streaming Media & Content Distribution", "Advertising"]' hidden></span>
+  *MD Corner, M Adler, MI Ecemis, K Gabryelski.*
+  US Patent App. 13/447,054 (2012).
+
+* **[Mobile digital media download tracking management utilizing statistical user fingerprinting techniques through correlation of web-based download user actions with mobile.](https://patents.google.com/patent/US20120265603A1/en).**
+  <span class="pub-topics" data-topics='["Streaming Media & Content Distribution"]' hidden></span>
+  *MD Corner, M Adler, MI Ecemis, K Gabryelski, AP Wolfe.*
+  US Patent App. 13/447,049 (2012).
+
+* **[Mobile digital media download incentive management through tracking of id stored in native facilities of the mobile device](https://patents.google.com/patent/US20120265602A1/en).**
+  <span class="pub-topics" data-topics='["Streaming Media & Content Distribution", "Incentivized Systems & Fraud"]' hidden></span>
+  *MD Corner, M Adler, MI Ecemis, K Gabryelski.*
+  US Patent App. 13/447,047 (2012).
+
+* **[Rewarding a user for downloading a free app with the right to use another free app](https://patents.google.com/patent/US20120265604A1/en).**
+  <span class="pub-topics" data-topics='["Incentivized Systems & Fraud"]' hidden></span>
+  *MD Corner, M Adler, MI Ecemis, K Gabryelski.*
+  US Patent App. 13/447,057 (2012).
+
+* **[Mobile digital media download incentive management through multiple user action tracking](https://patents.google.com/patent/US20120265595A1/en).**
+  <span class="pub-topics" data-topics='["Incentivized Systems & Fraud"]' hidden></span>
+  *MD Corner, M Adler, MI Ecemis, K Gabryelski.*
+  US Patent App. 13/447,042 (2012).
+
+* **[Probabalistic packet marking](https://patents.google.com/patent/US7254633).**
+  <span class="pub-topics" data-topics='["IP Traceback & Packet Marking"]' hidden></span>
+  *MA Adler.*
+  US Patent 7,254,633 (2007).
+
+* **[System and method for scheduling and controlling delivery of advertising in a communications network](https://patents.google.com/patent/US6009409A/en).**
+  <span class="pub-topics" data-topics='["Scheduling & Queues", "Advertising"]' hidden></span>
+  *MA Adler, PB Gibbons, Y Matias.*
+  US Patent 6,009,409 (1999).
+
+</details>
+
+<details><summary>Other Publications</summary>
+
+* **[Towards Combinatorial Interpretability of Neural Computation](https://doi.org/10.48550/ARXIV.2504.08842).**
+  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  *Micah Adler, Dan Alistarh, Nir Shavit.*
+  CoRR abs/2504.08842 (2025).
+
+* **[The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models](https://doi.org/10.48550/ARXIV.2505.19440).**
+  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  *Shashata Sawmya, Micah Adler, Nir Shavit.*
+  CoRR abs/2505.19440 (2025).
+
+* **[On the Complexity of Neural Computation in Superposition](https://doi.org/10.48550/ARXIV.2409.15318).**
+  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation", "Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler, Nir Shavit.*
+  CoRR abs/2409.15318 (2024).
+
+* **[Search Space Reduction in R-trees](https://www.cs.williams.edu/~heeringa/publications/promise-pruning.pdf).**
+  <span class="pub-topics" data-topics='["Search Structures"]' hidden></span>
+  *Micah Adler, Brent Heeringa.*
+  2008
+
+* **On the Distance Entropy of a Data Collection Network.**
+  <span class="pub-topics" data-topics='["Wireless Networks", "Sensor Networks", "Asymmetric Communication"]' hidden></span>
+  *Junning Liu, Micah Adler, Don Towsley.*
+  Second Workshop on Spatial Stochastic Modeling of Wireless Networks, 2006.
+
+* **[Spectral clustering with links and attributes](https://apps.dtic.mil/sti/pdfs/ADA472209.pdf).**
+  <span class="pub-topics" data-topics='["Clustering & Relational Data"]' hidden></span>
+  *Jennifer Neville, Micah Adler, David Jensen.*
+  (2004).
+
+* **[Optimal peer selection in a free-market peer-resource economy](https://netecon.seas.harvard.edu/P2PEcon04.html/Papers04/Adler_04.pdf).**
+  <span class="pub-topics" data-topics='["Peer-to-Peer Networks"]' hidden></span>
+  *Micah Adler, Rakesh Kumar, Keith Ross, Dan Rubenstein, David Turner, David D. Yao.*
+(2004).
+
+* **Clustering Relational Data Using Attribute and Link Information.**
+  <span class="pub-topics" data-topics='["Clustering & Relational Data"]' hidden></span>
+  *Jennifer Neville, Micah Adler, David Jensen.*
+  Text‑Mining & Link‑Analysis Workshop of the 18th International Joint Conference on Artificial Intelligence (IJCAI), August 2003.
+
+* **[A Formal Study of Distributed Resource Allocation Strategies in Multi-Agent Systems](https://d1wqtxts1xzle7.cloudfront.net/83535605/A_Formal_Study_of_Distributed_Resource_A20220408-13543-qs6b2p.pdf?1738489075=&response-content-disposition=inline%3B+filename%3DA_Formal_Study_of_Distributed_Resource_A.pdf&Expires=1757263718&Signature=dqeKPN~NBXEqCBPsASLbjQmYpQ56uEOyEQCdyJP~2vXCLnEtg23UwwsYWuVHDvjevOGbGtOeLxdR5J9T-RQNUI-rYcogl-UJFZIZl6A~LtstL1VODbW85BdY3IWkLsGIPbOuy1VNvYW1YSZymKfza91cUO73JYEpAbiNokgf2HGkzcY3O36~lszJRaHWi79OoeFRLjHrsQGH7eUMdomznafWROlNjyT7bxY1mTSHJp55XghjXloRPPmbLwq1iSXK2jdCCxQUen57KZ0z5ZqIQC6sn31Y1uZVdnZxAh7-WjsQh1O55GMC5ey2RAAlr2~9vQx0O9t6s~FfPn0AyjZKrw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA).**
+  <span class="pub-topics" data-topics='["Multi-Agent Systems"]' hidden></span>
+  *J Shen, M Adler, V Lesser.*
+  UMASS, January, 260 (2003).
+
+* **Clustering Relational Data.**
+  <span class="pub-topics" data-topics='["Clustering & Relational Data"]' hidden></span>
+  *Jennifer Neville, Micah Adler, David Jensen.*
+  Poster presentation at Grace Hopper Celebration of Women in Computing, 2002.
+
+* **CAREER: Algorithms for Efficient Bandwidth Utilization in the Internet.**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Parallel Bandwidth"]' hidden></span>
+  *MA Adler.*
+  NSF Award Number 0133664. Directorate for Computer and Information Science (2002).
+
+* **Limited Bandwidth Parallel Computation.**
+  <span class="pub-topics" data-topics='["Parallel Algorithms", "Parallel Bandwidth", "Lower Bounds & Complexity Theory"]' hidden></span>
+  *Micah Adler.*
+  Ph.D. dissertation, University of California, Berkeley, December 1996.
+
+* **Is the 10% to 15% Rule Right for Your Index?**
+  <span class="pub-topics" data-topics='["Database Systems"]' hidden></span>
+  *Cary V. Millsap, Craig A. Shallahamer, Micah Adler.*
+  Oracle User Week Conference, 1992.
+
+
+</details>
+</div>
+
+<style>
+/* Match the look of Quarto listing filter chips */
+.chip-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: .5rem 0 1rem 0;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  padding: .35rem .75rem;
+  border: 1px solid var(--quarto-border-color, #ccc);
+  border-radius: 999px;
+  background: var(--quarto-background-body, #fff);
+  cursor: pointer;
+  font-size: .875rem;
+  line-height: 1rem;
+}
+.chip .count {
+  display: inline-block;
+  padding: .05rem .4rem;
+  border-radius: .75rem;
+  border: 1px solid var(--quarto-border-color, #ccc);
+  font-size: .75em;
+  opacity: .8;
+}
+.chip.is-selected {
+  background: var(--quarto-accent, var(--bs-primary, #3d52a0));
+  color: white;
+  border-color: transparent;
+}
+.chip-ghost {
+  opacity: .8;
+}
+.item-tags {
+  display: inline-flex;
+  gap: .25rem;
+  margin-left: .5rem;
+}
+.chip-small {
+  font-size: .75rem;
+  padding: .25rem .5rem;
+}
+.search-wrap {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-left: auto;
+}
+#filter-search {
+  max-width: 18rem;
+  padding: .35rem .5rem;
+  border-radius: .35rem;
+  border: 1px solid var(--quarto-border-color, #ccc);
+}
+#keyword-filter {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+#no-matches.hidden { display: none; }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.getElementById('pubs');
+  const items = Array.from(container.querySelectorAll('li'));
+
+  // Annotate items with topics from explicit data embedded in each item
+  const topicCounts = new Map();
+  const topicSet = new Set();
+  items.forEach(li => {
+    const meta = li.querySelector('.pub-topics');
+    let topics = [];
+    if (meta && meta.dataset.topics) {
+      try { topics = JSON.parse(meta.dataset.topics); } catch (e) { topics = []; }
+    }
+    if (!Array.isArray(topics) || topics.length === 0) {
+      topics = ['Uncategorized'];
+    }
+    li.dataset.topics = JSON.stringify(topics);
+    li.classList.add('pub-item');
+
+    // Add visible tags at end of item
+    const tags = document.createElement('span');
+    tags.className = 'item-tags';
+    topics.forEach(t => {
+      const a = document.createElement('button');
+      a.type = 'button';
+      a.className = 'chip chip-small chip-ghost';
+      a.textContent = t;
+      a.dataset.topic = t;
+      a.title = 'Filter by ' + t;
+      a.addEventListener('click', (ev) => {
+        ev.preventDefault();
+        selectSingleTopic(t);
+      });
+      tags.appendChild(a);
+    });
+    li.appendChild(tags);
+
+    topics.forEach(t => {
+      topicSet.add(t);
+      topicCounts.set(t, (topicCounts.get(t)||0) + 1);
+    });
+  });
+
+  // Build the filter UI
+  const toolbar = document.getElementById('keyword-filter');
+  const bar = document.createElement('div');
+  bar.className = 'chip-bar';
+
+  const selected = new Set();
+
+  function applyFilter() {
+    const query = document.getElementById('filter-search').value.trim().toLowerCase();
+    const queryParts = query.length ? query.split(/\s+/g) : [];
+    const matchQuery = (text) => {
+      if (!queryParts.length) return true;
+      return queryParts.every(q => text.includes(q));
+    };
+
+    let visibleCount = 0;
+    items.forEach(li => {
+      const topics = JSON.parse(li.dataset.topics || '[]');
+      const text = li.textContent.replace(/\s+/g,' ').trim().toLowerCase();
+      const topicOk = (selected.size === 0) || topics.some(t => selected.has(t));
+      const queryOk = matchQuery(text);
+      const show = topicOk && queryOk;
+      li.style.display = show ? '' : 'none';
+      if (show) visibleCount++;
+    });
+
+    // Hide details sections if they have no visible items
+    const detailsNodes = Array.from(container.querySelectorAll('details'));
+    detailsNodes.forEach(d => {
+      const any = Array.from(d.querySelectorAll('li')).some(li => li.style.display !== 'none');
+      d.style.display = any ? '' : 'none';
+    });
+
+    document.getElementById('no-matches').classList.toggle('hidden', visibleCount > 0);
+  }
+
+  function selectSingleTopic(label) {
+    selected.clear();
+    Array.from(bar.querySelectorAll('.chip')).forEach(c => c.classList.remove('is-selected'));
+    const chip = bar.querySelector(`.chip[data-topic="{}"]`.replace("{}", CSS.escape(label)));
+    if (chip) chip.classList.add('is-selected');
+    selected.add(label);
+    applyFilter();
+  }
+
+  // Add "All" chip
+  const allBtn = document.createElement('button');
+  allBtn.type = 'button';
+  allBtn.className = 'chip';
+  allBtn.textContent = 'All';
+  allBtn.addEventListener('click', () => {
+    selected.clear();
+    Array.from(bar.querySelectorAll('.chip')).forEach(c => c.classList.remove('is-selected'));
+    applyFilter();
+  });
+  bar.appendChild(allBtn);
+
+  // Add topic chips
+  Array.from(topicSet).sort().forEach(label => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'chip';
+    btn.dataset.topic = label;
+    btn.title = 'Toggle filter for ' + label;
+    const count = topicCounts.get(label) || 0;
+    btn.textContent = `${label} (${count})`;
+    btn.addEventListener('click', () => {
+      const wasSelected = selected.has(label);
+      if (wasSelected) selected.delete(label);
+      else selected.add(label);
+      btn.classList.toggle('is-selected', !wasSelected);
+      applyFilter();
+    });
+    bar.appendChild(btn);
+  });
+
+  // Add search box + clear
+  const searchWrap = document.createElement('div');
+  searchWrap.className = 'search-wrap';
+
+  const searchBox = document.createElement('input');
+  searchBox.id = 'filter-search';
+  searchBox.type = 'search';
+  searchBox.placeholder = 'Search titles, authors, venues';
+  searchBox.addEventListener('input', applyFilter);
+  searchWrap.appendChild(searchBox);
+
+  const clearBtn = document.createElement('button');
+  clearBtn.type = 'button';
+  clearBtn.className = 'chip chip-ghost';
+  clearBtn.textContent = 'Clear';
+  clearBtn.title = 'Clear filters and search';
+  clearBtn.addEventListener('click', () => {
+    selected.clear();
+    document.getElementById('filter-search').value = '';
+    Array.from(bar.querySelectorAll('.chip')).forEach(c => c.classList.remove('is-selected'));
+    applyFilter();
+  });
+  searchWrap.appendChild(clearBtn);
+
+  toolbar.appendChild(bar);
+  toolbar.appendChild(searchWrap);
+
+  applyFilter();
+});
+</script>

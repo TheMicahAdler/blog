@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Micah's Mechanistic Interpretability Blog"
+  site-url: https://yourusername.github.io/yourrepo
+  navbar:
+    logo: images/logo.png
+    # left: []              # either leave this line out, or keep it as []
+    right:
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/yourusername/yourrepo
+  favicon: images/favicon.png
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+    html-math-method: katex
+    code-link: true
+    page-layout: article
+
+freeze: auto
+
+execute:
+  echo: false

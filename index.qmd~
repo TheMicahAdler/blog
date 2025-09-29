@@ -1,0 +1,44 @@
+---
+title: "Mechanistic Interpretability Articles"
+# Add a nice banner behind the title (your stylized blog image)
+title-block-banner: images/blog-banner.png   # <- add this image (see below)
+#title-block-banner-color: "#ffffffaa"        # readable overlay over banner
+subtitle: "Abstracts and links to papers"
+
+# Social/preview card for link sharing (optional but nice)
+image: images/blog-card.png                  # can reuse the banner or a square logo
+
+# Existing listing config unchanged
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [title, date, categories, description]
+  feed: true
+---
+
+::: {.intro}
+
+<img src="images/micah.png" alt="Micah - profile photo" width="120" style="float:right; border-radius: 50%; margin: 0 0 1rem 1rem;" />
+
+## Welcome
+
+Hi! I’m Micah. This blog is for sharing my work on **mechanistic interpretability**.
+
+**My approach to research:** First and foremost, I love to collaborate.  If you have similar interests, are curious about anything I've written, or are working on a problem you think I might be interested in, please reach out.  My background is in theoretical computer science, so I tend to take a "theory first" approach to research, but I also think it is important to follow that up with real experiments.  I'm interested in all things Mech Interp, but also AI more broadly.
+
+**My approach to this blog:** I like to share a bit more polished work here - work that has already been written up at least somewhat formally, and shared publically elsewhere.  I have several projects in process - happy to discuss so please reach out!
+
+**Other research:** If you’re interested in my broader research outside mechanistic interpretability, check out the [full list of my publications](other-research.qmd).
+
+
+
+:::
+
+---
+
+Short abstracts with links to the arXiv version of each paper. Click any title to view the abstract, then follow the arXiv link.
+

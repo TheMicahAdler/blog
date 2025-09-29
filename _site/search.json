@@ -1,0 +1,1164 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/combinatorial-interpretability.html",
+    "href": "posts/combinatorial-interpretability.html",
+    "title": "Towards Combinatorial Interpretability of Neural Computation",
+    "section": "",
+    "text": "Paper: arXiv:2504.08842"
+  },
+  {
+    "objectID": "posts/complexity-superposition.html",
+    "href": "posts/complexity-superposition.html",
+    "title": "On the Complexity of Neural Computation in Superposition",
+    "section": "",
+    "text": "Paper: arXiv:2409.15318"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mechanistic Interpretability Articles",
+    "section": "",
+    "text": "Hi, I’m Micah. I am currently a Visting Scientist at MIT CSAIL. This blog is for sharing my work on mechanistic interpretability.\nMy approach to research: First and foremost, I love to collaborate. If you have similar interests, are wondering about anything I’ve written, or are working on a problem you think I might be interested in, please reach out. My background is in theoretical computer science, so I tend to take a “theory first” approach to research, but it is also important to follow that up with real experiments. I’m interested in all things Mech Interp, but also AI more broadly.\nMy approach to this blog: I like to share a bit more polished work here than many other blogs - work that has already been written up at least somewhat formally, and shared publically elsewhere.\nOther research: If you’re interested in my broader research outside mechanistic interpretability, check out the full list of my publications.\nClick any title to view the abstract, then follow the arXiv link."
+  },
+  {
+    "objectID": "save-for-who-knows-what/research-old/posts/combinatorial-interpretability.html",
+    "href": "save-for-who-knows-what/research-old/posts/combinatorial-interpretability.html",
+    "title": "Towards Combinatorial Interpretability of Neural Computation",
+    "section": "",
+    "text": "Paper: arXiv:2504.08842"
+  },
+  {
+    "objectID": "save-for-who-knows-what/old-index.html",
+    "href": "save-for-who-knows-what/old-index.html",
+    "title": "Mechanistic Interpretability Notes",
+    "section": "",
+    "text": "Welcome! This site hosts short summaries of my research and links to the canonical arXiv versions of each paper.\n→ Head to the Research page to browse all articles."
+  },
+  {
+    "objectID": "save-for-who-knows-what/research-old/posts/complexity-superposition.html",
+    "href": "save-for-who-knows-what/research-old/posts/complexity-superposition.html",
+    "title": "On the Complexity of Neural Computation in Superposition",
+    "section": "",
+    "text": "Paper: arXiv:2409.15318"
+  },
+  {
+    "objectID": "save-for-who-knows-what/research-old/index.html",
+    "href": "save-for-who-knows-what/research-old/index.html",
+    "title": "Research Articles",
+    "section": "",
+    "text": "Short abstracts with links to the arXiv version of each paper. Click any title to view the abstract, then follow the arXiv link.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nTowards Combinatorial Interpretability of Neural Computation\n\n\n\nMechanistic Interpretability\n\nTheory\n\nBoolean Computation\n\n\n\nCombinatorial interpretability via feature-channel coding: static weight analysis explains Boolean computations and links parameters to capacity.\n\n\n\n\n\nMay 5, 2025\n\n\n\n\n\n\n\nOn the Complexity of Neural Computation in Superposition\n\n\n\nMechanistic Interpretability\n\nTheory\n\nSuperposition\n\nComplexity\n\n\n\nFirst lower and upper bounds for computing features in superposition; shows capacity ≤ O(n^2 / log n) and gives constructive algorithms for logical ops.\n\n\n\n\n\nApr 18, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Mechanistic Interpretability Articles",
+    "section": "",
+    "text": "Hi, I’m Micah. I am currently a Visting Scientist at MIT CSAIL. This blog is for sharing my work on mechanistic interpretability.\nMy approach to research: First and foremost, I love to collaborate. If you have similar interests, are wondering about anything I’ve written, or are working on a problem you think I might be interested in, please reach out. My background is in theoretical computer science, so I tend to take a “theory first” approach to research, but it is also important to follow that up with real experiments. I’m interested in all things Mech Interp, but also AI more broadly.\nMy approach to this blog: I like to share a bit more polished work here than many other blogs - work that has already been written up at least somewhat formally, and shared publically elsewhere.\nOther research: If you’re interested in my broader research outside mechanistic interpretability, check out the full list of my publications."
+  },
+  {
+    "objectID": "index.html#my-approach",
+    "href": "index.html#my-approach",
+    "title": "Mechanistic Interpretability Articles",
+    "section": "",
+    "text": "Tight loops over polish: share intermediate results and follow-ups rather than waiting for perfect write-ups.\nRepro-first: minimal code snippets, configs, and references so you can rerun key figures.\nModel-centric: circuits, features, and causal tests &gt; surface metrics.\nHonest negatives: failed hypotheses get posts, too."
+  },
+  {
+    "objectID": "other-research.html",
+    "href": "other-research.html",
+    "title": "Research Publications",
+    "section": "",
+    "text": "I am interested in a broad range of topics across Computer Science and related fields, and have been fortunate to find incredible collaborators in these many areas. My deeper expertise is on algorithms, stochastic processes, and information theory. Most of my research involves applications of these kinds of techniques.\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;p&gt;No publications match your current filters.&lt;/p&gt;\n\n\n\n\n\n\n\n\nJournal Publications\n\n\nEfficient Algorithms for Neighbor Discovery in Wireless Networks.  Sudarshan Vasudevan, Micah Adler, Dennis Goeckel, Don Towsley. IEEE/ACM Transactions on Networking. 21(1): 69–83 (2013).\nApproximating Optimal Binary Decision Trees.  Micah Adler, Brent Heeringa. Algorithmica 62(3–4): 1112–1121 (2012).\nAlgorithms for optimizing the bandwidth cost of content delivery.  Micah Adler, Ramesh K. Sitaraman, Harish Venkataramani. Computer Networks 55(18): 4007–4020 (2011).\nOn Exploiting Node‑Heterogeneous Clusters Optimally.  Micah Adler, Ying Gong, Arnold L. Rosenberg. Theory Comput. Syst. 42(4): 465–487 (2008).\nPassive‑Logging Attacks Against Anonymous Communications Systems.  Matthew K. Wright, Micah Adler, Brian Neil Levine, Clay Shields. ACM Trans. Inf. Syst. Secur. 11(2): 3:1–3:34 (2008).\nTradeoffs in Probabilistic Packet Marking for IP Traceback.  Micah Adler. Journal of the ACM 52(2): 217–244 (2005).\nThe Predecessor Attack: An Analysis of a Threat to Anonymous Communications Systems.  Matthew K. Wright, Micah Adler, Brian N. Levine, Clay Shields. ACM Transactions on Information and System Security 7(4) (2005).\nPricing Multicasting in More Flexible Network Models.  Micah Adler, Dan Rubenstein. Transactions on Algorithms 1(1) (2005).\nTight Bounds for the Performance of Longest in System on DAGs.  Micah Adler, Adi Rosén. Journal of Algorithms 55(2): 101–112 (2005).\nOptimal Proxy Cache Allocation for Efficient Streaming Media Distribution.  Bing Wang, Subhabrata Sen, Micah Adler, Don Towsley. IEEE Transactions on Multimedia (Special Issue on Streaming Media) 6(2): April 2004.\nRandomized Pursuit–Evasion in Graphs.  Micah Adler, Harald Räcke, Naveen Sivadasan, Christian Sohler, Berthold Vöcking. Combinatorics, Probability & Computing 12(3) (2003).\nTime‑Constrained Scheduling of Weighted Packets on Trees and Meshes.  Micah Adler, Sanjeev Khanna, Rajmohan Rajaraman, Adi Rosén. Algorithmica 36(2): 123–152 (April 2003).\nScheduling Time‑Constrained Communication in Linear Networks.  Micah Adler, Arnold L. Rosenberg, Ramesh K. Sitaraman, Walter Unger. Theory of Computing Systems 35(6): 599–623 (October 2002).\nScheduling Space‑Sharing for Internet Advertising.  Micah Adler, Phillip B. Gibbons, Yossi Matias. Journal of Scheduling 5(2): 103–119 (March 2002).\nAn n! Lower Bound on Formula Size.  Micah Adler, Neil Immerman. ACM Transactions on Computational Logic 4(3): 296–314 (July 2003). (LICS 2001 special issue.)\nProtocols for Asymmetric Communication Channels.  Micah Adler, Bruce Maggs. Journal of Computer and System Sciences 63(4): 573–596 (December 2001). (FOCS ’98 special issue.)\nCompression Using Efficient Multicasting.  Micah Adler, Tom Leighton. Journal of Computer and System Sciences 63(1): 127–145 (August 2001). (Internet algorithms special issue.)\nEfficient Communication Strategies for Ad‑Hoc Wireless Networks.  Micah Adler, Christian Scheideler. Theory of Computing Systems 33(5): 337–391 (October 2000). (SPAA ’98 special issue.)\nParallel Sorting With Limited Bandwidth.  Micah Adler, John W. Byers, Richard M. Karp. SIAM Journal on Computing 29(6): 1997–2015 (April 2000).\nModeling Parallel Bandwidth: Local vs. Global Restrictions.  Micah Adler, Phillip B. Gibbons, Yossi Matias, Vijaya Ramachandran. Algorithmica 24(3–4): 381–404 (1999). (Coarse‑grained parallel algorithms special issue.)\nParallel Randomized Load Balancing.  Micah Adler, Soumen Chakrabarti, Michael Mitzenmacher, Lars Rasmussen. Random Structures & Algorithms 13(2): 159–188 (Sept 1998).\nAsynchronous Shared Memory Search Structures.  Micah Adler. Theory of Computing Systems 31: 377–401 (1998). (SPAA ’96 special issue.)\n\n\n\n\nPublications in Selective Refereed Conferences\n\n\nSearch Space Reductions for Nearest-Neighbor Queries.  M Adler, B Heeringa. International Conference on Theory and Applications of Models of Computation … (2008).\nOn the Capacity of Information Networks.  Micah Adler, Nicholas Harvey, Kamal Jain, Robert Kleinberg, April Rasala Lehman. Proceedings of ACM–SIAM Symposium on Discrete Algorithms (SODA), January 2006.\nLower Bounds for Asymmetric Communication Channels and Distributed Source Coding.  Micah Adler, Erik Demaine, Nicholas Harvey, Mihai Patrascu. Proceedings of ACM–SIAM Symposium on Discrete Algorithms (SODA), January 2006.\nOn optimal communication cost for gathering correlated data through wireless sensor networks.  J Liu, M Adler, D Towsley, C Zhang. Proceedings of the 12th annual international conference on Mobile Computing (MobiCom) 2006.\nEfficient Probabilistic Packet Marking.  Qunfeng Dong, Micah Adler, Suman Banerjee, Kazu Hirata. Proceedings of International Conference on Network Protocols (ICNP), November 2005.\nMinimum Energy Reliable Paths Using Unreliable Wireless Links.  Qunfeng Dong, Micah Adler, Suman Banerjee, Archan Misra. Proceedings of ACM MobiHoc, May 2005.\nTowards Asymptotic Optimality in Probabilistic Packet Marking.  Micah Adler, Jeff Edmonds, Jiří Matoušek. Proceedings of the 37th ACM Symposium on Theory of Computing (STOC), 2005.\nOptimal Peer Selection for P2P Downloading and Streaming.  Micah Adler, Rakesh Kumar, Keith Ross, Dan Rubenstein, Torsten Suel, David Yao. Proceedings of IEEE INFOCOM, 2005.\nCollecting Correlated Information from a Sensor Network.  Micah Adler. Proceedings of the 16th Annual ACM–SIAM Symposium on Discrete Algorithms (SODA), 2005.\nLoad Balancing in Hypercubic Distributed Hash Tables with Heterogeneous Processors.  Junning Liu, Micah Adler. Proceedings of European Symposium on Algorithms (ESA), 2004.\nOptimal Website Design with the Constrained Subtree Selection Problem.  Brent Heeringa, Micah Adler. Proceedings of International Colloquium on Automata, Languages, and Programming (ICALP), 2004.\nTwo optimal peer selection problems.  M Adler, R Kumar, K Ross, D Rubenstein, D Turner, DD Yao. ACM SIGMETRICS Performance Evaluation Review 32 (2), 28–30 (2004).\nOn Using Multicast for Streaming Video across Wide Area Network.  Bing Wang, Subhabrata Sen, Micah Adler, Don Towsley. Proceedings of IEEE GLOBECOM, 2003.\nA Stochastic Process on the Hypercube with Applications to Peer‑to‑Peer Networks.  Micah Adler, Eran Halperin, Richard Karp, Vijay Vazirani. Proceedings of the 35th ACM Symposium on Theory of Computing (STOC), 2003.\nOptimal Sharing of Bags of Tasks in Heterogeneous Clusters.  Micah Adler, Ying Gong, Arnold L. Rosenberg. Proceedings of the 15th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), 2003.\nA Proportionate Fair Scheduling Rule with Good Worst‑Case Performance.  Micah Adler, Petra Berenbrink, Tom Friedetzky, Leslie Goldberg, Paul Goldberg, Mike Paterson. Proceedings of the 15th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), 2003.\nAsymptotically Optimal Worksharing in HNOWs: How Long is “Sufficiently Long?”  Micah Adler, Ying Gong, Arnold L. Rosenberg. Proceedings of the 36th Annual Simulation Symposium, 2003.\nEstimation of Congestion Price Using Probabilistic Packet Marking.  Micah Adler, Jin‑Yi Cai, Jonathan K. Shapiro, Don Towsley. Proceedings of IEEE INFOCOM, 2003.\nDefending Anonymous Communication Against Passive Logging Attacks.  Matthew Wright, Micah Adler, Brian N. Levine, Clay Shields. Proceedings of IEEE Symposium on Security and Privacy, 2003.\nRandomized Pursuit–Evasion in Graphs.  Micah Adler, Harald Räcke, Naveen Sivadasan, Christian Sohler, Berthold Vöcking. Proceedings of the 29th International Colloquium on Automata, Languages, and Programming (ICALP), 2002.\nTradeoffs in Probabilistic Packet Marking for IP Traceback.  Micah Adler. Proceedings of the 34th ACM Symposium on Theory of Computing (STOC), 2002.\nAn Analysis of the Degradation of Anonymous Protocols.  Matthew Wright, Micah Adler, Brian N. Levine, Clay Shields. Proceedings of the Symposium on Network and Distributed System Security (NDSS), 2002.\nOptimal Proxy Cache Allocation for Efficient Streaming Media Distribution.  Bing Wang, Subhabrata Sen, Micah Adler, Don Towsley. Proceedings of IEEE INFOCOM, 2002.\nTight Bounds for the Performance of Longest in System on DAGs.  Micah Adler, Adi Rosén. Proceedings of the 19th International Symposium on Theoretical Aspects of Computer Science (STACS), 2002.\nPricing Multicasting in More Practical Network Models.  Micah Adler, Dan Rubenstein. Proceedings of the 13th Annual ACM–SIAM Symposium on Discrete Algorithms (SODA), 2002.\nTree Layout for Internal Network Characterizations in Multicast Networks.  Micah Adler, Tian Bu, Ramesh K. Sitaraman, Don Towsley. Proceedings of the 3rd International Workshop on Networked Group Communication (NGC), 2001.\nChannelization Problem in Large Scale Data Dissemination.  Micah Adler, Zihui Ge, James Kurose, Don Towsley, Stephen Zabele. Proceedings of the 9th IEEE International Conference on Network Protocols (ICNP), 2001.\nAn n! Lower Bound on Formula Size.  Micah Adler, Neil Immerman. Proceedings of IEEE Symposium on Logic in Computer Science (LICS), 2001.\nNew Protocols for Asymmetric Communication Channels.  John Watkinson, Micah Adler, Faith Fich. Proceedings of the 8th International Colloquium on Structural Information and Communication Complexity (SIROCCO), 2001.\nDeadline Fair Scheduling: Bridging the Theory and Practice of Proportionate‑Fair Scheduling in Multiprocessor Servers.  Abhishek Chandra, Micah Adler, Prashant Shenoy. Proceedings of IEEE Real‑Time Technology and Applications Symposium (RTAS), 2001.\nTowards Compressing Web Graphs.  Micah Adler, Michael Mitzenmacher. Proceedings of the Data Compression Conference (DCC), 2001.\nProxy-based distribution of streaming video over unicast/multicast connections.  B Wang, S Sen, M Adler, D Towsley. Proc. IEEE Infocom 2002 (2001).\nCompression Using Efficient Multicasting.  Micah Adler, Tom Leighton. Proceedings of the 32nd ACM Symposium on Theory of Computing (STOC), 2000.\nSurplus Fair Scheduling: A Proportional‑Share CPU Scheduling Algorithm for Symmetric Multiprocessors.  Abhishek Chandra, Micah Adler, Pawan Goyal, Prashant Shenoy. Proceedings of the 4th Symposium on Operating System Design and Implementation (OSDI), 2000.\nTight Size Bounds for Packet Headers in Narrow Meshes.  Micah Adler, Faith Fich, Leslie Ann Goldberg, Mike Paterson. Proceedings of the 27th International Colloquium on Automata, Languages, and Programming (ICALP), 2000.\nThe Complexity of End‑to‑End Communication in Memoryless Networks.  Micah Adler, Faith Fich. Proceedings of the 18th ACM Symposium on Principles of Distributed Computing (PODC), 1999.\nTime‑Constrained Scheduling of Weighted Packets on Trees and Meshes.  Micah Adler, Sanjeev Khanna, Rajmohan Rajaraman, Adi Rosén. Proceedings of the 11th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1999.\nProtocols for Asymmetric Communication Channels.  Micah Adler, Bruce Maggs. Proceedings of the 39th IEEE Symposium on Foundations of Computer Science (FOCS), 1998.\nCommunication‑Optimal Parallel Minimum Spanning Tree Algorithms.  Micah Adler, Wolfgang Dittrich, Ben Juurlink, Mirosław Kutylowski, Ingo Rieping. Proceedings of the 10th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1998.\nEfficient Communication Strategies for Ad‑Hoc Wireless Networks.  Micah Adler, Christian Scheideler. Proceedings of the 10th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1998.\nScheduling Time‑Constrained Communication in Linear Networks.  Micah Adler, Arnold L. Rosenberg, Ramesh K. Sitaraman, Walter Unger. Proceedings of the 10th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1998.\nAnalyzing an Infinite Parallel Job Allocation Process.  Micah Adler, Petra Berenbrink, Klaus Schröder. Proceedings of the 6th European Symposium on Algorithms (ESA), 1998.\nA Modular Analysis of Network Transmission Protocols.  Micah Adler, Yair Bartal, John W. Byers, Michael Luby, Danny Raz. Proceedings of the Israeli Symposium on Theory of Computing and Systems (ISTCS), 1997.\nModeling Parallel Bandwidth: Local vs. Global Restrictions.  Micah Adler, Phillip B. Gibbons, Yossi Matias, Vijaya Ramachandran. Proceedings of the 9th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1997.\nAsynchronous Shared Memory Search Structures. Micah Adler.  Proceedings of the 8th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1996.\nNew Coding Techniques for Improved Bandwidth Utilization.  Micah Adler. Proceedings of the 37th IEEE Symposium on Foundations of Computer Science (FOCS), 1996.\nParallel Sorting With Limited Bandwidth.  Micah Adler, John W. Byers, Richard M. Karp. Proceedings of the 7th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1995.\nParallel Randomized Load Balancing.  Micah Adler, Soumen Chakrabarti, Michael Mitzenmacher, Lars Rasmussen. Proceedings of the 27th ACM Symposium on Theory of Computing (STOC), 1995.\nScheduling Parallel Communication: The h‑Relation Problem.  Micah Adler, John W. Byers, Richard M. Karp. Symposium on Mathematical Foundations of Computer Science (MFCS), 1995.\nAT² Bounds for a Class of VLSI Problems and String Matching.  Micah Adler, John W. Byers. Proceedings of the 6th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1994.\nSelection in the Presence of Noise: The Design of Playoff Systems.  Micah Adler, Peter Gemmel, Mor Harchol, Richard M. Karp, Claire Kenyon. Proceedings of the 5th ACM–SIAM Symposium on Discrete Algorithms (SODA), 1994.\n\n\n\n\nPatents\n\n\nFraud protection in an incentivized computer system.  K Gabryelski, MD Corner, A Kalish, MA Adler. US Patent App. 13/804,154 (2013).\nReal-time bidding optimization through utilization of mobile characteristics.  MD Corner, K Gabryelski, BN Levine, MA Adler. US Patent App. 13/804,092 (2013).\nTemporal tracking of mobile user behavior with respect to web-based advertisements associated with temporary and keyed id use in digital media content.  MD Corner, M Adler, MI Ecemis, K Gabryelski. US Patent App. 13/447,054 (2012).\nMobile digital media download tracking management utilizing statistical user fingerprinting techniques through correlation of web-based download user actions with mobile..  MD Corner, M Adler, MI Ecemis, K Gabryelski, AP Wolfe. US Patent App. 13/447,049 (2012).\nMobile digital media download incentive management through tracking of id stored in native facilities of the mobile device.  MD Corner, M Adler, MI Ecemis, K Gabryelski. US Patent App. 13/447,047 (2012).\nRewarding a user for downloading a free app with the right to use another free app.  MD Corner, M Adler, MI Ecemis, K Gabryelski. US Patent App. 13/447,057 (2012).\nMobile digital media download incentive management through multiple user action tracking.  MD Corner, M Adler, MI Ecemis, K Gabryelski. US Patent App. 13/447,042 (2012).\nProbabalistic packet marking.  MA Adler. US Patent 7,254,633 (2007).\nSystem and method for scheduling and controlling delivery of advertising in a communications network.  MA Adler, PB Gibbons, Y Matias. US Patent 6,009,409 (1999).\n\n\n\n\nOther Publications\n\n\nTowards Combinatorial Interpretability of Neural Computation.  Micah Adler, Dan Alistarh, Nir Shavit. CoRR abs/2504.08842 (2025).\nThe Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models.  Shashata Sawmya, Micah Adler, Nir Shavit. CoRR abs/2505.19440 (2025).\nOn the Complexity of Neural Computation in Superposition.  Micah Adler, Nir Shavit. CoRR abs/2409.15318 (2024).\nSearch Space Reduction in R-trees.  Micah Adler, Brent Heeringa. 2008\nOn the Distance Entropy of a Data Collection Network.  Junning Liu, Micah Adler, Don Towsley. Second Workshop on Spatial Stochastic Modeling of Wireless Networks, 2006.\nSpectral clustering with links and attributes.  Jennifer Neville, Micah Adler, David Jensen. (2004).\nOptimal peer selection in a free-market peer-resource economy.  Micah Adler, Rakesh Kumar, Keith Ross, Dan Rubenstein, David Turner, David D. Yao. (2004).\nClustering Relational Data Using Attribute and Link Information.  Jennifer Neville, Micah Adler, David Jensen. Text‑Mining & Link‑Analysis Workshop of the 18th International Joint Conference on Artificial Intelligence (IJCAI), August 2003.\nA Formal Study of Distributed Resource Allocation Strategies in Multi-Agent Systems.  J Shen, M Adler, V Lesser. UMASS, January, 260 (2003).\nClustering Relational Data.  Jennifer Neville, Micah Adler, David Jensen. Poster presentation at Grace Hopper Celebration of Women in Computing, 2002.\nCAREER: Algorithms for Efficient Bandwidth Utilization in the Internet.  MA Adler. NSF Award Number 0133664. Directorate for Computer and Information Science (2002).\nLimited Bandwidth Parallel Computation.  Micah Adler. Ph.D. dissertation, University of California, Berkeley, December 1996.\nIs the 10% to 15% Rule Right for Your Index?  Cary V. Millsap, Craig A. Shallahamer, Micah Adler. Oracle User Week Conference, 1992."
+  },
+  {
+    "objectID": "publications/1999-modeling-parallel-bandwidth-local-vs-global-restrictions.html",
+    "href": "publications/1999-modeling-parallel-bandwidth-local-vs-global-restrictions.html",
+    "title": "Modeling Parallel Bandwidth: Local vs. Global Restrictions",
+    "section": "",
+    "text": "Venue: Micah Adler, Phillip B. Gibbons, Yossi Matias, Vijaya Ramachandran. Algorithmica 24(3–4): 381–404 (1999). (Coarse‑grained parallel algorithms special issue.)\nPaper link"
+  },
+  {
+    "objectID": "publications/2008-on-exploiting-nodeheterogeneous-clusters-optimally.html",
+    "href": "publications/2008-on-exploiting-nodeheterogeneous-clusters-optimally.html",
+    "title": "On Exploiting Node‑Heterogeneous Clusters Optimally",
+    "section": "",
+    "text": "Venue: Micah Adler, Ying Gong, Arnold L. Rosenberg. Theory Comput. Syst. 42(4): 465–487 (2008)\nPaper link"
+  },
+  {
+    "objectID": "publications/2002-scheduling-timeconstrained-communication-in-linear-networks.html",
+    "href": "publications/2002-scheduling-timeconstrained-communication-in-linear-networks.html",
+    "title": "Scheduling Time‑Constrained Communication in Linear Networks",
+    "section": "",
+    "text": "Venue: Micah Adler, Arnold L. Rosenberg, Ramesh K. Sitaraman, Walter Unger. Theory of Computing Systems 35(6): 599–623 (October 2002)\nPaper link"
+  },
+  {
+    "objectID": "publications/2013-fraud-protection-in-an-incentivized-computer-system.html",
+    "href": "publications/2013-fraud-protection-in-an-incentivized-computer-system.html",
+    "title": "Fraud protection in an incentivized computer system",
+    "section": "",
+    "text": "Venue: * Fraud protection in an incentivized computer system.\nPaper link"
+  },
+  {
+    "objectID": "publications/2005-minimum-energy-reliable-paths-using-unreliable-wireless-links.html",
+    "href": "publications/2005-minimum-energy-reliable-paths-using-unreliable-wireless-links.html",
+    "title": "Minimum Energy Reliable Paths Using Unreliable Wireless Links",
+    "section": "",
+    "text": "Venue: * Minimum Energy Reliable Paths Using Unreliable Wireless Links.\nPaper link"
+  },
+  {
+    "objectID": "publications/2005-the-predecessor-attack-an-analysis-of-a-threat-to-anonymous-communications-syste.html",
+    "href": "publications/2005-the-predecessor-attack-an-analysis-of-a-threat-to-anonymous-communications-syste.html",
+    "title": "The Predecessor Attack: An Analysis of a Threat to Anonymous Communications Systems",
+    "section": "",
+    "text": "Venue: Matthew K. Wright, Micah Adler, Brian N. Levine, Clay Shields. ACM Transactions on Information and System Security 7(4) (2005)\nPaper link"
+  },
+  {
+    "objectID": "publications/2003-defending-anonymous-communication-against-passive-logging-attacks.html",
+    "href": "publications/2003-defending-anonymous-communication-against-passive-logging-attacks.html",
+    "title": "Defending Anonymous Communication Against Passive Logging Attacks",
+    "section": "",
+    "text": "Venue: Matthew Wright, Micah Adler, Brian N. Levine, Clay Shields. Proceedings of IEEE Symposium on Security and Privacy, 2003\nPaper link"
+  },
+  {
+    "objectID": "publications/2006-on-optimal-communication-cost-for-gathering-correlated-data-through-wireless-sen.html",
+    "href": "publications/2006-on-optimal-communication-cost-for-gathering-correlated-data-through-wireless-sen.html",
+    "title": "On optimal communication cost for gathering correlated data through wireless sensor networks",
+    "section": "",
+    "text": "Venue: * On optimal communication cost for gathering correlated data through wireless sensor networks.\nPaper link"
+  },
+  {
+    "objectID": "publications/2005-pricing-multicasting-in-more-flexible-network-models.html",
+    "href": "publications/2005-pricing-multicasting-in-more-flexible-network-models.html",
+    "title": "Pricing Multicasting in More Flexible Network Models",
+    "section": "",
+    "text": "Venue: Micah Adler, Dan Rubenstein. Transactions on Algorithms 1(1) (2005)\nPaper link"
+  },
+  {
+    "objectID": "publications/2008-passivelogging-attacks-against-anonymous-communications-systems.html",
+    "href": "publications/2008-passivelogging-attacks-against-anonymous-communications-systems.html",
+    "title": "Passive‑Logging Attacks Against Anonymous Communications Systems",
+    "section": "",
+    "text": "Venue: * Passive‑Logging Attacks Against Anonymous Communications Systems.\nPaper link"
+  },
+  {
+    "objectID": "publications/2004-spectral-clustering-with-links-and-attributes.html",
+    "href": "publications/2004-spectral-clustering-with-links-and-attributes.html",
+    "title": "Spectral clustering with links and attributes",
+    "section": "",
+    "text": "Venue: Jennifer Neville, Micah Adler, David Jensen. (2004)\nPaper link"
+  },
+  {
+    "objectID": "publications/2001-an-n-lower-bound-on-formula-size.html",
+    "href": "publications/2001-an-n-lower-bound-on-formula-size.html",
+    "title": "An n! Lower Bound on Formula Size",
+    "section": "",
+    "text": "Venue: Micah Adler, Neil Immerman. Proceedings of IEEE Symposium on Logic in Computer Science (LICS), 2001\nPaper link"
+  },
+  {
+    "objectID": "publications/2004-optimal-website-design-with-the-constrained-subtree-selection-problem.html",
+    "href": "publications/2004-optimal-website-design-with-the-constrained-subtree-selection-problem.html",
+    "title": "Optimal Website Design with the Constrained Subtree Selection Problem",
+    "section": "",
+    "text": "Venue: * Optimal Website Design with the Constrained Subtree Selection Problem.\nPaper link"
+  },
+  {
+    "objectID": "publications/1998-asynchronous-shared-memory-search-structures.html",
+    "href": "publications/1998-asynchronous-shared-memory-search-structures.html",
+    "title": "Asynchronous Shared Memory Search Structures",
+    "section": "",
+    "text": "Venue: Micah Adler. Theory of Computing Systems 31: 377–401 (1998). (SPAA ’96 special issue.)\nPaper link"
+  },
+  {
+    "objectID": "publications/2004-optimal-peer-selection-in-a-free-market-peer-resource-economy.html",
+    "href": "publications/2004-optimal-peer-selection-in-a-free-market-peer-resource-economy.html",
+    "title": "Optimal peer selection in a free-market peer-resource economy",
+    "section": "",
+    "text": "Venue: Micah Adler, Rakesh Kumar, Keith Ross, Dan Rubenstein, David Turner, David D. Yao. (2004)\nPaper link"
+  },
+  {
+    "objectID": "publications/2004-optimal-proxy-cache-allocation-for-efficient-streaming-media-distribution.html",
+    "href": "publications/2004-optimal-proxy-cache-allocation-for-efficient-streaming-media-distribution.html",
+    "title": "Optimal Proxy Cache Allocation for Efficient Streaming Media Distribution",
+    "section": "",
+    "text": "Venue: Bing Wang, Subhabrata Sen, Micah Adler, Don Towsley. IEEE Transactions on Multimedia (Special Issue on Streaming Media) 6(2): April 2004\nPaper link"
+  },
+  {
+    "objectID": "publications/2008-search-space-reductions-for-nearest-neighbor-queries.html",
+    "href": "publications/2008-search-space-reductions-for-nearest-neighbor-queries.html",
+    "title": "Search Space Reductions for Nearest-Neighbor Queries",
+    "section": "",
+    "text": "Venue: M Adler, B Heeringa. International Conference on Theory and Applications of Models of Computation … (2008)\nPaper link"
+  },
+  {
+    "objectID": "publications/2000-tight-size-bounds-for-packet-headers-in-narrow-meshes.html",
+    "href": "publications/2000-tight-size-bounds-for-packet-headers-in-narrow-meshes.html",
+    "title": "Tight Size Bounds for Packet Headers in Narrow Meshes",
+    "section": "",
+    "text": "Venue: Micah Adler, Faith Fich, Leslie Ann Goldberg, Mike Paterson. Proceedings of the 27th International Colloquium on Automata, Languages, and Programming (ICALP), 2000\nPaper link"
+  },
+  {
+    "objectID": "publications/2005-tradeoffs-in-probabilistic-packet-marking-for-ip-traceback.html",
+    "href": "publications/2005-tradeoffs-in-probabilistic-packet-marking-for-ip-traceback.html",
+    "title": "Tradeoffs in Probabilistic Packet Marking for IP Traceback",
+    "section": "",
+    "text": "Venue: Micah Adler. Journal of the ACM 52(2): 217–244 (2005)\nPaper link"
+  },
+  {
+    "objectID": "publications/2002-randomized-pursuitevasion-in-graphs.html",
+    "href": "publications/2002-randomized-pursuitevasion-in-graphs.html",
+    "title": "Randomized Pursuit–Evasion in Graphs",
+    "section": "",
+    "text": "Venue: Micah Adler, Harald Räcke, Naveen Sivadasan, Christian Sohler, Berthold Vöcking. Proceedings of the 29th International Colloquium on Automata, Languages, and Programming (ICALP), 2002\nPaper link"
+  },
+  {
+    "objectID": "publications/2013-efficient-algorithms-for-neighbor-discovery-in-wireless-networks.html",
+    "href": "publications/2013-efficient-algorithms-for-neighbor-discovery-in-wireless-networks.html",
+    "title": "Efficient Algorithms for Neighbor Discovery in Wireless Networks",
+    "section": "",
+    "text": "Venue: Sudarshan Vasudevan, Micah Adler, Dennis Goeckel, Don Towsley. IEEE/ACM Transactions on Networking. 21(1): 69–83 (2013)\nPaper link"
+  },
+  {
+    "objectID": "publications/2002-tradeoffs-in-probabilistic-packet-marking-for-ip-traceback.html",
+    "href": "publications/2002-tradeoffs-in-probabilistic-packet-marking-for-ip-traceback.html",
+    "title": "Tradeoffs in Probabilistic Packet Marking for IP Traceback",
+    "section": "",
+    "text": "Venue: Micah Adler. Proceedings of the 34th ACM Symposium on Theory of Computing (STOC), 2002\nPaper link"
+  },
+  {
+    "objectID": "publications/2001-protocols-for-asymmetric-communication-channels.html",
+    "href": "publications/2001-protocols-for-asymmetric-communication-channels.html",
+    "title": "Protocols for Asymmetric Communication Channels",
+    "section": "",
+    "text": "Venue: Micah Adler, Bruce Maggs. Journal of Computer and System Sciences 63(4): 573–596 (December 2001). (FOCS ’98 special issue.)\nPaper link"
+  },
+  {
+    "objectID": "publications/1997-modeling-parallel-bandwidth-local-vs-global-restrictions.html",
+    "href": "publications/1997-modeling-parallel-bandwidth-local-vs-global-restrictions.html",
+    "title": "Modeling Parallel Bandwidth: Local vs. Global Restrictions",
+    "section": "",
+    "text": "Venue: Micah Adler, Phillip B. Gibbons, Yossi Matias, Vijaya Ramachandran. Proceedings of the 9th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1997\nPaper link"
+  },
+  {
+    "objectID": "publications/2025-the-birth-of-knowledge-emergent-features-across-time-space-and-scale-in-large-la.html",
+    "href": "publications/2025-the-birth-of-knowledge-emergent-features-across-time-space-and-scale-in-large-la.html",
+    "title": "The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models",
+    "section": "",
+    "text": "Venue: Shashata Sawmya, Micah Adler, Nir Shavit. CoRR abs/2505.19440 (2025)\nPaper link"
+  },
+  {
+    "objectID": "publications/2012-temporal-tracking-of-mobile-user-behavior-with-respect-to-web-based-advertisemen.html",
+    "href": "publications/2012-temporal-tracking-of-mobile-user-behavior-with-respect-to-web-based-advertisemen.html",
+    "title": "Temporal tracking of mobile user behavior with respect to web-based advertisements associated with temporary and keyed id use in digital media content",
+    "section": "",
+    "text": "Venue: * Temporal tracking of mobile user behavior with respect to web-based advertisements associated with temporary and keyed id use in digital media content.\nPaper link"
+  },
+  {
+    "objectID": "publications/2002-tight-bounds-for-the-performance-of-longest-in-system-on-dags.html",
+    "href": "publications/2002-tight-bounds-for-the-performance-of-longest-in-system-on-dags.html",
+    "title": "Tight Bounds for the Performance of Longest in System on DAGs",
+    "section": "",
+    "text": "Venue: Micah Adler, Adi Rosén. Proceedings of the 19th International Symposium on Theoretical Aspects of Computer Science (STACS), 2002\nPaper link"
+  },
+  {
+    "objectID": "publications/2000-parallel-sorting-with-limited-bandwidth.html",
+    "href": "publications/2000-parallel-sorting-with-limited-bandwidth.html",
+    "title": "Parallel Sorting With Limited Bandwidth",
+    "section": "",
+    "text": "Venue: Micah Adler, John W. Byers, Richard M. Karp. SIAM Journal on Computing 29(6): 1997–2015 (April 2000)\nPaper link"
+  },
+  {
+    "objectID": "publications/1999-system-and-method-for-scheduling-and-controlling-delivery-of-advertising-in-a-co.html",
+    "href": "publications/1999-system-and-method-for-scheduling-and-controlling-delivery-of-advertising-in-a-co.html",
+    "title": "System and method for scheduling and controlling delivery of advertising in a communications network",
+    "section": "",
+    "text": "Venue: MA Adler, PB Gibbons, Y Matias. US Patent 6,009,409 (1999)\nPaper link"
+  },
+  {
+    "objectID": "publications/2012-rewarding-a-user-for-downloading-a-free-app-with-the-right-to-use-another-free-a.html",
+    "href": "publications/2012-rewarding-a-user-for-downloading-a-free-app-with-the-right-to-use-another-free-a.html",
+    "title": "Rewarding a user for downloading a free app with the right to use another free app",
+    "section": "",
+    "text": "Venue: * Rewarding a user for downloading a free app with the right to use another free app.\nPaper link"
+  },
+  {
+    "objectID": "publications/2000-efficient-communication-strategies-for-adhoc-wireless-networks.html",
+    "href": "publications/2000-efficient-communication-strategies-for-adhoc-wireless-networks.html",
+    "title": "Efficient Communication Strategies for Ad‑Hoc Wireless Networks",
+    "section": "",
+    "text": "Venue: Micah Adler, Christian Scheideler. Theory of Computing Systems 33(5): 337–391 (October 2000). (SPAA ’98 special issue.)\nPaper link"
+  },
+  {
+    "objectID": "publications/2005-collecting-correlated-information-from-a-sensor-network.html",
+    "href": "publications/2005-collecting-correlated-information-from-a-sensor-network.html",
+    "title": "Collecting Correlated Information from a Sensor Network",
+    "section": "",
+    "text": "Venue: Micah Adler. Proceedings of the 16th Annual ACM–SIAM Symposium on Discrete Algorithms (SODA), 2005\nPaper link"
+  },
+  {
+    "objectID": "publications/2005-optimal-peer-selection-for-p2p-downloading-and-streaming.html",
+    "href": "publications/2005-optimal-peer-selection-for-p2p-downloading-and-streaming.html",
+    "title": "Optimal Peer Selection for P2P Downloading and Streaming",
+    "section": "",
+    "text": "Venue: Micah Adler, Rakesh Kumar, Keith Ross, Dan Rubenstein, Torsten Suel, David Yao. Proceedings of IEEE INFOCOM, 2005\nPaper link"
+  },
+  {
+    "objectID": "publications/1998-parallel-randomized-load-balancing.html",
+    "href": "publications/1998-parallel-randomized-load-balancing.html",
+    "title": "Parallel Randomized Load Balancing",
+    "section": "",
+    "text": "Venue: * Parallel Randomized Load Balancing.\nPaper link"
+  },
+  {
+    "objectID": "publications/1998-scheduling-timeconstrained-communication-in-linear-networks.html",
+    "href": "publications/1998-scheduling-timeconstrained-communication-in-linear-networks.html",
+    "title": "Scheduling Time‑Constrained Communication in Linear Networks",
+    "section": "",
+    "text": "Venue: Micah Adler, Arnold L. Rosenberg, Ramesh K. Sitaraman, Walter Unger. Proceedings of the 10th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1998\nPaper link"
+  },
+  {
+    "objectID": "publications/2003-a-stochastic-process-on-the-hypercube-with-applications-to-peertopeer-networks.html",
+    "href": "publications/2003-a-stochastic-process-on-the-hypercube-with-applications-to-peertopeer-networks.html",
+    "title": "A Stochastic Process on the Hypercube with Applications to Peer‑to‑Peer Networks",
+    "section": "",
+    "text": "Venue: * A Stochastic Process on the Hypercube with Applications to Peer‑to‑Peer Networks.\nPaper link"
+  },
+  {
+    "objectID": "publications/2003-a-proportionate-fair-scheduling-rule-with-good-worstcase-performance.html",
+    "href": "publications/2003-a-proportionate-fair-scheduling-rule-with-good-worstcase-performance.html",
+    "title": "A Proportionate Fair Scheduling Rule with Good Worst‑Case Performance",
+    "section": "",
+    "text": "Venue: Micah Adler, Petra Berenbrink, Tom Friedetzky, Leslie Goldberg, Paul Goldberg, Mike Paterson. Proceedings of the 15th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), 2003\nPaper link"
+  },
+  {
+    "objectID": "publications/2012-mobile-digital-media-download-incentive-management-through-multiple-user-action-.html",
+    "href": "publications/2012-mobile-digital-media-download-incentive-management-through-multiple-user-action-.html",
+    "title": "Mobile digital media download incentive management through multiple user action tracking",
+    "section": "",
+    "text": "Venue: * Mobile digital media download incentive management through multiple user action tracking.\nPaper link"
+  },
+  {
+    "objectID": "publications/2000-surplus-fair-scheduling-a-proportionalshare-cpu-scheduling-algorithm-for-symmetr.html",
+    "href": "publications/2000-surplus-fair-scheduling-a-proportionalshare-cpu-scheduling-algorithm-for-symmetr.html",
+    "title": "Surplus Fair Scheduling: A Proportional‑Share CPU Scheduling Algorithm for Symmetric Multiprocessors",
+    "section": "",
+    "text": "Venue: Abhishek Chandra, Micah Adler, Pawan Goyal, Prashant Shenoy. Proceedings of the 4th Symposium on Operating System Design and Implementation (OSDI), 2000\nPaper link"
+  },
+  {
+    "objectID": "publications/2008-search-space-reduction-in-r-trees.html",
+    "href": "publications/2008-search-space-reduction-in-r-trees.html",
+    "title": "Search Space Reduction in R-trees",
+    "section": "",
+    "text": "Venue: Micah Adler, Brent Heeringa. 2008\nPaper link"
+  },
+  {
+    "objectID": "publications/2012-approximating-optimal-binary-decision-trees.html",
+    "href": "publications/2012-approximating-optimal-binary-decision-trees.html",
+    "title": "Approximating Optimal Binary Decision Trees",
+    "section": "",
+    "text": "Venue: Micah Adler, Brent Heeringa. Algorithmica 62(3–4): 1112–1121 (2012)\nPaper link"
+  },
+  {
+    "objectID": "publications/2002-optimal-proxy-cache-allocation-for-efficient-streaming-media-distribution.html",
+    "href": "publications/2002-optimal-proxy-cache-allocation-for-efficient-streaming-media-distribution.html",
+    "title": "Optimal Proxy Cache Allocation for Efficient Streaming Media Distribution",
+    "section": "",
+    "text": "Venue: Bing Wang, Subhabrata Sen, Micah Adler, Don Towsley. Proceedings of IEEE INFOCOM, 2002\nPaper link"
+  },
+  {
+    "objectID": "publications/2024-on-the-complexity-of-neural-computation-in-superposition.html",
+    "href": "publications/2024-on-the-complexity-of-neural-computation-in-superposition.html",
+    "title": "On the Complexity of Neural Computation in Superposition",
+    "section": "",
+    "text": "Venue: Micah Adler, Nir Shavit. CoRR abs/2409.15318 (2024)\nPaper link"
+  },
+  {
+    "objectID": "publications/2001-towards-compressing-web-graphs.html",
+    "href": "publications/2001-towards-compressing-web-graphs.html",
+    "title": "Towards Compressing Web Graphs",
+    "section": "",
+    "text": "Venue: * Towards Compressing Web Graphs.\nPaper link"
+  },
+  {
+    "objectID": "publications/2013-real-time-bidding-optimization-through-utilization-of-mobile-characteristics.html",
+    "href": "publications/2013-real-time-bidding-optimization-through-utilization-of-mobile-characteristics.html",
+    "title": "Real-time bidding optimization through utilization of mobile characteristics",
+    "section": "",
+    "text": "Venue: MD Corner, K Gabryelski, BN Levine, MA Adler. US Patent App. 13/804,092 (2013)\nPaper link"
+  },
+  {
+    "objectID": "publications/2002-an-analysis-of-the-degradation-of-anonymous-protocols.html",
+    "href": "publications/2002-an-analysis-of-the-degradation-of-anonymous-protocols.html",
+    "title": "An Analysis of the Degradation of Anonymous Protocols",
+    "section": "",
+    "text": "Venue: Matthew Wright, Micah Adler, Brian N. Levine, Clay Shields. Proceedings of the Symposium on Network and Distributed System Security (NDSS), 2002\nPaper link"
+  },
+  {
+    "objectID": "publications/2003-a-formal-study-of-distributed-resource-allocation-strategies-in-multi-agent-syst.html",
+    "href": "publications/2003-a-formal-study-of-distributed-resource-allocation-strategies-in-multi-agent-syst.html",
+    "title": "A Formal Study of Distributed Resource Allocation Strategies in Multi-Agent Systems",
+    "section": "",
+    "text": "Venue: J Shen, M Adler, V Lesser. UMASS, January, 260 (2003)\nPaper link"
+  },
+  {
+    "objectID": "publications/2005-tight-bounds-for-the-performance-of-longest-in-system-on-dags.html",
+    "href": "publications/2005-tight-bounds-for-the-performance-of-longest-in-system-on-dags.html",
+    "title": "Tight Bounds for the Performance of Longest in System on DAGs",
+    "section": "",
+    "text": "Venue: Micah Adler, Adi Rosén. Journal of Algorithms 55(2): 101–112 (2005)\nPaper link"
+  },
+  {
+    "objectID": "publications/1998-protocols-for-asymmetric-communication-channels.html",
+    "href": "publications/1998-protocols-for-asymmetric-communication-channels.html",
+    "title": "Protocols for Asymmetric Communication Channels",
+    "section": "",
+    "text": "Venue: Micah Adler, Bruce Maggs. Proceedings of the 39th IEEE Symposium on Foundations of Computer Science (FOCS), 1998\nPaper link"
+  },
+  {
+    "objectID": "publications/2002-scheduling-spacesharing-for-internet-advertising.html",
+    "href": "publications/2002-scheduling-spacesharing-for-internet-advertising.html",
+    "title": "Scheduling Space‑Sharing for Internet Advertising",
+    "section": "",
+    "text": "Venue: Micah Adler, Phillip B. Gibbons, Yossi Matias. Journal of Scheduling 5(2): 103–119 (March 2002)\nPaper link"
+  },
+  {
+    "objectID": "publications/2000-compression-using-efficient-multicasting.html",
+    "href": "publications/2000-compression-using-efficient-multicasting.html",
+    "title": "Compression Using Efficient Multicasting",
+    "section": "",
+    "text": "Venue: Micah Adler, Tom Leighton. Proceedings of the 32nd ACM Symposium on Theory of Computing (STOC), 2000\nPaper link"
+  },
+  {
+    "objectID": "publications/2003-randomized-pursuitevasion-in-graphs.html",
+    "href": "publications/2003-randomized-pursuitevasion-in-graphs.html",
+    "title": "Randomized Pursuit–Evasion in Graphs",
+    "section": "",
+    "text": "Venue: Micah Adler, Harald Räcke, Naveen Sivadasan, Christian Sohler, Berthold Vöcking. Combinatorics, Probability & Computing 12(3) (2003)\nPaper link"
+  },
+  {
+    "objectID": "publications/2025-towards-combinatorial-interpretability-of-neural-computation.html",
+    "href": "publications/2025-towards-combinatorial-interpretability-of-neural-computation.html",
+    "title": "Towards Combinatorial Interpretability of Neural Computation",
+    "section": "",
+    "text": "Venue: Micah Adler, Dan Alistarh, Nir Shavit. CoRR abs/2504.08842 (2025)\nPaper link"
+  },
+  {
+    "objectID": "publications/2001-compression-using-efficient-multicasting.html",
+    "href": "publications/2001-compression-using-efficient-multicasting.html",
+    "title": "Compression Using Efficient Multicasting",
+    "section": "",
+    "text": "Venue: Micah Adler, Tom Leighton. Journal of Computer and System Sciences 63(1): 127–145 (August 2001). (Internet algorithms special issue.)\nPaper link"
+  },
+  {
+    "objectID": "publications/1995-parallel-randomized-load-balancing.html",
+    "href": "publications/1995-parallel-randomized-load-balancing.html",
+    "title": "Parallel Randomized Load Balancing",
+    "section": "",
+    "text": "Venue: Micah Adler, Soumen Chakrabarti, Michael Mitzenmacher, Lars Rasmussen. Proceedings of the 27th ACM Symposium on Theory of Computing (STOC), 1995\nPaper link"
+  },
+  {
+    "objectID": "publications/2012-mobile-digital-media-download-tracking-management-utilizing-statistical-user-fin.html",
+    "href": "publications/2012-mobile-digital-media-download-tracking-management-utilizing-statistical-user-fin.html",
+    "title": "Mobile digital media download tracking management utilizing statistical user fingerprinting techniques through correlation of web-based download user actions with mobile ….",
+    "section": "",
+    "text": "Venue: * Mobile digital media download tracking management utilizing statistical user fingerprinting techniques through correlation of web-based download user actions with mobile …..\nPaper link"
+  },
+  {
+    "objectID": "publications/2003-estimation-of-congestion-price-using-probabilistic-packet-marking.html",
+    "href": "publications/2003-estimation-of-congestion-price-using-probabilistic-packet-marking.html",
+    "title": "Estimation of Congestion Price Using Probabilistic Packet Marking",
+    "section": "",
+    "text": "Venue: * Estimation of Congestion Price Using Probabilistic Packet Marking.\nPaper link"
+  },
+  {
+    "objectID": "publications/2003-timeconstrained-scheduling-of-weighted-packets-on-trees-and-meshes.html",
+    "href": "publications/2003-timeconstrained-scheduling-of-weighted-packets-on-trees-and-meshes.html",
+    "title": "Time‑Constrained Scheduling of Weighted Packets on Trees and Meshes",
+    "section": "",
+    "text": "Venue: Micah Adler, Sanjeev Khanna, Rajmohan Rajaraman, Adi Rosén. Algorithmica 36(2): 123–152 (April 2003)\nPaper link"
+  },
+  {
+    "objectID": "publications/1997-a-modular-analysis-of-network-transmission-protocols.html",
+    "href": "publications/1997-a-modular-analysis-of-network-transmission-protocols.html",
+    "title": "A Modular Analysis of Network Transmission Protocols",
+    "section": "",
+    "text": "Venue: Micah Adler, Yair Bartal, John W. Byers, Michael Luby, Danny Raz. Proceedings of the Israeli Symposium on Theory of Computing and Systems (ISTCS), 1997\nPaper link"
+  },
+  {
+    "objectID": "publications/2005-towards-asymptotic-optimality-in-probabilistic-packet-marking.html",
+    "href": "publications/2005-towards-asymptotic-optimality-in-probabilistic-packet-marking.html",
+    "title": "Towards Asymptotic Optimality in Probabilistic Packet Marking",
+    "section": "",
+    "text": "Venue: Micah Adler, Jeff Edmonds, Jiří Matoušek. Proceedings of the 37th ACM Symposium on Theory of Computing (STOC), 2005\nPaper link"
+  },
+  {
+    "objectID": "publications/1994-selection-in-the-presence-of-noise-the-design-of-playoff-systems.html",
+    "href": "publications/1994-selection-in-the-presence-of-noise-the-design-of-playoff-systems.html",
+    "title": "Selection in the Presence of Noise: The Design of Playoff Systems",
+    "section": "",
+    "text": "Venue: Micah Adler, Peter Gemmel, Mor Harchol, Richard M. Karp, Claire Kenyon. Proceedings of the 5th ACM–SIAM Symposium on Discrete Algorithms (SODA), 1994\nPaper link"
+  },
+  {
+    "objectID": "publications/2007-probabalistic-packet-marking.html",
+    "href": "publications/2007-probabalistic-packet-marking.html",
+    "title": "Probabalistic packet marking",
+    "section": "",
+    "text": "Venue: MA Adler. US Patent 7,254,633 (2007)\nPaper link"
+  },
+  {
+    "objectID": "publications/2012-mobile-digital-media-download-incentive-management-through-tracking-of-id-stored.html",
+    "href": "publications/2012-mobile-digital-media-download-incentive-management-through-tracking-of-id-stored.html",
+    "title": "Mobile digital media download incentive management through tracking of id stored in native facilities of the mobile device",
+    "section": "",
+    "text": "Venue: * Mobile digital media download incentive management through tracking of id stored in native facilities of the mobile device.\nPaper link"
+  },
+  {
+    "objectID": "publications/2006-lower-bounds-for-asymmetric-communication-channels-and-distributed-source-coding.html",
+    "href": "publications/2006-lower-bounds-for-asymmetric-communication-channels-and-distributed-source-coding.html",
+    "title": "Lower Bounds for Asymmetric Communication Channels and Distributed Source Coding",
+    "section": "",
+    "text": "Venue: Micah Adler, Erik Demaine, Nicholas Harvey, Mihai Patrascu. Proceedings of ACM–SIAM Symposium on Discrete Algorithms (SODA), January 2006\nPaper link"
+  },
+  {
+    "objectID": "publications/2001-deadline-fair-scheduling-bridging-the-theory-and-practice-of-proportionatefair-s.html",
+    "href": "publications/2001-deadline-fair-scheduling-bridging-the-theory-and-practice-of-proportionatefair-s.html",
+    "title": "Deadline Fair Scheduling: Bridging the Theory and Practice of Proportionate‑Fair Scheduling in Multiprocessor Servers",
+    "section": "",
+    "text": "Venue: Abhishek Chandra, Micah Adler, Prashant Shenoy. Proceedings of IEEE Real‑Time Technology and Applications Symposium (RTAS), 2001\nPaper link"
+  },
+  {
+    "objectID": "publications/2011-algorithms-for-optimizing-the-bandwidth-cost-of-content-delivery.html",
+    "href": "publications/2011-algorithms-for-optimizing-the-bandwidth-cost-of-content-delivery.html",
+    "title": "Algorithms for optimizing the bandwidth cost of content delivery",
+    "section": "",
+    "text": "Venue: Micah Adler, Ramesh K. Sitaraman, Harish Venkataramani. Computer Networks 55(18): 4007–4020 (2011)\nPaper link"
+  },
+  {
+    "objectID": "publications/2005-efficient-probabilistic-packet-marking.html",
+    "href": "publications/2005-efficient-probabilistic-packet-marking.html",
+    "title": "Efficient Probabilistic Packet Marking",
+    "section": "",
+    "text": "Venue: * Efficient Probabilistic Packet Marking.\nPaper link"
+  },
+  {
+    "objectID": "publications/2006-on-the-capacity-of-information-networks.html",
+    "href": "publications/2006-on-the-capacity-of-information-networks.html",
+    "title": "On the Capacity of Information Networks",
+    "section": "",
+    "text": "Venue: Micah Adler, Nicholas Harvey, Kamal Jain, Robert Kleinberg, April Rasala Lehman. Proceedings of ACM–SIAM Symposium on Discrete Algorithms (SODA), January 2006\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-clustering-relational-data-using-attribute-and-link-information.html",
+    "href": "publications/noyear-clustering-relational-data-using-attribute-and-link-information.html",
+    "title": "Clustering Relational Data Using Attribute and Link Information",
+    "section": "",
+    "text": "Venue: * Clustering Relational Data Using Attribute and Link Information."
+  },
+  {
+    "objectID": "publications/noyear-career-algorithms-for-efficient-bandwidth-utilization-in-the-internet.html",
+    "href": "publications/noyear-career-algorithms-for-efficient-bandwidth-utilization-in-the-internet.html",
+    "title": "CAREER: Algorithms for Efficient Bandwidth Utilization in the Internet",
+    "section": "",
+    "text": "Venue: * CAREER: Algorithms for Efficient Bandwidth Utilization in the Internet."
+  },
+  {
+    "objectID": "publications/noyear-protocols-for-asymmetric-communication-channels-2.html",
+    "href": "publications/noyear-protocols-for-asymmetric-communication-channels-2.html",
+    "title": "Protocols for Asymmetric Communication Channels",
+    "section": "",
+    "text": "Venue: * Protocols for Asymmetric Communication Channels.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-protocols-for-asymmetric-communication-channels.html",
+    "href": "publications/noyear-protocols-for-asymmetric-communication-channels.html",
+    "title": "Protocols for Asymmetric Communication Channels",
+    "section": "",
+    "text": "Venue: * Protocols for Asymmetric Communication Channels.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-new-coding-techniques-for-improved-bandwidth-utilization.html",
+    "href": "publications/noyear-new-coding-techniques-for-improved-bandwidth-utilization.html",
+    "title": "New Coding Techniques for Improved Bandwidth Utilization",
+    "section": "",
+    "text": "Venue: * New Coding Techniques for Improved Bandwidth Utilization."
+  },
+  {
+    "objectID": "publications/noyear-timeconstrained-scheduling-of-weighted-packets-on-trees-and-mesheshttpsdlacmorgd.html",
+    "href": "publications/noyear-timeconstrained-scheduling-of-weighted-packets-on-trees-and-mesheshttpsdlacmorgd.html",
+    "title": "(Time‑Constrained Scheduling of Weighted Packets on Trees and Meshes](https://dl.acm.org/doi/pdf/10.1145/305619.305620)",
+    "section": "",
+    "text": "Venue: * (Time‑Constrained Scheduling of Weighted Packets on Trees and Meshes](https://dl.acm.org/doi/pdf/10.1145/305619.305620)."
+  },
+  {
+    "objectID": "publications/noyear-the-complexity-of-endtoend-communication-in-memoryless-networks.html",
+    "href": "publications/noyear-the-complexity-of-endtoend-communication-in-memoryless-networks.html",
+    "title": "The Complexity of End‑to‑End Communication in Memoryless Networks",
+    "section": "",
+    "text": "Venue: * The Complexity of End‑to‑End Communication in Memoryless Networks."
+  },
+  {
+    "objectID": "publications/noyear-compression-using-efficient-multicasting.html",
+    "href": "publications/noyear-compression-using-efficient-multicasting.html",
+    "title": "Compression Using Efficient Multicasting",
+    "section": "",
+    "text": "Venue: * Compression Using Efficient Multicasting.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-scheduling-spacesharing-for-internet-advertising.html",
+    "href": "publications/noyear-scheduling-spacesharing-for-internet-advertising.html",
+    "title": "Scheduling Space‑Sharing for Internet Advertising",
+    "section": "",
+    "text": "Venue: * Scheduling Space‑Sharing for Internet Advertising.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-modeling-parallel-bandwidth-local-vs-global-restrictions-2.html",
+    "href": "publications/noyear-modeling-parallel-bandwidth-local-vs-global-restrictions-2.html",
+    "title": "Modeling Parallel Bandwidth: Local vs. Global Restrictions",
+    "section": "",
+    "text": "Venue: * Modeling Parallel Bandwidth: Local vs. Global Restrictions.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-scheduling-parallel-communication-the-hrelation-problem.html",
+    "href": "publications/noyear-scheduling-parallel-communication-the-hrelation-problem.html",
+    "title": "Scheduling Parallel Communication: The h‑Relation Problem",
+    "section": "",
+    "text": "Venue: * Scheduling Parallel Communication: The h‑Relation Problem."
+  },
+  {
+    "objectID": "publications/noyear-tight-bounds-for-the-performance-of-longest-in-system-on-dags.html",
+    "href": "publications/noyear-tight-bounds-for-the-performance-of-longest-in-system-on-dags.html",
+    "title": "Tight Bounds for the Performance of Longest in System on DAGs",
+    "section": "",
+    "text": "Venue: * Tight Bounds for the Performance of Longest in System on DAGs.\nPaper link"
+  },
+  {
+    "objectID": "publications/2020-search-space-reductions-for-nearest-neighbor-queries.html",
+    "href": "publications/2020-search-space-reductions-for-nearest-neighbor-queries.html",
+    "title": "Search Space Reductions for Nearest-Neighbor Queries",
+    "section": "",
+    "text": "Venue: * Search Space Reductions for Nearest-Neighbor Queries.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-an-n-lower-bound-on-formula-size-2.html",
+    "href": "publications/noyear-an-n-lower-bound-on-formula-size-2.html",
+    "title": "An n! Lower Bound on Formula Size",
+    "section": "",
+    "text": "Venue: * An n! Lower Bound on Formula Size.\nPaper link"
+  },
+  {
+    "objectID": "publications/2003-tradeoffs-in-probabilistic-packet-marking-for-ip-traceback.html",
+    "href": "publications/2003-tradeoffs-in-probabilistic-packet-marking-for-ip-traceback.html",
+    "title": "Tradeoffs in Probabilistic Packet Marking for IP Traceback",
+    "section": "",
+    "text": "Venue: * Tradeoffs in Probabilistic Packet Marking for IP Traceback.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-asymptotically-optimal-worksharing-in-hnows-how-long-is-sufficiently-long.html",
+    "href": "publications/noyear-asymptotically-optimal-worksharing-in-hnows-how-long-is-sufficiently-long.html",
+    "title": "Asymptotically Optimal Worksharing in HNOWs: How Long is “Sufficiently Long?”",
+    "section": "",
+    "text": "Venue: * Asymptotically Optimal Worksharing in HNOWs: How Long is “Sufficiently Long?”"
+  },
+  {
+    "objectID": "publications/noyear-at2-bounds-for-a-class-of-vlsi-problems-and-string-matching.html",
+    "href": "publications/noyear-at2-bounds-for-a-class-of-vlsi-problems-and-string-matching.html",
+    "title": "AT² Bounds for a Class of VLSI Problems and String Matching",
+    "section": "",
+    "text": "Venue: * AT² Bounds for a Class of VLSI Problems and String Matching."
+  },
+  {
+    "objectID": "publications/noyear-on-the-complexity-of-neural-computation-in-superposition.html",
+    "href": "publications/noyear-on-the-complexity-of-neural-computation-in-superposition.html",
+    "title": "On the Complexity of Neural Computation in Superposition",
+    "section": "",
+    "text": "Venue: * On the Complexity of Neural Computation in Superposition.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-asynchronous-shared-memory-search-structures-2.html",
+    "href": "publications/noyear-asynchronous-shared-memory-search-structures-2.html",
+    "title": "Asynchronous Shared Memory Search Structures",
+    "section": "",
+    "text": "Venue: * Asynchronous Shared Memory Search Structures."
+  },
+  {
+    "objectID": "publications/noyear-spectral-clustering-with-links-and-attributes.html",
+    "href": "publications/noyear-spectral-clustering-with-links-and-attributes.html",
+    "title": "Spectral clustering with links and attributes",
+    "section": "",
+    "text": "Venue: * Spectral clustering with links and attributes.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-optimal-sharing-of-bags-of-tasks-in-heterogeneous-clusters.html",
+    "href": "publications/noyear-optimal-sharing-of-bags-of-tasks-in-heterogeneous-clusters.html",
+    "title": "Optimal Sharing of Bags of Tasks in Heterogeneous Clusters",
+    "section": "",
+    "text": "Venue: * Optimal Sharing of Bags of Tasks in Heterogeneous Clusters."
+  },
+  {
+    "objectID": "publications/noyear-towards-combinatorial-interpretability-of-neural-computation.html",
+    "href": "publications/noyear-towards-combinatorial-interpretability-of-neural-computation.html",
+    "title": "Towards Combinatorial Interpretability of Neural Computation",
+    "section": "",
+    "text": "Venue: * Towards Combinatorial Interpretability of Neural Computation.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-on-the-capacity-of-information-networks.html",
+    "href": "publications/noyear-on-the-capacity-of-information-networks.html",
+    "title": "On the Capacity of Information Networks",
+    "section": "",
+    "text": "Venue: * On the Capacity of Information Networks.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-channelization-problem-in-large-scale-data-dissemination.html",
+    "href": "publications/noyear-channelization-problem-in-large-scale-data-dissemination.html",
+    "title": "Channelization Problem in Large Scale Data Dissemination",
+    "section": "",
+    "text": "Venue: * Channelization Problem in Large Scale Data Dissemination."
+  },
+  {
+    "objectID": "publications/noyear-load-balancing-in-hypercubic-distributed-hash-tables-with-heterogeneous-processo.html",
+    "href": "publications/noyear-load-balancing-in-hypercubic-distributed-hash-tables-with-heterogeneous-processo.html",
+    "title": "Load Balancing in Hypercubic Distributed Hash Tables with Heterogeneous Processors",
+    "section": "",
+    "text": "Venue: * Load Balancing in Hypercubic Distributed Hash Tables with Heterogeneous Processors."
+  },
+  {
+    "objectID": "publications/noyear-compression-using-efficient-multicasting-2.html",
+    "href": "publications/noyear-compression-using-efficient-multicasting-2.html",
+    "title": "Compression Using Efficient Multicasting",
+    "section": "",
+    "text": "Venue: * Compression Using Efficient Multicasting.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-system-and-method-for-scheduling-and-controlling-delivery-of-advertising-in-a-co.html",
+    "href": "publications/noyear-system-and-method-for-scheduling-and-controlling-delivery-of-advertising-in-a-co.html",
+    "title": "System and method for scheduling and controlling delivery of advertising in a communications network",
+    "section": "",
+    "text": "Venue: * System and method for scheduling and controlling delivery of advertising in a communications network.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-an-analysis-of-the-degradation-of-anonymous-protocols.html",
+    "href": "publications/noyear-an-analysis-of-the-degradation-of-anonymous-protocols.html",
+    "title": "An Analysis of the Degradation of Anonymous Protocols",
+    "section": "",
+    "text": "Venue: * An Analysis of the Degradation of Anonymous Protocols.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-algorithms-for-optimizing-the-bandwidth-cost-of-content-delivery.html",
+    "href": "publications/noyear-algorithms-for-optimizing-the-bandwidth-cost-of-content-delivery.html",
+    "title": "Algorithms for optimizing the bandwidth cost of content delivery",
+    "section": "",
+    "text": "Venue: * Algorithms for optimizing the bandwidth cost of content delivery.\nPaper link"
+  },
+  {
+    "objectID": "publications/2004-collecting-correlated-information-from-a-sensor-network.html",
+    "href": "publications/2004-collecting-correlated-information-from-a-sensor-network.html",
+    "title": "Collecting Correlated Information from a Sensor Network",
+    "section": "",
+    "text": "Venue: * Collecting Correlated Information from a Sensor Network.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-a-proportionate-fair-scheduling-rule-with-good-worstcase-performance.html",
+    "href": "publications/noyear-a-proportionate-fair-scheduling-rule-with-good-worstcase-performance.html",
+    "title": "A Proportionate Fair Scheduling Rule with Good Worst‑Case Performance",
+    "section": "",
+    "text": "Venue: * A Proportionate Fair Scheduling Rule with Good Worst‑Case Performance.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-analyzing-an-infinite-parallel-job-allocation-process.html",
+    "href": "publications/noyear-analyzing-an-infinite-parallel-job-allocation-process.html",
+    "title": "Analyzing an Infinite Parallel Job Allocation Process",
+    "section": "",
+    "text": "Venue: * Analyzing an Infinite Parallel Job Allocation Process."
+  },
+  {
+    "objectID": "publications/2004-the-predecessor-attack-an-analysis-of-a-threat-to-anonymous-communications-syste.html",
+    "href": "publications/2004-the-predecessor-attack-an-analysis-of-a-threat-to-anonymous-communications-syste.html",
+    "title": "The Predecessor Attack: An Analysis of a Threat to Anonymous Communications Systems",
+    "section": "",
+    "text": "Venue: * The Predecessor Attack: An Analysis of a Threat to Anonymous Communications Systems.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-limited-bandwidth-parallel-computation.html",
+    "href": "publications/noyear-limited-bandwidth-parallel-computation.html",
+    "title": "Limited Bandwidth Parallel Computation",
+    "section": "",
+    "text": "Venue: * Limited Bandwidth Parallel Computation."
+  },
+  {
+    "objectID": "publications/1944-the-birth-of-knowledge-emergent-features-across-time-space-and-scale-in-large-la.html",
+    "href": "publications/1944-the-birth-of-knowledge-emergent-features-across-time-space-and-scale-in-large-la.html",
+    "title": "The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models",
+    "section": "",
+    "text": "Venue: * The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-pricing-multicasting-in-more-practical-network-models.html",
+    "href": "publications/noyear-pricing-multicasting-in-more-practical-network-models.html",
+    "title": "Pricing Multicasting in More Practical Network Models",
+    "section": "",
+    "text": "Venue: * Pricing Multicasting in More Practical Network Models."
+  },
+  {
+    "objectID": "publications/noyear-defending-anonymous-communication-against-passive-logging-attacks.html",
+    "href": "publications/noyear-defending-anonymous-communication-against-passive-logging-attacks.html",
+    "title": "Defending Anonymous Communication Against Passive Logging Attacks",
+    "section": "",
+    "text": "Venue: * Defending Anonymous Communication Against Passive Logging Attacks.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-tight-size-bounds-for-packet-headers-in-narrow-meshes.html",
+    "href": "publications/noyear-tight-size-bounds-for-packet-headers-in-narrow-meshes.html",
+    "title": "Tight Size Bounds for Packet Headers in Narrow Meshes",
+    "section": "",
+    "text": "Venue: * Tight Size Bounds for Packet Headers in Narrow Meshes.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-new-protocols-for-asymmetric-communication-channels.html",
+    "href": "publications/noyear-new-protocols-for-asymmetric-communication-channels.html",
+    "title": "New Protocols for Asymmetric Communication Channels",
+    "section": "",
+    "text": "Venue: * New Protocols for Asymmetric Communication Channels."
+  },
+  {
+    "objectID": "publications/noyear-on-the-distance-entropy-of-a-data-collection-network.html",
+    "href": "publications/noyear-on-the-distance-entropy-of-a-data-collection-network.html",
+    "title": "On the Distance Entropy of a Data Collection Network",
+    "section": "",
+    "text": "Venue: * On the Distance Entropy of a Data Collection Network."
+  },
+  {
+    "objectID": "publications/noyear-optimal-peer-selection-in-a-free-market-peer-resource-economy.html",
+    "href": "publications/noyear-optimal-peer-selection-in-a-free-market-peer-resource-economy.html",
+    "title": "Optimal peer selection in a free-market peer-resource economy",
+    "section": "",
+    "text": "Venue: * Optimal peer selection in a free-market peer-resource economy.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-asynchronous-shared-memory-search-structures.html",
+    "href": "publications/noyear-asynchronous-shared-memory-search-structures.html",
+    "title": "Asynchronous Shared Memory Search Structures",
+    "section": "",
+    "text": "Venue: * Asynchronous Shared Memory Search Structures.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-efficient-communication-strategies-for-adhoc-wireless-networks.html",
+    "href": "publications/noyear-efficient-communication-strategies-for-adhoc-wireless-networks.html",
+    "title": "Efficient Communication Strategies for Ad‑Hoc Wireless Networks",
+    "section": "",
+    "text": "Venue: * Efficient Communication Strategies for Ad‑Hoc Wireless Networks.\nPaper link"
+  },
+  {
+    "objectID": "publications/2003-tradeoffs-in-probabilistic-packet-marking-for-ip-traceback-2.html",
+    "href": "publications/2003-tradeoffs-in-probabilistic-packet-marking-for-ip-traceback-2.html",
+    "title": "Tradeoffs in Probabilistic Packet Marking for IP Traceback",
+    "section": "",
+    "text": "Venue: * Tradeoffs in Probabilistic Packet Marking for IP Traceback.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-on-using-multicast-for-streaming-video-across-wide-area-network.html",
+    "href": "publications/noyear-on-using-multicast-for-streaming-video-across-wide-area-network.html",
+    "title": "On Using Multicast for Streaming Video across Wide Area Network",
+    "section": "",
+    "text": "Venue: * On Using Multicast for Streaming Video across Wide Area Network."
+  },
+  {
+    "objectID": "publications/2022-a-formal-study-of-distributed-resource-allocation-strategies-in-multi-agent-syst.html",
+    "href": "publications/2022-a-formal-study-of-distributed-resource-allocation-strategies-in-multi-agent-syst.html",
+    "title": "A Formal Study of Distributed Resource Allocation Strategies in Multi-Agent Systems",
+    "section": "",
+    "text": "Venue: * A Formal Study of Distributed Resource Allocation Strategies in Multi-Agent Systems.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-tree-layout-for-internal-network-characterizations-in-multicast-networks.html",
+    "href": "publications/noyear-tree-layout-for-internal-network-characterizations-in-multicast-networks.html",
+    "title": "Tree Layout for Internal Network Characterizations in Multicast Networks",
+    "section": "",
+    "text": "Venue: * Tree Layout for Internal Network Characterizations in Multicast Networks."
+  },
+  {
+    "objectID": "publications/noyear-efficient-communication-strategies-for-adhoc-wireless-networks-2.html",
+    "href": "publications/noyear-efficient-communication-strategies-for-adhoc-wireless-networks-2.html",
+    "title": "Efficient Communication Strategies for Ad‑Hoc Wireless Networks",
+    "section": "",
+    "text": "Venue: * Efficient Communication Strategies for Ad‑Hoc Wireless Networks."
+  },
+  {
+    "objectID": "publications/noyear-tight-bounds-for-the-performance-of-longest-in-system-on-dags-2.html",
+    "href": "publications/noyear-tight-bounds-for-the-performance-of-longest-in-system-on-dags-2.html",
+    "title": "Tight Bounds for the Performance of Longest in System on DAGs",
+    "section": "",
+    "text": "Venue: * Tight Bounds for the Performance of Longest in System on DAGs.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-is-the-10-to-15-rule-right-for-your-index.html",
+    "href": "publications/noyear-is-the-10-to-15-rule-right-for-your-index.html",
+    "title": "Is the 10% to 15% Rule Right for Your Index?",
+    "section": "",
+    "text": "Venue: * Is the 10% to 15% Rule Right for Your Index?"
+  },
+  {
+    "objectID": "publications/noyear-lower-bounds-for-asymmetric-communication-channels-and-distributed-source-coding.html",
+    "href": "publications/noyear-lower-bounds-for-asymmetric-communication-channels-and-distributed-source-coding.html",
+    "title": "Lower Bounds for Asymmetric Communication Channels and Distributed Source Coding",
+    "section": "",
+    "text": "Venue: * Lower Bounds for Asymmetric Communication Channels and Distributed Source Coding.\nPaper link"
+  },
+  {
+    "objectID": "publications/2010-efficient-algorithms-for-neighbor-discovery-in-wireless-networks.html",
+    "href": "publications/2010-efficient-algorithms-for-neighbor-discovery-in-wireless-networks.html",
+    "title": "Efficient Algorithms for Neighbor Discovery in Wireless Networks",
+    "section": "",
+    "text": "Venue: * Efficient Algorithms for Neighbor Discovery in Wireless Networks.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-optimal-proxy-cache-allocation-for-efficient-streaming-media-distribution-2.html",
+    "href": "publications/noyear-optimal-proxy-cache-allocation-for-efficient-streaming-media-distribution-2.html",
+    "title": "Optimal Proxy Cache Allocation for Efficient Streaming Media Distribution",
+    "section": "",
+    "text": "Venue: * Optimal Proxy Cache Allocation for Efficient Streaming Media Distribution.\nPaper link"
+  },
+  {
+    "objectID": "publications/2008-approximating-optimal-binary-decision-trees.html",
+    "href": "publications/2008-approximating-optimal-binary-decision-trees.html",
+    "title": "Approximating Optimal Binary Decision Trees",
+    "section": "",
+    "text": "Venue: * Approximating Optimal Binary Decision Trees.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-an-n-lower-bound-on-formula-size.html",
+    "href": "publications/noyear-an-n-lower-bound-on-formula-size.html",
+    "title": "An n! Lower Bound on Formula Size",
+    "section": "",
+    "text": "Venue: * An n! Lower Bound on Formula Size.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-search-space-reduction-in-r-trees.html",
+    "href": "publications/noyear-search-space-reduction-in-r-trees.html",
+    "title": "Search Space Reduction in R-trees",
+    "section": "",
+    "text": "Venue: * Search Space Reduction in R-trees.\nPaper link"
+  },
+  {
+    "objectID": "publications/1998-parallel-randomized-load-balancing-2.html",
+    "href": "publications/1998-parallel-randomized-load-balancing-2.html",
+    "title": "Parallel Randomized Load Balancing",
+    "section": "",
+    "text": "Venue: * Parallel Randomized Load Balancing.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-proxy-based-distribution-of-streaming-video-over-unicastmulticast-connections.html",
+    "href": "publications/noyear-proxy-based-distribution-of-streaming-video-over-unicastmulticast-connections.html",
+    "title": "Proxy-based distribution of streaming video over unicast/multicast connections",
+    "section": "",
+    "text": "Venue: * Proxy-based distribution of streaming video over unicast/multicast connections."
+  },
+  {
+    "objectID": "publications/1980-real-time-bidding-optimization-through-utilization-of-mobile-characteristics.html",
+    "href": "publications/1980-real-time-bidding-optimization-through-utilization-of-mobile-characteristics.html",
+    "title": "Real-time bidding optimization through utilization of mobile characteristics",
+    "section": "",
+    "text": "Venue: * Real-time bidding optimization through utilization of mobile characteristics.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-randomized-pursuitevasion-in-graphs-2.html",
+    "href": "publications/noyear-randomized-pursuitevasion-in-graphs-2.html",
+    "title": "Randomized Pursuit–Evasion in Graphs",
+    "section": "",
+    "text": "Venue: * Randomized Pursuit–Evasion in Graphs.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-towards-asymptotic-optimality-in-probabilistic-packet-marking.html",
+    "href": "publications/noyear-towards-asymptotic-optimality-in-probabilistic-packet-marking.html",
+    "title": "Towards Asymptotic Optimality in Probabilistic Packet Marking",
+    "section": "",
+    "text": "Venue: * Towards Asymptotic Optimality in Probabilistic Packet Marking.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-optimal-peer-selection-for-p2p-downloading-and-streaming.html",
+    "href": "publications/noyear-optimal-peer-selection-for-p2p-downloading-and-streaming.html",
+    "title": "Optimal Peer Selection for P2P Downloading and Streaming",
+    "section": "",
+    "text": "Venue: * Optimal Peer Selection for P2P Downloading and Streaming.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-randomized-pursuitevasion-in-graphs.html",
+    "href": "publications/noyear-randomized-pursuitevasion-in-graphs.html",
+    "title": "Randomized Pursuit–Evasion in Graphs",
+    "section": "",
+    "text": "Venue: * Randomized Pursuit–Evasion in Graphs.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-timeconstrained-scheduling-of-weighted-packets-on-trees-and-meshes.html",
+    "href": "publications/noyear-timeconstrained-scheduling-of-weighted-packets-on-trees-and-meshes.html",
+    "title": "Time‑Constrained Scheduling of Weighted Packets on Trees and Meshes",
+    "section": "",
+    "text": "Venue: * Time‑Constrained Scheduling of Weighted Packets on Trees and Meshes.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-modeling-parallel-bandwidth-local-vs-global-restrictions.html",
+    "href": "publications/noyear-modeling-parallel-bandwidth-local-vs-global-restrictions.html",
+    "title": "Modeling Parallel Bandwidth: Local vs. Global Restrictions",
+    "section": "",
+    "text": "Venue: * Modeling Parallel Bandwidth: Local vs. Global Restrictions.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-two-optimal-peer-selection-problems.html",
+    "href": "publications/noyear-two-optimal-peer-selection-problems.html",
+    "title": "Two optimal peer selection problems",
+    "section": "",
+    "text": "Venue: * Two optimal peer selection problems."
+  },
+  {
+    "objectID": "publications/noyear-selection-in-the-presence-of-noise-the-design-of-playoff-systems.html",
+    "href": "publications/noyear-selection-in-the-presence-of-noise-the-design-of-playoff-systems.html",
+    "title": "Selection in the Presence of Noise: The Design of Playoff Systems",
+    "section": "",
+    "text": "Venue: * Selection in the Presence of Noise: The Design of Playoff Systems.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-parallel-sorting-with-limited-bandwidth-2.html",
+    "href": "publications/noyear-parallel-sorting-with-limited-bandwidth-2.html",
+    "title": "Parallel Sorting With Limited Bandwidth",
+    "section": "",
+    "text": "Venue: * Parallel Sorting With Limited Bandwidth."
+  },
+  {
+    "objectID": "publications/noyear-clustering-relational-data.html",
+    "href": "publications/noyear-clustering-relational-data.html",
+    "title": "Clustering Relational Data",
+    "section": "",
+    "text": "Venue: * Clustering Relational Data."
+  },
+  {
+    "objectID": "publications/noyear-a-modular-analysis-of-network-transmission-protocols.html",
+    "href": "publications/noyear-a-modular-analysis-of-network-transmission-protocols.html",
+    "title": "A Modular Analysis of Network Transmission Protocols",
+    "section": "",
+    "text": "Venue: * A Modular Analysis of Network Transmission Protocols.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-communicationoptimal-parallel-minimum-spanning-tree-algorithms.html",
+    "href": "publications/noyear-communicationoptimal-parallel-minimum-spanning-tree-algorithms.html",
+    "title": "Communication‑Optimal Parallel Minimum Spanning Tree Algorithms",
+    "section": "",
+    "text": "Venue: * Communication‑Optimal Parallel Minimum Spanning Tree Algorithms."
+  },
+  {
+    "objectID": "publications/noyear-scheduling-timeconstrained-communication-in-linear-networks.html",
+    "href": "publications/noyear-scheduling-timeconstrained-communication-in-linear-networks.html",
+    "title": "Scheduling Time‑Constrained Communication in Linear Networks",
+    "section": "",
+    "text": "Venue: * Scheduling Time‑Constrained Communication in Linear Networks.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-parallel-sorting-with-limited-bandwidth.html",
+    "href": "publications/noyear-parallel-sorting-with-limited-bandwidth.html",
+    "title": "Parallel Sorting With Limited Bandwidth",
+    "section": "",
+    "text": "Venue: * Parallel Sorting With Limited Bandwidth.\nPaper link"
+  },
+  {
+    "objectID": "publications/2011-on-exploiting-nodeheterogeneous-clusters-optimally.html",
+    "href": "publications/2011-on-exploiting-nodeheterogeneous-clusters-optimally.html",
+    "title": "On Exploiting Node‑Heterogeneous Clusters Optimally",
+    "section": "",
+    "text": "Venue: * On Exploiting Node‑Heterogeneous Clusters Optimally.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-probabalistic-packet-marking.html",
+    "href": "publications/noyear-probabalistic-packet-marking.html",
+    "title": "Probabalistic packet marking",
+    "section": "",
+    "text": "Venue: * Probabalistic packet marking.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-surplus-fair-scheduling-a-proportionalshare-cpu-scheduling-algorithm-for-symmetr.html",
+    "href": "publications/noyear-surplus-fair-scheduling-a-proportionalshare-cpu-scheduling-algorithm-for-symmetr.html",
+    "title": "Surplus Fair Scheduling: A Proportional‑Share CPU Scheduling Algorithm for Symmetric Multiprocessors",
+    "section": "",
+    "text": "Venue: * Surplus Fair Scheduling: A Proportional‑Share CPU Scheduling Algorithm for Symmetric Multiprocessors.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-deadline-fair-scheduling-bridging-the-theory-and-practice-of-proportionatefair-s.html",
+    "href": "publications/noyear-deadline-fair-scheduling-bridging-the-theory-and-practice-of-proportionatefair-s.html",
+    "title": "Deadline Fair Scheduling: Bridging the Theory and Practice of Proportionate‑Fair Scheduling in Multiprocessor Servers",
+    "section": "",
+    "text": "Venue: * Deadline Fair Scheduling: Bridging the Theory and Practice of Proportionate‑Fair Scheduling in Multiprocessor Servers.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-pricing-multicasting-in-more-flexible-network-models.html",
+    "href": "publications/noyear-pricing-multicasting-in-more-flexible-network-models.html",
+    "title": "Pricing Multicasting in More Flexible Network Models",
+    "section": "",
+    "text": "Venue: * Pricing Multicasting in More Flexible Network Models.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-scheduling-timeconstrained-communication-in-linear-networks-2.html",
+    "href": "publications/noyear-scheduling-timeconstrained-communication-in-linear-networks-2.html",
+    "title": "Scheduling Time‑Constrained Communication in Linear Networks",
+    "section": "",
+    "text": "Venue: * Scheduling Time‑Constrained Communication in Linear Networks.\nPaper link"
+  },
+  {
+    "objectID": "publications/noyear-optimal-proxy-cache-allocation-for-efficient-streaming-media-distribution.html",
+    "href": "publications/noyear-optimal-proxy-cache-allocation-for-efficient-streaming-media-distribution.html",
+    "title": "Optimal Proxy Cache Allocation for Efficient Streaming Media Distribution",
+    "section": "",
+    "text": "Venue: * Optimal Proxy Cache Allocation for Efficient Streaming Media Distribution.\nPaper link"
+  },
+  {
+    "objectID": "other-research.html#journal-publications",
+    "href": "other-research.html#journal-publications",
+    "title": "Research Publications",
+    "section": "Journal Publications",
+    "text": "Journal Publications\n\n\n    \n      \n      \n    \n\n\n\n\n\nAsynchronous Shared Memory Search Structures\n\n\n\nSearch Structures & Nearest Neighbor\n\nSearch & Distance Metrics\n\n\n\nNone — * Asynchronous Shared Memory Search Structures.\n\n\n\n\n\n\n\n\n\n\nEfficient Communication Strategies for Ad‑Hoc Wireless Networks\n\n\n\nWireless Networks\n\n\n\nNone — * Efficient Communication Strategies for Ad‑Hoc Wireless Networks.\n\n\n\n\n\n\n\n\n\n\nEfficient Communication Strategies for Ad‑Hoc Wireless Networks\n\n\n\nWireless Networks\n\n\n\nNone — * Efficient Communication Strategies for Ad‑Hoc Wireless Networks.\n\n\n\n\n\n\n\n\n\n\nAlgorithms for optimizing the bandwidth cost of content delivery\n\n\n\nParallel Algorithms & Bandwidth\n\n\n\nNone — * Algorithms for optimizing the bandwidth cost of content delivery.\n\n\n\n\n\n\n\n\n\n\nAsynchronous Shared Memory Search Structures\n\n\n\nSearch Structures & Nearest Neighbor\n\nSearch & Distance Metrics\n\n\n\nNone — * Asynchronous Shared Memory Search Structures.\n\n\n\n\n\n\n\n\n\n\nTime‑Constrained Scheduling of Weighted Packets on Trees and Meshes\n\n\n\nScheduling & Queues\n\n\n\nNone — * Time‑Constrained Scheduling of Weighted Packets on Trees and Meshes.\n\n\n\n\n\n\n\n\n\n\nParallel Sorting With Limited Bandwidth\n\n\n\nParallel Algorithms & Bandwidth\n\n\n\nNone — * Parallel Sorting With Limited Bandwidth.\n\n\n\n\n\n\n\n\n\n\nScheduling Space‑Sharing for Internet Advertising\n\n\n\nScheduling & Queues\n\nAuctions & Advertising\n\n\n\nNone — * Scheduling Space‑Sharing for Internet Advertising.\n\n\n\n\n\n\n\n\n\n\nParallel Sorting With Limited Bandwidth\n\n\n\nParallel Algorithms & Bandwidth\n\n\n\nNone — * Parallel Sorting With Limited Bandwidth.\n\n\n\n\n\n\n\n\n\n\nPricing Multicasting in More Flexible Network Models\n\n\n\nEconomics & Congestion Pricing\n\n\n\nNone — * Pricing Multicasting in More Flexible Network Models.\n\n\n\n\n\n\n\n\n\n\nOn Exploiting Node‑Heterogeneous Clusters Optimally\n\n\n\nScheduling & Queues\n\nClustering & Relational Data\n\nHeterogeneous Clusters\n\n\n\nNone — * On Exploiting Node‑Heterogeneous Clusters Optimally.\n\n\n\n\n\nJan 1, 2011\n\n\n\n\n\n\n\nEfficient Algorithms for Neighbor Discovery in Wireless Networks\n\n\n\nWireless Networks\n\n\n\nNone — * Efficient Algorithms for Neighbor Discovery in Wireless Networks.\n\n\n\n\n\nJan 1, 2010\n\n\n\n\n\n\n\nApproximating Optimal Binary Decision Trees\n\n\n\nDecision Trees\n\n\n\nNone — * Approximating Optimal Binary Decision Trees.\n\n\n\n\n\nJan 1, 2008\n\n\n\n\n\n\n\nPassive‑Logging Attacks Against Anonymous Communications Systems\n\n\n\nAnonymous Communication & Privacy\n\n\n\nNone — * Passive‑Logging Attacks Against Anonymous Communications Systems.\n\n\n\n\n\nJan 1, 2008\n\n\n\n\n\n\n\nThe Predecessor Attack: An Analysis of a Threat to Anonymous Communications Systems\n\n\n\nAnonymous Communication & Privacy\n\n\n\nNone — * The Predecessor Attack: An Analysis of a Threat to Anonymous Communications Systems.\n\n\n\n\n\nJan 1, 2004\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "other-research.html#publications-in-selective-refereed-conferences",
+    "href": "other-research.html#publications-in-selective-refereed-conferences",
+    "title": "Research Publications",
+    "section": "Publications in Selective Refereed Conferences",
+    "text": "Publications in Selective Refereed Conferences\n\n\n\n\n\nNew Protocols for Asymmetric Communication Channels\n\n\n\nUncategorized\n\n\n\nNone — * New Protocols for Asymmetric Communication Channels.\n\n\n\n\n\n\n\n\n\n\nTight Size Bounds for Packet Headers in Narrow Meshes\n\n\n\nUncategorized\n\n\n\nNone — * Tight Size Bounds for Packet Headers in Narrow Meshes.\n\n\n\n\n\n\n\n\n\n\nDefending Anonymous Communication Against Passive Logging Attacks\n\n\n\nAnonymous Communication & Privacy\n\n\n\nNone — * Defending Anonymous Communication Against Passive Logging Attacks.\n\n\n\n\n\n\n\n\n\n\nOn Using Multicast for Streaming Video across Wide Area Network\n\n\n\nStreaming Media & Content Distribution\n\nMulticast & Tree Layout\n\n\n\nNone — * On Using Multicast for Streaming Video across Wide Area Network.\n\n\n\n\n\n\n\n\n\n\nPricing Multicasting in More Practical Network Models\n\n\n\nEconomics & Congestion Pricing\n\n\n\nNone — * Pricing Multicasting in More Practical Network Models.\n\n\n\n\n\n\n\n\n\n\nTree Layout for Internal Network Characterizations in Multicast Networks\n\n\n\nMulticast & Tree Layout\n\n\n\nNone — * Tree Layout for Internal Network Characterizations in Multicast Networks.\n\n\n\n\n\n\n\n\n\n\nTight Bounds for the Performance of Longest in System on DAGs\n\n\n\nUncategorized\n\n\n\nNone — * Tight Bounds for the Performance of Longest in System on DAGs.\n\n\n\n\n\n\n\n\n\n\nAnalyzing an Infinite Parallel Job Allocation Process\n\n\n\nParallel Algorithms & Bandwidth\n\nResource Allocation & Distributed Systems\n\n\n\nNone — * Analyzing an Infinite Parallel Job Allocation Process.\n\n\n\n\n\n\n\n\n\n\nA Proportionate Fair Scheduling Rule with Good Worst‑Case Performance\n\n\n\nScheduling & Queues\n\n\n\nNone — * A Proportionate Fair Scheduling Rule with Good Worst‑Case Performance.\n\n\n\n\n\n\n\n\n\n\nLower Bounds for Asymmetric Communication Channels and Distributed Source Coding\n\n\n\nResource Allocation & Distributed Systems\n\n\n\nNone — * Lower Bounds for Asymmetric Communication Channels and Distributed Source Coding.\n\n\n\n\n\n\n\n\n\n\nOptimal Proxy Cache Allocation for Efficient Streaming Media Distribution\n\n\n\nStreaming Media & Content Distribution\n\nResource Allocation & Distributed Systems\n\n\n\nNone — * Optimal Proxy Cache Allocation for Efficient Streaming Media Distribution.\n\n\n\n\n\n\n\n\n\n\nAn Analysis of the Degradation of Anonymous Protocols\n\n\n\nAnonymous Communication & Privacy\n\n\n\nNone — * An Analysis of the Degradation of Anonymous Protocols.\n\n\n\n\n\n\n\n\n\n\nAn n! Lower Bound on Formula Size\n\n\n\nLower Bounds & Complexity Theory\n\n\n\nNone — * An n! Lower Bound on Formula Size.\n\n\n\n\n\n\n\n\n\n\nCompression Using Efficient Multicasting\n\n\n\nUncategorized\n\n\n\nNone — * Compression Using Efficient Multicasting.\n\n\n\n\n\n\n\n\n\n\nLoad Balancing in Hypercubic Distributed Hash Tables with Heterogeneous Processors\n\n\n\nLoad Balancing & Work Sharing\n\nResource Allocation & Distributed Systems\n\nHeterogeneous Clusters\n\n\n\nNone — * Load Balancing in Hypercubic Distributed Hash Tables with Heterogeneous Processors.\n\n\n\n\n\n\n\n\n\n\nChannelization Problem in Large Scale Data Dissemination\n\n\n\nUncategorized\n\n\n\nNone — * Channelization Problem in Large Scale Data Dissemination.\n\n\n\n\n\n\n\n\n\n\nProxy-based distribution of streaming video over unicast/multicast connections\n\n\n\nStreaming Media & Content Distribution\n\nMulticast & Tree Layout\n\n\n\nNone — * Proxy-based distribution of streaming video over unicast/multicast connections.\n\n\n\n\n\n\n\n\n\n\nOn the Capacity of Information Networks\n\n\n\nNetwork Capacity & Info Theory\n\n\n\nNone — * On the Capacity of Information Networks.\n\n\n\n\n\n\n\n\n\n\nRandomized Pursuit–Evasion in Graphs\n\n\n\nGraphs & Pursuit–Evasion\n\n\n\nNone — * Randomized Pursuit–Evasion in Graphs.\n\n\n\n\n\n\n\n\n\n\nOptimal Sharing of Bags of Tasks in Heterogeneous Clusters\n\n\n\nClustering & Relational Data\n\nHeterogeneous Clusters\n\n\n\nNone — * Optimal Sharing of Bags of Tasks in Heterogeneous Clusters.\n\n\n\n\n\n\n\n\n\n\nTowards Asymptotic Optimality in Probabilistic Packet Marking\n\n\n\nIP Traceback & Packet Marking\n\n\n\nNone — * Towards Asymptotic Optimality in Probabilistic Packet Marking.\n\n\n\n\n\n\n\n\n\n\nOptimal Peer Selection for P2P Downloading and Streaming\n\n\n\nStreaming Media & Content Distribution\n\nPeer-to-Peer Networks\n\nPeer Selection\n\nTournament & Selection Design\n\n\n\nNone — * Optimal Peer Selection for P2P Downloading and Streaming.\n\n\n\n\n\n\n\n\n\n\nRandomized Pursuit–Evasion in Graphs\n\n\n\nGraphs & Pursuit–Evasion\n\n\n\nNone — * Randomized Pursuit–Evasion in Graphs.\n\n\n\n\n\n\n\n\n\n\nAT² Bounds for a Class of VLSI Problems and String Matching\n\n\n\nUncategorized\n\n\n\nNone — * AT² Bounds for a Class of VLSI Problems and String Matching.\n\n\n\n\n\n\n\n\n\n\nModeling Parallel Bandwidth: Local vs. Global Restrictions\n\n\n\nParallel Algorithms & Bandwidth\n\n\n\nNone — * Modeling Parallel Bandwidth: Local vs. Global Restrictions.\n\n\n\n\n\n\n\n\n\n\nAsymptotically Optimal Worksharing in HNOWs: How Long is “Sufficiently Long?”\n\n\n\nUncategorized\n\n\n\nNone — * Asymptotically Optimal Worksharing in HNOWs: How Long is “Sufficiently Long?”\n\n\n\n\n\n\n\n\n\n\nTwo optimal peer selection problems\n\n\n\nPeer-to-Peer Networks\n\nPeer Selection\n\nTournament & Selection Design\n\n\n\nNone — * Two optimal peer selection problems.\n\n\n\n\n\n\n\n\n\n\nSelection in the Presence of Noise: The Design of Playoff Systems\n\n\n\nTournament & Selection Design\n\n\n\nNone — * Selection in the Presence of Noise: The Design of Playoff Systems.\n\n\n\n\n\n\n\n\n\n\nAn n! Lower Bound on Formula Size\n\n\n\nLower Bounds & Complexity Theory\n\n\n\nNone — * An n! Lower Bound on Formula Size.\n\n\n\n\n\n\n\n\n\n\nTight Bounds for the Performance of Longest in System on DAGs\n\n\n\nUncategorized\n\n\n\nNone — * Tight Bounds for the Performance of Longest in System on DAGs.\n\n\n\n\n\n\n\n\n\n\nA Modular Analysis of Network Transmission Protocols\n\n\n\nUncategorized\n\n\n\nNone — * A Modular Analysis of Network Transmission Protocols.\n\n\n\n\n\n\n\n\n\n\nScheduling Parallel Communication: The h‑Relation Problem\n\n\n\nScheduling & Queues\n\nParallel Algorithms & Bandwidth\n\n\n\nNone — * Scheduling Parallel Communication: The h‑Relation Problem.\n\n\n\n\n\n\n\n\n\n\nCommunication‑Optimal Parallel Minimum Spanning Tree Algorithms\n\n\n\nParallel Algorithms & Bandwidth\n\nMulticast & Tree Layout\n\n\n\nNone — * Communication‑Optimal Parallel Minimum Spanning Tree Algorithms.\n\n\n\n\n\n\n\n\n\n\nModeling Parallel Bandwidth: Local vs. Global Restrictions\n\n\n\nParallel Algorithms & Bandwidth\n\n\n\nNone — * Modeling Parallel Bandwidth: Local vs. Global Restrictions.\n\n\n\n\n\n\n\n\n\n\nScheduling Time‑Constrained Communication in Linear Networks\n\n\n\nScheduling & Queues\n\n\n\nNone — * Scheduling Time‑Constrained Communication in Linear Networks.\n\n\n\n\n\n\n\n\n\n\nCompression Using Efficient Multicasting\n\n\n\nUncategorized\n\n\n\nNone — * Compression Using Efficient Multicasting.\n\n\n\n\n\n\n\n\n\n\nThe Complexity of End‑to‑End Communication in Memoryless Networks\n\n\n\nNetwork Protocols & Complexity\n\nLower Bounds & Complexity Theory\n\n\n\nNone — * The Complexity of End‑to‑End Communication in Memoryless Networks.\n\n\n\n\n\n\n\n\n\n\n(Time‑Constrained Scheduling of Weighted Packets on Trees and Meshes](https://dl.acm.org/doi/pdf/10.1145/305619.305620)\n\n\n\nScheduling & Queues\n\n\n\nNone — * (Time‑Constrained Scheduling of Weighted Packets on Trees and Meshes](https://dl.acm.org/doi/pdf/10.1145/305619.305620).\n\n\n\n\n\n\n\n\n\n\nSurplus Fair Scheduling: A Proportional‑Share CPU Scheduling Algorithm for Symmetric Multiprocessors\n\n\n\nScheduling & Queues\n\n\n\nNone — * Surplus Fair Scheduling: A Proportional‑Share CPU Scheduling Algorithm for Symmetric Multiprocessors.\n\n\n\n\n\n\n\n\n\n\nNew Coding Techniques for Improved Bandwidth Utilization\n\n\n\nParallel Algorithms & Bandwidth\n\n\n\nNone — * New Coding Techniques for Improved Bandwidth Utilization.\n\n\n\n\n\n\n\n\n\n\nDeadline Fair Scheduling: Bridging the Theory and Practice of Proportionate‑Fair Scheduling in Multiprocessor Servers\n\n\n\nScheduling & Queues\n\n\n\nNone — * Deadline Fair Scheduling: Bridging the Theory and Practice of Proportionate‑Fair Scheduling in Multiprocessor Servers.\n\n\n\n\n\n\n\n\n\n\nProtocols for Asymmetric Communication Channels\n\n\n\nUncategorized\n\n\n\nNone — * Protocols for Asymmetric Communication Channels.\n\n\n\n\n\n\n\n\n\n\nProtocols for Asymmetric Communication Channels\n\n\n\nUncategorized\n\n\n\nNone — * Protocols for Asymmetric Communication Channels.\n\n\n\n\n\n\n\n\n\n\nScheduling Time‑Constrained Communication in Linear Networks\n\n\n\nScheduling & Queues\n\n\n\nNone — * Scheduling Time‑Constrained Communication in Linear Networks.\n\n\n\n\n\n\n\n\n\n\nOptimal Proxy Cache Allocation for Efficient Streaming Media Distribution\n\n\n\nStreaming Media & Content Distribution\n\nResource Allocation & Distributed Systems\n\n\n\nNone — * Optimal Proxy Cache Allocation for Efficient Streaming Media Distribution.\n\n\n\n\n\n\n\n\n\n\nSearch Space Reductions for Nearest-Neighbor Queries\n\n\n\nSearch Structures & Nearest Neighbor\n\nSearch & Distance Metrics\n\n\n\nNone — * Search Space Reductions for Nearest-Neighbor Queries.\n\n\n\n\n\nJan 1, 2020\n\n\n\n\n\n\n\nOn optimal communication cost for gathering correlated data through wireless sensor networks\n\n\n\nWireless Networks\n\nSensor Networks\n\n\n\nNone — * On optimal communication cost for gathering correlated data through wireless sensor networks.\n\n\n\n\n\nJan 1, 2006\n\n\n\n\n\n\n\nMinimum Energy Reliable Paths Using Unreliable Wireless Links\n\n\n\nWireless Networks\n\n\n\nNone — * Minimum Energy Reliable Paths Using Unreliable Wireless Links.\n\n\n\n\n\nJan 1, 2005\n\n\n\n\n\n\n\nEfficient Probabilistic Packet Marking\n\n\n\nIP Traceback & Packet Marking\n\n\n\nNone — * Efficient Probabilistic Packet Marking.\n\n\n\n\n\nJan 1, 2005\n\n\n\n\n\n\n\nCollecting Correlated Information from a Sensor Network\n\n\n\nSensor Networks\n\n\n\nNone — * Collecting Correlated Information from a Sensor Network.\n\n\n\n\n\nJan 1, 2004\n\n\n\n\n\n\n\nOptimal Website Design with the Constrained Subtree Selection Problem\n\n\n\nMulticast & Tree Layout\n\nWebsite Design & Subtree Selection\n\nTournament & Selection Design\n\n\n\nNone — * Optimal Website Design with the Constrained Subtree Selection Problem.\n\n\n\n\n\nJan 1, 2004\n\n\n\n\n\n\n\nA Stochastic Process on the Hypercube with Applications to Peer‑to‑Peer Networks\n\n\n\nPeer-to-Peer Networks\n\nHypercube & High-Dimensional Processes\n\n\n\nNone — * A Stochastic Process on the Hypercube with Applications to Peer‑to‑Peer Networks.\n\n\n\n\n\nJan 1, 2003\n\n\n\n\n\n\n\nTradeoffs in Probabilistic Packet Marking for IP Traceback\n\n\n\nIP Traceback & Packet Marking\n\n\n\nNone — * Tradeoffs in Probabilistic Packet Marking for IP Traceback.\n\n\n\n\n\nJan 1, 2003\n\n\n\n\n\n\n\nTradeoffs in Probabilistic Packet Marking for IP Traceback\n\n\n\nIP Traceback & Packet Marking\n\n\n\nNone — * Tradeoffs in Probabilistic Packet Marking for IP Traceback.\n\n\n\n\n\nJan 1, 2003\n\n\n\n\n\n\n\nEstimation of Congestion Price Using Probabilistic Packet Marking\n\n\n\nIP Traceback & Packet Marking\n\nEconomics & Congestion Pricing\n\n\n\nNone — * Estimation of Congestion Price Using Probabilistic Packet Marking.\n\n\n\n\n\nJan 1, 2003\n\n\n\n\n\n\n\nTowards Compressing Web Graphs\n\n\n\nGraphs & Pursuit–Evasion\n\n\n\nNone — * Towards Compressing Web Graphs.\n\n\n\n\n\nJan 1, 2001\n\n\n\n\n\n\n\nParallel Randomized Load Balancing\n\n\n\nParallel Algorithms & Bandwidth\n\nLoad Balancing & Work Sharing\n\n\n\nNone — * Parallel Randomized Load Balancing.\n\n\n\n\n\nJan 1, 1998\n\n\n\n\n\n\n\nParallel Randomized Load Balancing\n\n\n\nParallel Algorithms & Bandwidth\n\nLoad Balancing & Work Sharing\n\n\n\nNone — * Parallel Randomized Load Balancing.\n\n\n\n\n\nJan 1, 1998\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "other-research.html#patents",
+    "href": "other-research.html#patents",
+    "title": "Research Publications",
+    "section": "Patents",
+    "text": "Patents\n\n\n\n\n\nSystem and method for scheduling and controlling delivery of advertising in a communications network\n\n\n\nScheduling & Queues\n\nAuctions & Advertising\n\n\n\nNone — * System and method for scheduling and controlling delivery of advertising in a communications network.\n\n\n\n\n\n\n\n\n\n\nProbabalistic packet marking\n\n\n\nIP Traceback & Packet Marking\n\n\n\nNone — * Probabalistic packet marking.\n\n\n\n\n\n\n\n\n\n\nFraud protection in an incentivized computer system\n\n\n\nIncentivized Systems & Fraud\n\n\n\nNone — * Fraud protection in an incentivized computer system.\n\n\n\n\n\nJan 1, 2013\n\n\n\n\n\n\n\nMobile digital media download incentive management through multiple user action tracking\n\n\n\nWireless Networks\n\nIncentivized Systems & Fraud\n\n\n\nNone — * Mobile digital media download incentive management through multiple user action tracking.\n\n\n\n\n\nJan 1, 2012\n\n\n\n\n\n\n\nRewarding a user for downloading a free app with the right to use another free app\n\n\n\nRewards & App Promotion\n\n\n\nNone — * Rewarding a user for downloading a free app with the right to use another free app.\n\n\n\n\n\nJan 1, 2012\n\n\n\n\n\n\n\nTemporal tracking of mobile user behavior with respect to web-based advertisements associated with temporary and keyed id use in digital media content\n\n\n\nWireless Networks\n\nAuctions & Advertising\n\n\n\nNone — * Temporal tracking of mobile user behavior with respect to web-based advertisements associated with temporary and keyed id use in digital media content.\n\n\n\n\n\nJan 1, 2012\n\n\n\n\n\n\n\nMobile digital media download tracking management utilizing statistical user fingerprinting techniques through correlation of web-based download user actions with mobile ….\n\n\n\nWireless Networks\n\n\n\nNone — * Mobile digital media download tracking management utilizing statistical user fingerprinting techniques through correlation of web-based download user actions with mobile …..\n\n\n\n\n\nJan 1, 2012\n\n\n\n\n\n\n\nMobile digital media download incentive management through tracking of id stored in native facilities of the mobile device\n\n\n\nWireless Networks\n\nIncentivized Systems & Fraud\n\n\n\nNone — * Mobile digital media download incentive management through tracking of id stored in native facilities of the mobile device.\n\n\n\n\n\nJan 1, 2012\n\n\n\n\n\n\n\nReal-time bidding optimization through utilization of mobile characteristics\n\n\n\nWireless Networks\n\n\n\nNone — * Real-time bidding optimization through utilization of mobile characteristics.\n\n\n\n\n\nJan 1, 1980\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "other-research.html#other-publications",
+    "href": "other-research.html#other-publications",
+    "title": "Research Publications",
+    "section": "Other Publications",
+    "text": "Other Publications\n\n\n\n\n\nOptimal peer selection in a free-market peer-resource economy\n\n\n\nResource Allocation & Distributed Systems\n\nPeer-to-Peer Networks\n\nPeer Selection\n\nTournament & Selection Design\n\n\n\nNone — * Optimal peer selection in a free-market peer-resource economy.\n\n\n\n\n\n\n\n\n\n\nOn the Distance Entropy of a Data Collection Network\n\n\n\nSearch & Distance Metrics\n\n\n\nNone — * On the Distance Entropy of a Data Collection Network.\n\n\n\n\n\n\n\n\n\n\nLimited Bandwidth Parallel Computation\n\n\n\nParallel Algorithms & Bandwidth\n\n\n\nNone — * Limited Bandwidth Parallel Computation.\n\n\n\n\n\n\n\n\n\n\nIs the 10% to 15% Rule Right for Your Index?\n\n\n\nUncategorized\n\n\n\nNone — * Is the 10% to 15% Rule Right for Your Index?\n\n\n\n\n\n\n\n\n\n\nSearch Space Reduction in R-trees\n\n\n\nSearch Structures & Nearest Neighbor\n\nSearch & Distance Metrics\n\n\n\nNone — * Search Space Reduction in R-trees.\n\n\n\n\n\n\n\n\n\n\nTowards Combinatorial Interpretability of Neural Computation\n\n\n\nMechanistic Interpretability & Neural Computation\n\n\n\nNone — * Towards Combinatorial Interpretability of Neural Computation.\n\n\n\n\n\n\n\n\n\n\nSpectral clustering with links and attributes\n\n\n\nClustering & Relational Data\n\n\n\nNone — * Spectral clustering with links and attributes.\n\n\n\n\n\n\n\n\n\n\nOn the Complexity of Neural Computation in Superposition\n\n\n\nMechanistic Interpretability & Neural Computation\n\nNetwork Protocols & Complexity\n\nLower Bounds & Complexity Theory\n\n\n\nNone — * On the Complexity of Neural Computation in Superposition.\n\n\n\n\n\n\n\n\n\n\nClustering Relational Data\n\n\n\nClustering & Relational Data\n\n\n\nNone — * Clustering Relational Data.\n\n\n\n\n\n\n\n\n\n\nCAREER: Algorithms for Efficient Bandwidth Utilization in the Internet\n\n\n\nParallel Algorithms & Bandwidth\n\n\n\nNone — * CAREER: Algorithms for Efficient Bandwidth Utilization in the Internet.\n\n\n\n\n\n\n\n\n\n\nClustering Relational Data Using Attribute and Link Information\n\n\n\nClustering & Relational Data\n\n\n\nNone — * Clustering Relational Data Using Attribute and Link Information.\n\n\n\n\n\n\n\n\n\n\nA Formal Study of Distributed Resource Allocation Strategies in Multi-Agent Systems\n\n\n\nResource Allocation & Distributed Systems\n\n\n\nNone — * A Formal Study of Distributed Resource Allocation Strategies in Multi-Agent Systems.\n\n\n\n\n\nJan 1, 2022\n\n\n\n\n\n\n\nThe Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models\n\n\n\nUncategorized\n\n\n\nNone — * The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models.\n\n\n\n\n\nJan 1, 1944\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "old4-other-research.html",
+    "href": "old4-other-research.html",
+    "title": "Research Publications",
+    "section": "",
+    "text": "Use the keyword chips below to filter publications by topic (derived automatically from each paper’s title). You can also search across titles, authors, and venues.\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;p&gt;No publications match your current filters.&lt;/p&gt;\n\n\n\n\n\n\nBelow is a collapsible list of publications. Expand any section to view the entries.\n\n\nJournal Publications\n\n\nEfficient Algorithms for Neighbor Discovery in Wireless Networks. Sudarshan Vasudevan, Micah Adler, Dennis Goeckel, Don Towsley. IEEE/ACM Transactions on Networking. 21(1): 69–83 (2013).\nApproximating Optimal Binary Decision Trees. Micah Adler, Brent Heeringa. Algorithmica 62(3–4): 1112–1121 (2012).\nAlgorithms for optimizing the bandwidth cost of content delivery. Micah Adler, Ramesh K. Sitaraman, Harish Venkataramani. Computer Networks 55(18): 4007–4020 (2011).\nOn Exploiting Node‑Heterogeneous Clusters Optimally. Micah Adler, Ying Gong, Arnold L. Rosenberg. Theory Comput. Syst. 42(4): 465–487 (2008).\nPassive‑Logging Attacks Against Anonymous Communications Systems. Matthew K. Wright, Micah Adler, Brian Neil Levine, Clay Shields. ACM Trans. Inf. Syst. Secur. 11(2): 3:1–3:34 (2008).\nTradeoffs in Probabilistic Packet Marking for IP Traceback. Micah Adler. Journal of the ACM 52(2): 217–244 (2005).\nThe Predecessor Attack: An Analysis of a Threat to Anonymous Communications Systems. Matthew K. Wright, Micah Adler, Brian N. Levine, Clay Shields. ACM Transactions on Information and System Security 7(4) (2005).\nPricing Multicasting in More Flexible Network Models. Micah Adler, Dan Rubenstein. Transactions on Algorithms 1(1) (2005).\nTight Bounds for the Performance of Longest in System on DAGs. Micah Adler, Adi Rosén. Journal of Algorithms 55(2): 101–112 (2005).\nOptimal Proxy Cache Allocation for Efficient Streaming Media Distribution. Bing Wang, Subhabrata Sen, Micah Adler, Don Towsley. IEEE Transactions on Multimedia (Special Issue on Streaming Media) 6(2): April 2004.\nRandomized Pursuit–Evasion in Graphs. Micah Adler, Harald Räcke, Naveen Sivadasan, Christian Sohler, Berthold Vöcking. Combinatorics, Probability & Computing 12(3) (2003).\nTime‑Constrained Scheduling of Weighted Packets on Trees and Meshes. Micah Adler, Sanjeev Khanna, Rajmohan Rajaraman, Adi Rosén. Algorithmica 36(2): 123–152 (April 2003).\nScheduling Time‑Constrained Communication in Linear Networks. Micah Adler, Arnold L. Rosenberg, Ramesh K. Sitaraman, Walter Unger. Theory of Computing Systems 35(6): 599–623 (October 2002).\nScheduling Space‑Sharing for Internet Advertising. Micah Adler, Phillip B. Gibbons, Yossi Matias. Journal of Scheduling 5(2): 103–119 (March 2002).\nAn n! Lower Bound on Formula Size. Micah Adler, Neil Immerman. ACM Transactions on Computational Logic 4(3): 296–314 (July 2003). (LICS 2001 special issue.)\nProtocols for Asymmetric Communication Channels. Micah Adler, Bruce Maggs. Journal of Computer and System Sciences 63(4): 573–596 (December 2001). (FOCS ’98 special issue.)\nCompression Using Efficient Multicasting. Micah Adler, Tom Leighton. Journal of Computer and System Sciences 63(1): 127–145 (August 2001). (Internet algorithms special issue.)\nEfficient Communication Strategies for Ad‑Hoc Wireless Networks. Micah Adler, Christian Scheideler. Theory of Computing Systems 33(5): 337–391 (October 2000). (SPAA ’98 special issue.)\nParallel Sorting With Limited Bandwidth. Micah Adler, John W. Byers, Richard M. Karp. SIAM Journal on Computing 29(6): 1997–2015 (April 2000).\nModeling Parallel Bandwidth: Local vs. Global Restrictions. Micah Adler, Phillip B. Gibbons, Yossi Matias, Vijaya Ramachandran. Algorithmica 24(3–4): 381–404 (1999). (Coarse‑grained parallel algorithms special issue.)\nParallel Randomized Load Balancing. Micah Adler, Soumen Chakrabarti, Michael Mitzenmacher, Lars Rasmussen. Random Structures & Algorithms 13(2): 159–188 (Sept 1998).\nAsynchronous Shared Memory Search Structures. Micah Adler. Theory of Computing Systems 31: 377–401 (1998). (SPAA ’96 special issue.)\n\n\n\n\nPublications in Selective Refereed Conferences\n\n\nSearch Space Reductions for Nearest-Neighbor Queries. M Adler, B Heeringa. International Conference on Theory and Applications of Models of Computation … (2008).\nOn the Capacity of Information Networks. Micah Adler, Nicholas Harvey, Kamal Jain, Robert Kleinberg, April Rasala Lehman. Proceedings of ACM–SIAM Symposium on Discrete Algorithms (SODA), January 2006.\nLower Bounds for Asymmetric Communication Channels and Distributed Source Coding. Micah Adler, Erik Demaine, Nicholas Harvey, Mihai Patrascu. Proceedings of ACM–SIAM Symposium on Discrete Algorithms (SODA), January 2006.\nOn optimal communication cost for gathering correlated data through wireless sensor networks. J Liu, M Adler, D Towsley, C Zhang. Proceedings of the 12th annual international conference on Mobile Computing (MobiCom) 2006.\nEfficient Probabilistic Packet Marking. Qunfeng Dong, Micah Adler, Suman Banerjee, Kazu Hirata. Proceedings of International Conference on Network Protocols (ICNP), November 2005.\nMinimum Energy Reliable Paths Using Unreliable Wireless Links. Qunfeng Dong, Micah Adler, Suman Banerjee, Archan Misra. Proceedings of ACM MobiHoc, May 2005.\nTowards Asymptotic Optimality in Probabilistic Packet Marking. Micah Adler, Jeff Edmonds, Jiří Matoušek. Proceedings of the 37th ACM Symposium on Theory of Computing (STOC), 2005.\nOptimal Peer Selection for P2P Downloading and Streaming. Micah Adler, Rakesh Kumar, Keith Ross, Dan Rubenstein, Torsten Suel, David Yao. Proceedings of IEEE INFOCOM, 2005.\nCollecting Correlated Information from a Sensor Network. Micah Adler. Proceedings of the 16th Annual ACM–SIAM Symposium on Discrete Algorithms (SODA), 2005.\nLoad Balancing in Hypercubic Distributed Hash Tables with Heterogeneous Processors. Junning Liu, Micah Adler. Proceedings of European Symposium on Algorithms (ESA), 2004.\nOptimal Website Design with the Constrained Subtree Selection Problem. Brent Heeringa, Micah Adler. Proceedings of International Colloquium on Automata, Languages, and Programming (ICALP), 2004.\nTwo optimal peer selection problems. M Adler, R Kumar, K Ross, D Rubenstein, D Turner, DD Yao. ACM SIGMETRICS Performance Evaluation Review 32 (2), 28–30 (2004).\nOn Using Multicast for Streaming Video across Wide Area Network. Bing Wang, Subhabrata Sen, Micah Adler, Don Towsley. Proceedings of IEEE GLOBECOM, 2003.\nA Stochastic Process on the Hypercube with Applications to Peer‑to‑Peer Networks. Micah Adler, Eran Halperin, Richard Karp, Vijay Vazirani. Proceedings of the 35th ACM Symposium on Theory of Computing (STOC), 2003.\nOptimal Sharing of Bags of Tasks in Heterogeneous Clusters. Micah Adler, Ying Gong, Arnold L. Rosenberg. Proceedings of the 15th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), 2003.\nA Proportionate Fair Scheduling Rule with Good Worst‑Case Performance. Micah Adler, Petra Berenbrink, Tom Friedetzky, Leslie Goldberg, Paul Goldberg, Mike Paterson. Proceedings of the 15th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA), 2003.\nAsymptotically Optimal Worksharing in HNOWs: How Long is “Sufficiently Long?” Micah Adler, Ying Gong, Arnold L. Rosenberg. Proceedings of the 36th Annual Simulation Symposium, 2003.\nEstimation of Congestion Price Using Probabilistic Packet Marking. Micah Adler, Jin‑Yi Cai, Jonathan K. Shapiro, Don Towsley. Proceedings of IEEE INFOCOM, 2003.\nDefending Anonymous Communication Against Passive Logging Attacks. Matthew Wright, Micah Adler, Brian N. Levine, Clay Shields. Proceedings of IEEE Symposium on Security and Privacy, 2003.\nRandomized Pursuit–Evasion in Graphs. Micah Adler, Harald Räcke, Naveen Sivadasan, Christian Sohler, Berthold Vöcking. Proceedings of the 29th International Colloquium on Automata, Languages, and Programming (ICALP), 2002.\nTradeoffs in Probabilistic Packet Marking for IP Traceback. Micah Adler. Proceedings of the 34th ACM Symposium on Theory of Computing (STOC), 2002.\nAn Analysis of the Degradation of Anonymous Protocols. Matthew Wright, Micah Adler, Brian N. Levine, Clay Shields. Proceedings of the Symposium on Network and Distributed System Security (NDSS), 2002.\nOptimal Proxy Cache Allocation for Efficient Streaming Media Distribution. Bing Wang, Subhabrata Sen, Micah Adler, Don Towsley. Proceedings of IEEE INFOCOM, 2002.\nTight Bounds for the Performance of Longest in System on DAGs. Micah Adler, Adi Rosén. Proceedings of the 19th International Symposium on Theoretical Aspects of Computer Science (STACS), 2002.\nPricing Multicasting in More Practical Network Models. Micah Adler, Dan Rubenstein. Proceedings of the 13th Annual ACM–SIAM Symposium on Discrete Algorithms (SODA), 2002.\nTree Layout for Internal Network Characterizations in Multicast Networks. Micah Adler, Tian Bu, Ramesh K. Sitaraman, Don Towsley. Proceedings of the 3rd International Workshop on Networked Group Communication (NGC), 2001.\nChannelization Problem in Large Scale Data Dissemination. Micah Adler, Zihui Ge, James Kurose, Don Towsley, Stephen Zabele. Proceedings of the 9th IEEE International Conference on Network Protocols (ICNP), 2001.\nAn n! Lower Bound on Formula Size. Micah Adler, Neil Immerman. Proceedings of IEEE Symposium on Logic in Computer Science (LICS), 2001.\nNew Protocols for Asymmetric Communication Channels. John Watkinson, Micah Adler, Faith Fich. Proceedings of the 8th International Colloquium on Structural Information and Communication Complexity (SIROCCO), 2001.\nDeadline Fair Scheduling: Bridging the Theory and Practice of Proportionate‑Fair Scheduling in Multiprocessor Servers. Abhishek Chandra, Micah Adler, Prashant Shenoy. Proceedings of IEEE Real‑Time Technology and Applications Symposium (RTAS), 2001.\nTowards Compressing Web Graphs. Micah Adler, Michael Mitzenmacher. Proceedings of the Data Compression Conference (DCC), 2001.\nProxy-based distribution of streaming video over unicast/multicast connections. B Wang, S Sen, M Adler, D Towsley. Proc. IEEE Infocom 2002 (2001).\nCompression Using Efficient Multicasting. Micah Adler, Tom Leighton. Proceedings of the 32nd ACM Symposium on Theory of Computing (STOC), 2000.\nSurplus Fair Scheduling: A Proportional‑Share CPU Scheduling Algorithm for Symmetric Multiprocessors. Abhishek Chandra, Micah Adler, Pawan Goyal, Prashant Shenoy. Proceedings of the 4th Symposium on Operating System Design and Implementation (OSDI), 2000.\nTight Size Bounds for Packet Headers in Narrow Meshes. Micah Adler, Faith Fich, Leslie Ann Goldberg, Mike Paterson. Proceedings of the 27th International Colloquium on Automata, Languages, and Programming (ICALP), 2000.\nThe Complexity of End‑to‑End Communication in Memoryless Networks. Micah Adler, Faith Fich. Proceedings of the 18th ACM Symposium on Principles of Distributed Computing (PODC), 1999.\n(Time‑Constrained Scheduling of Weighted Packets on Trees and Meshes](https://dl.acm.org/doi/pdf/10.1145/305619.305620). Micah Adler, Sanjeev Khanna, Rajmohan Rajaraman, Adi Rosén. Proceedings of the 11th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1999.\nProtocols for Asymmetric Communication Channels. Micah Adler, Bruce Maggs. Proceedings of the 39th IEEE Symposium on Foundations of Computer Science (FOCS), 1998.\nCommunication‑Optimal Parallel Minimum Spanning Tree Algorithms. Micah Adler, Wolfgang Dittrich, Ben Juurlink, Mirosław Kutylowski, Ingo Rieping. Proceedings of the 10th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1998.\nEfficient Communication Strategies for Ad‑Hoc Wireless Networks. Micah Adler, Christian Scheideler. Proceedings of the 10th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1998.\nScheduling Time‑Constrained Communication in Linear Networks. Micah Adler, Arnold L. Rosenberg, Ramesh K. Sitaraman, Walter Unger. Proceedings of the 10th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1998.\nAnalyzing an Infinite Parallel Job Allocation Process. Micah Adler, Petra Berenbrink, Klaus Schröder. Proceedings of the 6th European Symposium on Algorithms (ESA), 1998.\nA Modular Analysis of Network Transmission Protocols. Micah Adler, Yair Bartal, John W. Byers, Michael Luby, Danny Raz. Proceedings of the Israeli Symposium on Theory of Computing and Systems (ISTCS), 1997.\nModeling Parallel Bandwidth: Local vs. Global Restrictions. Micah Adler, Phillip B. Gibbons, Yossi Matias, Vijaya Ramachandran. Proceedings of the 9th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1997.\nAsynchronous Shared Memory Search Structures. Micah Adler. Proceedings of the 8th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1996.\nNew Coding Techniques for Improved Bandwidth Utilization. Micah Adler. Proceedings of the 37th IEEE Symposium on Foundations of Computer Science (FOCS), 1996.\nParallel Sorting With Limited Bandwidth. Micah Adler, John W. Byers, Richard M. Karp. Proceedings of the 7th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1995.\nParallel Randomized Load Balancing. Micah Adler, Soumen Chakrabarti, Michael Mitzenmacher, Lars Rasmussen. Proceedings of the 27th ACM Symposium on Theory of Computing (STOC), 1995.\nScheduling Parallel Communication: The h‑Relation Problem. Micah Adler, John W. Byers, Richard M. Karp. Symposium on Mathematical Foundations of Computer Science (MFCS), 1995.\nAT² Bounds for a Class of VLSI Problems and String Matching. Micah Adler, John W. Byers. Proceedings of the 6th ACM Symposium on Parallel Algorithms and Architectures (SPAA), 1994.\nSelection in the Presence of Noise: The Design of Playoff Systems. Micah Adler, Peter Gemmel, Mor Harchol, Richard M. Karp, Claire Kenyon. Proceedings of the 5th ACM–SIAM Symposium on Discrete Algorithms (SODA), 1994.\n\n\n\n\nPatents\n\n\nFraud protection in an incentivized computer system. K Gabryelski, MD Corner, A Kalish, MA Adler. US Patent App. 13/804,154 (2013).\nReal-time bidding optimization through utilization of mobile characteristics. MD Corner, K Gabryelski, BN Levine, MA Adler. US Patent App. 13/804,092 (2013).\nTemporal tracking of mobile user behavior with respect to web-based advertisements associated with temporary and keyed id use in digital media content. MD Corner, M Adler, MI Ecemis, K Gabryelski. US Patent App. 13/447,054 (2012).\nMobile digital media download tracking management utilizing statistical user fingerprinting techniques through correlation of web-based download user actions with mobile ….. MD Corner, M Adler, MI Ecemis, K Gabryelski, AP Wolfe. US Patent App. 13/447,049 (2012).\nMobile digital media download incentive management through tracking of id stored in native facilities of the mobile device. MD Corner, M Adler, MI Ecemis, K Gabryelski. US Patent App. 13/447,047 (2012).\nRewarding a user for downloading a free app with the right to use another free app. MD Corner, M Adler, MI Ecemis, K Gabryelski. US Patent App. 13/447,057 (2012).\nMobile digital media download incentive management through multiple user action tracking. MD Corner, M Adler, MI Ecemis, K Gabryelski. US Patent App. 13/447,042 (2012).\nProbabalistic packet marking. MA Adler. US Patent 7,254,633 (2007).\nSystem and method for scheduling and controlling delivery of advertising in a communications network. MA Adler, PB Gibbons, Y Matias. US Patent 6,009,409 (1999).\n\n\n\n\nOther Publications\n\n\nTowards Combinatorial Interpretability of Neural Computation. Micah Adler, Dan Alistarh, Nir Shavit. CoRR abs/2504.08842 (2025).\nThe Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models. Shashata Sawmya, Micah Adler, Nir Shavit. CoRR abs/2505.19440 (2025).\nOn the Complexity of Neural Computation in Superposition. Micah Adler, Nir Shavit. CoRR abs/2409.15318 (2024).\nSearch Space Reduction in R-trees. Micah Adler, Brent Heeringa. 2008\nOn the Distance Entropy of a Data Collection Network. Junning Liu, Micah Adler, Don Towsley. Second Workshop on Spatial Stochastic Modeling of Wireless Networks, 2006.\nSpectral clustering with links and attributes. Jennifer Neville, Micah Adler, David Jensen. (2004).\nOptimal peer selection in a free-market peer-resource economy. Micah Adler, Rakesh Kumar, Keith Ross, Dan Rubenstein, David Turner, David D. Yao. (2004).\nClustering Relational Data Using Attribute and Link Information. Jennifer Neville, Micah Adler, David Jensen. Text‑Mining & Link‑Analysis Workshop of the 18th International Joint Conference on Artificial Intelligence (IJCAI), August 2003.\nA Formal Study of Distributed Resource Allocation Strategies in Multi-Agent Systems. J Shen, M Adler, V Lesser. UMASS, January, 260 (2003).\nClustering Relational Data. Jennifer Neville, Micah Adler, David Jensen. Poster presentation at Grace Hopper Celebration of Women in Computing, 2002.\nCAREER: Algorithms for Efficient Bandwidth Utilization in the Internet. MA Adler. NSF Award Number 0133664. Directorate for Computer and Information Science (2002).\nLimited Bandwidth Parallel Computation. Micah Adler. Ph.D. dissertation, University of California, Berkeley, December 1996.\nIs the 10% to 15% Rule Right for Your Index? Cary V. Millsap, Craig A. Shallahamer, Micah Adler. Oracle User Week Conference, 1992."
+  }
+]

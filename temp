@@ -1,0 +1,31 @@
+---
+title: "Other Research Publications"
+subtitle: "A list of my work outside mechanistic interpretability"
+format: html
+---
+
+Below is a collapsible list of publications. Expand any section to view the entries.
+
+\::: details Journal Publications
+
+* **Asynchronous Shared Memory Search Structures.**
+  *Micah Adler.*
+  Theory of Computing Systems **31**: 377–401 (1998). (SPAA ’96 special issue.)
+
+\:::
+
+\::: details Publications in Selective Refereed Conferences
+
+* **On the Capacity of Information Networks.**
+  *Micah Adler, Nicholas Harvey, Kamal Jain, Robert Kleinberg, April Rasala Lehman.*
+  Proceedings of ACM–SIAM Symposium on Discrete Algorithms (SODA), January 2006.
+
+\:::
+
+\::: details Other Publications
+
+* **On the Complexity of Neural Computation in Superposition.**
+  *Micah Adler, Nir Shavit.*
+  arXiv:2409.15318, September 2024.
+
+\:::

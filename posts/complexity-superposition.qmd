@@ -1,0 +1,13 @@
+---
+title: "On the Complexity of Neural Computation in Superposition"
+date: 2025-04-18
+description: 'First lower and upper bounds for computing features in superposition; shows capacity $\leq O(n^2 / \log n)$ and gives constructive algorithms for logical ops.'
+categories: [Mechanistic Interpretability, Theory, Superposition, Complexity]
+author:
+  - name: Micah Adler
+  - name: Nir Shavit
+abstract: |
+  Superposition lets networks represent more features than neurons, but what does it cost to *compute* with those features? This paper gives the first complexity-theoretic treatment of this question. It proves lower bounds: computing $m'$ features in superposition needs at least $\Omega(\sqrt{m' \log m'})$ neurons and $\Omega(m' \log m')$ parameters, implying a capacity upper bound that a network with $n$ neurons can compute at most $O(n^2 / \log n)$ features. Complementing this, the authors provide near-matching constructive upper bounds—e.g., pairwise logical operations (like AND) can be computed using $O(\sqrt{m'} \log m')$ neurons and $O(m' \log^2 m')$ parameters. The results highlight a sharp gap between merely representing features (possible with far fewer neurons via JL-style arguments) and actually performing computations in superposition, pointing to complexity tools as a useful lens for mechanistic interpretability.
+---
+
+**Paper:** [arXiv:2409.15318](https://arxiv.org/abs/2409.15318)
