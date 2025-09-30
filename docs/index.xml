@@ -13,11 +13,76 @@
 <url>https://yourusername.github.io/yourrepo/images/blog-card.png</url>
 <title>Micah&#39;s Mechanistic Interpretability Blog</title>
 <link>https://yourusername.github.io/yourrepo/</link>
-<height>96</height>
-<width>144</width>
 </image>
 <generator>quarto-1.8.21</generator>
-<lastBuildDate>Mon, 05 May 2025 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 29 Sep 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Negative Pre-activations Differentiate Syntax</title>
+  <dc:creator>Linghao Kong</dc:creator>
+  <dc:creator>Angelina Ning</dc:creator>
+  <dc:creator>Micah Adler</dc:creator>
+  <dc:creator>Nir Shavit</dc:creator>
+  <link>https://yourusername.github.io/yourrepo/posts/negative-syntax.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><strong>Paper:</strong> <a href="https://arxiv.org/abs/2509.24198">arXiv:2509.24198</a></p>
+
+
+
+ ]]></description>
+  <category>LLMs</category>
+  <category>Representation Learning</category>
+  <guid>https://yourusername.github.io/yourrepo/posts/negative-syntax.html</guid>
+  <pubDate>Mon, 29 Sep 2025 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>On the Capacity of Self-Attention</title>
+  <dc:creator>Micah Adler</dc:creator>
+  <link>https://yourusername.github.io/yourrepo/posts/attention-capacity.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><strong>Paper:</strong> <a href="https://arxiv.org/abs/2509.22840">arXiv:2509.22840</a></p>
+
+
+
+ ]]></description>
+  <category>Attention</category>
+  <category>Capacity</category>
+  <category>Scaling Laws</category>
+  <guid>https://yourusername.github.io/yourrepo/posts/attention-capacity.html</guid>
+  <pubDate>Fri, 26 Sep 2025 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models</title>
+  <dc:creator>Shashata Sawmya</dc:creator>
+  <dc:creator>Micah Adler</dc:creator>
+  <dc:creator>Nir Shavit</dc:creator>
+  <link>https://yourusername.github.io/yourrepo/posts/birth-knowlege.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><strong>Paper:</strong> <a href="https://arxiv.org/abs/2505.19440">arXiv:2505.19440</a></p>
+
+
+
+ ]]></description>
+  <category>LLMs</category>
+  <category>Sparse Autoencoders</category>
+  <category>Representation Learning</category>
+  <guid>https://yourusername.github.io/yourrepo/posts/birth-knowlege.html</guid>
+  <pubDate>Mon, 26 May 2025 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Towards Combinatorial Interpretability of Neural Computation</title>
   <dc:creator>Micah Adler</dc:creator>
@@ -35,9 +100,9 @@
 
 
  ]]></description>
-  <category>Mechanistic Interpretability</category>
-  <category>Theory</category>
+  <category>Feature Channel Coding</category>
   <category>Boolean Computation</category>
+  <category>Scaling Laws</category>
   <guid>https://yourusername.github.io/yourrepo/posts/combinatorial-interpretability.html</guid>
   <pubDate>Mon, 05 May 2025 04:00:00 GMT</pubDate>
 </item>
@@ -57,10 +122,9 @@
 
 
  ]]></description>
-  <category>Mechanistic Interpretability</category>
-  <category>Theory</category>
   <category>Superposition</category>
-  <category>Complexity</category>
+  <category>Capacity</category>
+  <category>Boolean Computation</category>
   <guid>https://yourusername.github.io/yourrepo/posts/complexity-superposition.html</guid>
   <pubDate>Fri, 18 Apr 2025 04:00:00 GMT</pubDate>
 </item>

@@ -2,7 +2,7 @@
 title: "On the Complexity of Neural Computation in Superposition"
 date: 2025-04-18
 description: 'First lower and upper bounds for computing features in superposition; shows capacity $\leq O(n^2 / \log n)$ and gives constructive algorithms for logical ops.'
-categories: [Mechanistic Interpretability, Theory, Superposition, Complexity]
+categories: [Superposition, Capacity, Boolean Computation]
 author:
   - name: Micah Adler
   - name: Nir Shavit

@@ -1,0 +1,12 @@
+---
+title: "On the Capacity of Self-Attention"
+date: 2025-09-26
+description: "Proves a tight capacity scaling law for a single self-attention layer via modeling attention as graph recognition problem; explains why multiple attention heads help; validated with controlled experiments."
+categories: [Mechanistic Interpretability, Theory, Transformers, Attention, Scaling Laws]
+author:
+  - name: Micah Adler
+abstract: |
+  Self-attention can recover relations among tokens, but how many distinct relations can one layer compute with a fixed key–query budget? This paper formalizes that question via **Relational Graph Recognition (RGR)**, where the key–query channel encodes a directed graph with $m'$ edges over $m$ items and the model must retrieve each item's neighbors. Let $D_K=h\,d_k$ be the total key dimension. The main result is a tight capacity law: recovering $m'$ relations requires—and is achieved by—$D_K=\Theta\!\big(m' \log m' / d_{\text{model}}\big)$ across broad graph families. The analysis yields a principled design rule for **multi‑head attention**: under compression ($m>d_{\text{model}}$), relations collide in subspaces, so distributing a fixed $D_K$ across many small heads mitigates interference; without compression (permutation graphs with $m=d_{\text{model}}$), a single head suffices. Controlled single‑layer experiments show a sharp threshold matching the theory, confirming the predicted capacity scaling and the budget‑allocation rationale for multi‑head attention.
+---
+
+**Paper:** [arXiv:2509.22840](https://arxiv.org/abs/2509.22840)

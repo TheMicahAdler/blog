@@ -1,0 +1,15 @@
+---
+title: "Negative Pre-activations Differentiate Syntax"
+date: 2025-09-29
+description: 'Evidence that a sparse set of entangled “Wasserstein neurons” in LLMs uses negative pre-activations—especially in early layers—to separate near-similar inputs; sign-specific ablations disrupt grammatical behavior while controls do not.'
+categories: [LLMs, Representation Learning]
+author:
+  - name: Linghao Kong
+  - name: Angelina Ning
+  - name: Micah Adler
+  - name: Nir Shavit
+abstract: |
+  The paper studies a recently identified class of entangled units—Wasserstein neurons—that, while rare, are disproportionately important to language-model behavior. The authors show that for neurons just before smooth activations, differentiation among similar inputs concentrates in the negative pre-activation region, particularly in early layers. A targeted, sign-specific intervention that zeros only the negative pre-activations of a small subset of these neurons substantially weakens overall performance and disrupts syntax, whereas both random and perplexity-matched controls leave grammatical performance largely intact. Part-of-speech analysis attributes the excess surprisal to “scaffolding” tokens (e.g., determiners, prepositions), and layer-wise interventions suggest small local degradations accumulate with depth. Across training checkpoints, the same ablation tracks the emergence and stabilization of Wasserstein neurons, indicating that negative-region differentiation in a sparse subset of entangled neurons is a key mechanism supporting syntax in LLMs.
+---
+
+**Paper:** [arXiv:2509.24198](https://arxiv.org/abs/2509.24198)

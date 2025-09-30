@@ -1,0 +1,14 @@
+---
+title: "The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models"
+date: 2025-05-26
+description: "Empirical map of when and where interpretable features arise across training steps, layers, and model sizes using sparse autoencoders; finds threshold-like emergence and late-layer reactivation."
+categories: [LLMs, Sparse Autoencoders, Representation Learning]
+author:
+  - name: Shashata Sawmya
+  - name: Micah Adler
+  - name: Nir Shavit
+abstract: |
+  The authors probe large language models with sparse autoencoders across three axes—time (training checkpoints), space (layers), and scale (model size)—to trace when discrete, interpretable features first appear and how they consolidate. They report clear threshold points for the appearance of category-like features and a characteristic progression across depth. A notable pattern is “reactivation,” where concepts that arise early in the network surface again in later layers, suggesting reuse or recomposition of earlier circuitry. The study offers a compact recipe others can replicate to chart how knowledge coalesces during training and across model families.
+---
+
+**Paper:** [arXiv:2505.19440](https://arxiv.org/abs/2505.19440)

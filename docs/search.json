@@ -40,5 +40,26 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "posts/attention-capacity.html",
+    "href": "posts/attention-capacity.html",
+    "title": "On the Capacity of Self-Attention",
+    "section": "",
+    "text": "Paper: arXiv:2509.22840"
+  },
+  {
+    "objectID": "posts/negative-syntax.html",
+    "href": "posts/negative-syntax.html",
+    "title": "Negative Pre-activations Differentiate Syntax",
+    "section": "",
+    "text": "Paper: arXiv:2509.24198"
+  },
+  {
+    "objectID": "posts/birth-knowlege.html",
+    "href": "posts/birth-knowlege.html",
+    "title": "The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models",
+    "section": "",
+    "text": "Paper: arXiv:2505.19440"
   }
 ]

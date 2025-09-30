@@ -2,6 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/negative-syntax.html",
+      "/posts/attention-capacity.html",
+      "/posts/birth-knowlege.html",
       "/posts/combinatorial-interpretability.html",
       "/posts/complexity-superposition.html"
     ]
