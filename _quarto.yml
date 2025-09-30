@@ -4,15 +4,15 @@ project:
   output-dir: docs
 
 website:
-  title: "Micah's Mechanistic Interpretability Blog"
-  site-url: https://yourusername.github.io/yourrepo
+  title: "Micah's Mechanistic Interpretability Research"
+  site-url: https://themicahadler.github.io/blog
   navbar:
     logo: images/logo.png
     # left: []              # either leave this line out, or keep it as []
     right:
-      - icon: github
-        aria-label: GitHub
-        href: https://github.com/yourusername/yourrepo
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/in/micah-adler-9482188/
   favicon: images/favicon.png
 
 format:

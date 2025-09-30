@@ -6,7 +6,7 @@
   </url>
   <url>
     <loc>https://yourusername.github.io/yourrepo/index.html</loc>
-    <lastmod>2025-09-29T14:45:11.167Z</lastmod>
+    <lastmod>2025-09-30T19:03:58.520Z</lastmod>
   </url>
   <url>
     <loc>https://yourusername.github.io/yourrepo/posts/complexity-superposition.html</loc>
@@ -31,5 +31,29 @@
   <url>
     <loc>https://yourusername.github.io/yourrepo/posts/birth-knowlege.html</loc>
     <lastmod>2025-09-30T17:46:55.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/index.html</loc>
+    <lastmod>2025-09-30T19:03:58.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/combinatorial-interpretability.html</loc>
+    <lastmod>2025-09-30T17:50:01.899Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/complexity-superposition.html</loc>
+    <lastmod>2025-09-30T17:43:51.984Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/birth-knowlege.html</loc>
+    <lastmod>2025-09-30T17:46:55.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/negative-syntax.html</loc>
+    <lastmod>2025-09-30T17:47:49.546Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/attention-capacity.html</loc>
+    <lastmod>2025-09-30T17:55:56.819Z</lastmod>
   </url>
 </urlset>

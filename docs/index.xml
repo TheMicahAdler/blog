@@ -5,14 +5,14 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Micah&#39;s Mechanistic Interpretability Blog</title>
-<link>https://yourusername.github.io/yourrepo/</link>
-<atom:link href="https://yourusername.github.io/yourrepo/index.xml" rel="self" type="application/rss+xml"/>
+<title>Micah&#39;s Mechanistic Interpretability Research</title>
+<link>https://themicahadler.github.io/blog/</link>
+<atom:link href="https://themicahadler.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://yourusername.github.io/yourrepo/images/blog-card.png</url>
-<title>Micah&#39;s Mechanistic Interpretability Blog</title>
-<link>https://yourusername.github.io/yourrepo/</link>
+<url>https://themicahadler.github.io/blog/images/blog-card.png</url>
+<title>Micah&#39;s Mechanistic Interpretability Research</title>
+<link>https://themicahadler.github.io/blog/</link>
 </image>
 <generator>quarto-1.8.21</generator>
 <lastBuildDate>Mon, 29 Sep 2025 04:00:00 GMT</lastBuildDate>
@@ -22,7 +22,7 @@
   <dc:creator>Angelina Ning</dc:creator>
   <dc:creator>Micah Adler</dc:creator>
   <dc:creator>Nir Shavit</dc:creator>
-  <link>https://yourusername.github.io/yourrepo/posts/negative-syntax.html</link>
+  <link>https://themicahadler.github.io/blog/posts/negative-syntax.html</link>
   <description><![CDATA[ 
 
 
@@ -36,13 +36,13 @@
  ]]></description>
   <category>LLMs</category>
   <category>Representation Learning</category>
-  <guid>https://yourusername.github.io/yourrepo/posts/negative-syntax.html</guid>
+  <guid>https://themicahadler.github.io/blog/posts/negative-syntax.html</guid>
   <pubDate>Mon, 29 Sep 2025 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>On the Capacity of Self-Attention</title>
   <dc:creator>Micah Adler</dc:creator>
-  <link>https://yourusername.github.io/yourrepo/posts/attention-capacity.html</link>
+  <link>https://themicahadler.github.io/blog/posts/attention-capacity.html</link>
   <description><![CDATA[ 
 
 
@@ -57,7 +57,7 @@
   <category>Attention</category>
   <category>Capacity</category>
   <category>Scaling Laws</category>
-  <guid>https://yourusername.github.io/yourrepo/posts/attention-capacity.html</guid>
+  <guid>https://themicahadler.github.io/blog/posts/attention-capacity.html</guid>
   <pubDate>Fri, 26 Sep 2025 04:00:00 GMT</pubDate>
 </item>
 <item>
@@ -65,7 +65,7 @@
   <dc:creator>Shashata Sawmya</dc:creator>
   <dc:creator>Micah Adler</dc:creator>
   <dc:creator>Nir Shavit</dc:creator>
-  <link>https://yourusername.github.io/yourrepo/posts/birth-knowlege.html</link>
+  <link>https://themicahadler.github.io/blog/posts/birth-knowlege.html</link>
   <description><![CDATA[ 
 
 
@@ -80,7 +80,7 @@
   <category>LLMs</category>
   <category>Sparse Autoencoders</category>
   <category>Representation Learning</category>
-  <guid>https://yourusername.github.io/yourrepo/posts/birth-knowlege.html</guid>
+  <guid>https://themicahadler.github.io/blog/posts/birth-knowlege.html</guid>
   <pubDate>Mon, 26 May 2025 04:00:00 GMT</pubDate>
 </item>
 <item>
@@ -88,7 +88,7 @@
   <dc:creator>Micah Adler</dc:creator>
   <dc:creator>Dan Alistarh</dc:creator>
   <dc:creator>Nir Shavit</dc:creator>
-  <link>https://yourusername.github.io/yourrepo/posts/combinatorial-interpretability.html</link>
+  <link>https://themicahadler.github.io/blog/posts/combinatorial-interpretability.html</link>
   <description><![CDATA[ 
 
 
@@ -103,14 +103,14 @@
   <category>Feature Channel Coding</category>
   <category>Boolean Computation</category>
   <category>Scaling Laws</category>
-  <guid>https://yourusername.github.io/yourrepo/posts/combinatorial-interpretability.html</guid>
+  <guid>https://themicahadler.github.io/blog/posts/combinatorial-interpretability.html</guid>
   <pubDate>Mon, 05 May 2025 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>On the Complexity of Neural Computation in Superposition</title>
   <dc:creator>Micah Adler</dc:creator>
   <dc:creator>Nir Shavit</dc:creator>
-  <link>https://yourusername.github.io/yourrepo/posts/complexity-superposition.html</link>
+  <link>https://themicahadler.github.io/blog/posts/complexity-superposition.html</link>
   <description><![CDATA[ 
 
 
@@ -125,7 +125,7 @@
   <category>Superposition</category>
   <category>Capacity</category>
   <category>Boolean Computation</category>
-  <guid>https://yourusername.github.io/yourrepo/posts/complexity-superposition.html</guid>
+  <guid>https://themicahadler.github.io/blog/posts/complexity-superposition.html</guid>
   <pubDate>Fri, 18 Apr 2025 04:00:00 GMT</pubDate>
 </item>
 </channel>
