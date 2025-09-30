@@ -1,7 +1,7 @@
 ---
 title: "On the Capacity of Self-Attention"
 date: 2025-09-26
-description: "Proves a tight capacity scaling law for a single self-attention layer via modeling attention as graph recognition problem; explains why multiple attention heads help; validated with controlled experiments."
+description: "Proves a tight capacity scaling law for a single self-attention layer via modeling attention as a graph recognition problem; demonstrates that multiple attention heads increase capacity; validated with controlled experiments."
 categories: [Attention, Capacity, Scaling Laws]
 author:
   - name: Micah Adler
