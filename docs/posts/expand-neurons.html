@@ -6,8 +6,16 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Linghao Kong">
+<meta name="author" content="Inimai Subramanian">
+<meta name="author" content="Yonadav Shavit">
+<meta name="author" content="Micah Adler">
+<meta name="author" content="Dan Alistarh">
+<meta name="author" content="Nir Shavit">
+<meta name="dcterms.date" content="2025-10-06">
+<meta name="description" content="Fixed Parameter Expansion widens networks without increasing non‑zero parameters. This improves accuracy by reducing superposition/polysemanticity.">
 
-<title>Mechanistic Interpretability Articles – Micah’s Mechanistic Interpretability Research</title>
+<title>Expand Neurons, Not Parameters – Micah’s Mechanistic Interpretability Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +31,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea1d7ac60288e0f1efdbc993fd8432ae.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea1d7ac60288e0f1efdbc993fd8432ae.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,101 +77,22 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-date','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
+</head>
 
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background-image: url(images/blog-banner.png);
-background-size: cover;
-      }
-</style>
-
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Micah's Mechanistic Interpretability Research" href="index.xml" data-external="1"></head>
-
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="" class="navbar-logo light-content">
-    <img src="./images/logo.png" alt="" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo.png" alt="" class="navbar-logo light-content">
+    <img src="../images/logo.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Micah’s Mechanistic Interpretability Research</span>
     </a>
   </div>
@@ -191,25 +118,55 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Mechanistic Interpretability Articles</h1>
-            <p class="subtitle lead">Abstracts and links to papers</p>
-                      </div>
+      <h1 class="title">Expand Neurons, Not Parameters</h1>
+                  <div>
+        <div class="description">
+          Fixed Parameter Expansion widens networks without increasing non‑zero parameters. This improves accuracy by reducing superposition/polysemanticity.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Superposition</div>
+                <div class="quarto-category">Sparsity</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Authors</div>
+      <div class="quarto-title-meta-contents">
+               <p>Linghao Kong </p>
+               <p>Inimai Subramanian </p>
+               <p>Yonadav Shavit </p>
+               <p>Micah Adler </p>
+               <p>Dan Alistarh </p>
+               <p>Nir Shavit </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 6, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
+  <div>
+    <div class="abstract">
+      <div class="block-title">Abstract</div>
+      <p>This paper explores how widening a network without increasing the number of non‑zero parameters can improve performance by reducing interference among features in superposition. The authors propose Fixed Parameter Expansion (FPE): replace a neuron with several children and partition the parent’s non‑zero weights disjointly among them. On Boolean‑code tasks, clause‑aligned FPE lowers polysemanticity metrics and raises accuracy. Furthermore, random weight splits capture much of the benefit, suggesting reduced feature collisions—not precise assignment—is the key driver. Transferring to classifiers over CLIP embeddings and deeper multilayer networks, widening at a fixed non‑zero parameter count consistently boosts accuracy. The results show width is an interpretability‑motivated lever against superposition. This is well matched with modern accelerators where memory movement of non‑zero parameters is the dominant bottleneck.</p>
+    </div>
+  </div>
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QXR0ZW50aW9u">Attention <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Qm9vbGVhbiUyMENvbXB1dGF0aW9u">Boolean Computation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q2FwYWNpdHk=">Capacity <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RmVhdHVyZSUyMENoYW5uZWwlMjBDb2Rpbmc=">Feature Channel Coding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TExNcw==">LLMs <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UmVwcmVzZW50YXRpb24lMjBMZWFybmluZw==">Representation Learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U2NhbGluZyUyMExhd3M=">Scaling Laws <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U3BhcnNlJTIwQXV0b2VuY29kZXJz">Sparse Autoencoders <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3BhcnNpdHk=">Sparsity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3VwZXJwb3NpdGlvbg==">Superposition <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -217,200 +174,11 @@ window.Quarto = {
 
 
 
-<div class="intro">
-<p><img src="images/micah.png" alt="Micah - profile photo" width="120" style="float:right; border-radius: 50%; margin: 0 0 1rem 1rem;"></p>
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
-<p>Hi, I’m Micah Adler. I am currently a Visting Scientist at MIT CSAIL. Below is a summary of my work on <strong>mechanistic interpretability</strong>.</p>
-<p><strong>My approach to research:</strong> First and foremost, I love to collaborate. If you have similar interests, are wondering about anything I’ve written, or are working on a problem you think I might be interested in, please reach out. My background is in theoretical computer science, so I tend to take a “theory first” approach to research, but it is also important to follow that up with real experiments. I’m interested in all things Mech Interp, but also AI more broadly.</p>
-<p><strong>Other research:</strong> If you’re interested in my broader research outside mechanistic interpretability, check out the <a href="./other-research.html">full list of my publications</a>.</p>
-</section>
-</div>
-<hr>
-<p>Click any title to view the abstract, then follow the arXiv link.</p>
+<p><strong>Paper:</strong> <a href="https://arxiv.org/abs/2510.04500">arXiv:2510.04500</a></p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="U3VwZXJwb3NpdGlvbiUyQ1NwYXJzaXR5" data-listing-date-sort="1759723200000" data-listing-file-modified-sort="1759914448497" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/expand-neurons.html" class="no-external">Expand Neurons, Not Parameters</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U3VwZXJwb3NpdGlvbg=='); return false;">Superposition</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U3BhcnNpdHk='); return false;">Sparsity</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/expand-neurons.html" class="no-external">
-<p>Fixed Parameter Expansion widens networks without increasing non‑zero parameters. This improves accuracy by reducing superposition/polysemanticity.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/expand-neurons.html" class="no-external">
-<div class="listing-date">
-Oct 6, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="TExNcyUyQ1JlcHJlc2VudGF0aW9uJTIwTGVhcm5pbmc=" data-listing-date-sort="1759118400000" data-listing-file-modified-sort="1759254469546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/negative-syntax.html" class="no-external">Negative Pre-activations Differentiate Syntax</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVwcmVzZW50YXRpb24lMjBMZWFybmluZw=='); return false;">Representation Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/negative-syntax.html" class="no-external">
-<p>Evidence that a sparse set of entangled “Wasserstein neurons” in LLMs uses negative pre-activations—especially in early layers—to separate near-similar inputs; sign-specific ablations disrupt grammatical behavior while controls do not.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/negative-syntax.html" class="no-external">
-<div class="listing-date">
-Sep 29, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="QXR0ZW50aW9uJTJDQ2FwYWNpdHklMkNTY2FsaW5nJTIwTGF3cw==" data-listing-date-sort="1758859200000" data-listing-file-modified-sort="1759254956819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/attention-capacity.html" class="no-external">On the Capacity of Self-Attention</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QXR0ZW50aW9u'); return false;">Attention</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2FwYWNpdHk='); return false;">Capacity</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2NhbGluZyUyMExhd3M='); return false;">Scaling Laws</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/attention-capacity.html" class="no-external">
-<p>Proves a tight capacity scaling law for a single self-attention layer via modeling attention as a graph recognition problem; demonstrates that multiple attention heads increase capacity; validated with controlled experiments.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/attention-capacity.html" class="no-external">
-<div class="listing-date">
-Sep 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="TExNcyUyQ1NwYXJzZSUyMEF1dG9lbmNvZGVycyUyQ1JlcHJlc2VudGF0aW9uJTIwTGVhcm5pbmc=" data-listing-date-sort="1748232000000" data-listing-file-modified-sort="1759254415609" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/birth-knowlege.html" class="no-external">The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U3BhcnNlJTIwQXV0b2VuY29kZXJz'); return false;">Sparse Autoencoders</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVwcmVzZW50YXRpb24lMjBMZWFybmluZw=='); return false;">Representation Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/birth-knowlege.html" class="no-external">
-<p>Empirical map of when and where interpretable features arise across training steps, layers, and model sizes using sparse autoencoders; finds threshold-like emergence and late-layer reactivation.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/birth-knowlege.html" class="no-external">
-<div class="listing-date">
-May 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="RmVhdHVyZSUyMENoYW5uZWwlMjBDb2RpbmclMkNCb29sZWFuJTIwQ29tcHV0YXRpb24lMkNTY2FsaW5nJTIwTGF3cw==" data-listing-date-sort="1746417600000" data-listing-file-modified-sort="1759254601899" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/combinatorial-interpretability.html" class="no-external">Towards Combinatorial Interpretability of Neural Computation</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmVhdHVyZSUyMENoYW5uZWwlMjBDb2Rpbmc='); return false;">Feature Channel Coding</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Qm9vbGVhbiUyMENvbXB1dGF0aW9u'); return false;">Boolean Computation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2NhbGluZyUyMExhd3M='); return false;">Scaling Laws</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/combinatorial-interpretability.html" class="no-external">
-<p>Combinatorial interpretability via feature-channel coding: static weight analysis explains Boolean computations and links parameters to capacity.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/combinatorial-interpretability.html" class="no-external">
-<div class="listing-date">
-May 5, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="U3VwZXJwb3NpdGlvbiUyQ0NhcGFjaXR5JTJDQm9vbGVhbiUyMENvbXB1dGF0aW9u" data-listing-date-sort="1744948800000" data-listing-file-modified-sort="1759254231984" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/complexity-superposition.html" class="no-external">On the Complexity of Neural Computation in Superposition</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U3VwZXJwb3NpdGlvbg=='); return false;">Superposition</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2FwYWNpdHk='); return false;">Capacity</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Qm9vbGVhbiUyMENvbXB1dGF0aW9u'); return false;">Boolean Computation</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/complexity-superposition.html" class="no-external">
-<p>First lower and upper bounds for computing features in superposition; shows capacity <span class="math inline">\leq O(n^2 / \log n)</span> and gives constructive algorithms for logical ops.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/complexity-superposition.html" class="no-external">
-<div class="listing-date">
-Apr 18, 2025
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

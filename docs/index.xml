@@ -15,7 +15,32 @@
 <link>https://themicahadler.github.io/blog/</link>
 </image>
 <generator>quarto-1.8.21</generator>
-<lastBuildDate>Mon, 29 Sep 2025 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 06 Oct 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Expand Neurons, Not Parameters</title>
+  <dc:creator>Linghao Kong</dc:creator>
+  <dc:creator>Inimai Subramanian</dc:creator>
+  <dc:creator>Yonadav Shavit</dc:creator>
+  <dc:creator>Micah Adler</dc:creator>
+  <dc:creator>Dan Alistarh</dc:creator>
+  <dc:creator>Nir Shavit</dc:creator>
+  <link>https://themicahadler.github.io/blog/posts/expand-neurons.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><strong>Paper:</strong> <a href="https://arxiv.org/abs/2510.04500">arXiv:2510.04500</a></p>
+
+
+
+ ]]></description>
+  <category>Superposition</category>
+  <category>Sparsity</category>
+  <guid>https://themicahadler.github.io/blog/posts/expand-neurons.html</guid>
+  <pubDate>Mon, 06 Oct 2025 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Negative Pre-activations Differentiate Syntax</title>
   <dc:creator>Linghao Kong</dc:creator>

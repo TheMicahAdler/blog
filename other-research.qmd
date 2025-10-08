@@ -27,7 +27,7 @@ research involves applications of these kinds of techniques.
 <!-- Publications list -->
 <div id="pubs">
 
-<details><summary>Journal Publications</summary>
+<details open><summary>Journal Publications</summary>
 
 * **[Efficient Algorithms for Neighbor Discovery in Wireless Networks](https://web.cs.umass.edu/publication/docs/2010/UM-CS-2010-066.pdf).**
   <span class="pub-topics" data-topics='["Wireless Networks"]' hidden></span>
@@ -140,7 +140,7 @@ research involves applications of these kinds of techniques.
   Theory of Computing Systems **31**: 377–401 (1998). (SPAA ’96 special issue.)
 </details>
 
-<details><summary>Publications in Selective Refereed Conferences</summary>
+<details open><summary>Publications in Selective Refereed Conferences</summary>
 
 * **[Search Space Reductions for Nearest-Neighbor Queries](https://ovf2dbuhz3kkjzkc.vyomaonline.com/studymaterial/uploads/pdf/2020/12/05_3f9debe8560161dfae5d6f466b5f21c1.pdf#page=565_).**
   <span class="pub-topics" data-topics='["Search Structures"]' hidden></span>
@@ -399,7 +399,7 @@ research involves applications of these kinds of techniques.
 
 </details>
 
-<details><summary>Patents</summary>
+<details open><summary>Patents</summary>
 
 * **[Fraud protection in an incentivized computer system](https://patents.google.com/patent/US20130275195A1/en).**
   <span class="pub-topics" data-topics='["Incentivized Systems & Fraud"]' hidden></span>
@@ -448,7 +448,7 @@ research involves applications of these kinds of techniques.
 
 </details>
 
-<details><summary>Other Publications</summary>
+<details open><summary>Other Publications</summary>
 
 * **[Towards Combinatorial Interpretability of Neural Computation](https://doi.org/10.48550/ARXIV.2504.08842).**
   <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>

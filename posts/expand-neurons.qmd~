@@ -1,0 +1,16 @@
+---
+title: "Expand Neurons, Not Parameters"
+date: 2025-10-06
+description: 'Fixed Parameter Expansion widens networks at a constant non‑zero parameter budget, reducing superposition/polysemanticity and improving accuracy on symbolic and real‑data tasks.'
+categories: [Mechanistic Interpretability, Superposition, Model Efficiency, Sparsity, Architecture]
+author:
+  - name: Linghao Kong
+  - name: Inimai Subramanian
+  - name: Yonadav Shavit
+  - name: Micah Adler
+  - name: Dan Alistarh
+  - name: Nir Shavit
+abstract: |
+  This paper explores how widening a network without increasing the number of non‑zero parameters can improve performance by reducing interference among features in superposition. The authors propose Fixed Parameter Expansion (FPE): replace a neuron with several children and partition the parent’s non‑zero weights disjointly among them. On Boolean‑code tasks, clause‑aligned FPE lowers polysemanticity metrics and raises accuracy; notably, random weight splits capture much of the benefit, suggesting reduced feature collisions—not precise assignment—is the key driver. Transferring to classifiers over CLIP embeddings and deeper multilayer networks, widening at a fixed non‑zero parameter count consistently boosts accuracy. The results frame width as an interpretability‑motivated lever against superposition and align with hardware regimes where memory movement of non‑zero parameters is the bottleneck.
+---
+**Paper:** [arXiv:2510.04500](https://arxiv.org/abs/2510.04500)
