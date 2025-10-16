@@ -450,6 +450,21 @@ research involves applications of these kinds of techniques.
 
 <details open><summary>Other Publications</summary>
 
+* **[On the Capacity of Self-Attention](https://doi.org/10.48550/ARXIV.2509.22840).**
+  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  *Micah Adler.*
+  CoRR abs/2509.22840 (2025).
+
+* **[Negative Pre-activations Differentiate Syntax](https://doi.org/10.48550/ARXIV.2509.24198).**
+  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  *Linghao Kong, Angelina Ning, Micah Adler, Nir Shavit.*
+  CoRR abs/2509.24198 (2025).
+
+* **[Expand Neurons, Not Parameters](https://doi.org/10.48550/ARXIV.2510.04500).**
+  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  *Linghao Kong, Inimai Subramanian, Yonadav Shavit, Micah Adler, Dan Alistarh, Nir Shavit.*
+  CoRR abs/2510.04500 (2025).
+
 * **[Towards Combinatorial Interpretability of Neural Computation](https://doi.org/10.48550/ARXIV.2504.08842).**
   <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
   *Micah Adler, Dan Alistarh, Nir Shavit.*
