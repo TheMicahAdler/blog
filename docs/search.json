@@ -35,6 +35,13 @@
     "text": "Paper: arXiv:2510.04500"
   },
   {
+    "objectID": "posts/complexity-superposition.html",
+    "href": "posts/complexity-superposition.html",
+    "title": "On the Complexity of Neural Computation in Superposition",
+    "section": "",
+    "text": "Paper: arXiv:2409.15318"
+  },
+  {
     "objectID": "posts/birth-knowlege.html",
     "href": "posts/birth-knowlege.html",
     "title": "The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models",
@@ -42,11 +49,11 @@
     "text": "Paper: arXiv:2505.19440"
   },
   {
-    "objectID": "posts/complexity-superposition.html",
-    "href": "posts/complexity-superposition.html",
-    "title": "On the Complexity of Neural Computation in Superposition",
+    "objectID": "posts/empirical-unlearning.html",
+    "href": "posts/empirical-unlearning.html",
+    "title": "Understanding Empirical Unlearning with Combinatorial Interpretability",
     "section": "",
-    "text": "Paper: arXiv:2409.15318"
+    "text": "Paper: arXiv:2602.19215"
   },
   {
     "objectID": "posts/negative-syntax.html",

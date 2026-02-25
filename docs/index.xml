@@ -17,7 +17,30 @@
 <width>144</width>
 </image>
 <generator>quarto-1.8.21</generator>
-<lastBuildDate>Mon, 06 Oct 2025 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 22 Feb 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Understanding Empirical Unlearning with Combinatorial Interpretability</title>
+  <dc:creator>Shingo Kodama</dc:creator>
+  <dc:creator>Niv Cohen</dc:creator>
+  <dc:creator>Micah Adler</dc:creator>
+  <dc:creator>Nir Shavit</dc:creator>
+  <link>https://themicahadler.github.io/blog/posts/empirical-unlearning.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><strong>Paper:</strong> <a href="https://arxiv.org/abs/2602.19215">arXiv:2602.19215</a></p>
+
+
+
+ ]]></description>
+  <category>Feature Channel Coding</category>
+  <category>Machine Unlearning</category>
+  <guid>https://themicahadler.github.io/blog/posts/empirical-unlearning.html</guid>
+  <pubDate>Sun, 22 Feb 2026 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Expand Neurons, Not Parameters</title>
   <dc:creator>Linghao Kong</dc:creator>
