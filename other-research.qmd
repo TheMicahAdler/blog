@@ -450,6 +450,11 @@ research involves applications of these kinds of techniques.
 
 <details open><summary>Other Publications</summary>
 
+* **[Understanding Empirical Unlearning with Combinatorial Interpretability](https://doi.org/10.48550/arXiv.2602.19215).**
+  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  *Shingo Kodama, Niv Cohen, Micah Adler, Nir Shavit.*
+  CoRR abs/2602.19215 (2026).
+
 * **[On the Capacity of Self-Attention](https://doi.org/10.48550/ARXIV.2509.22840).**
   <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
   *Micah Adler.*
