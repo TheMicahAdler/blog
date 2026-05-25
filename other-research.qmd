@@ -19,9 +19,9 @@ research involves applications of these kinds of techniques.
 <!-- Keyword filter toolbar -->
 <div id="keyword-filter"></div>
 <div id="no-matches" class="callout callout-warning hidden">
-  <div class="callout-body">
-    <p>No publications match your current filters.</p>
-  </div>
+<div class="callout-body">
+<p>No publications match your current filters.</p>
+</div>
 </div>
 
 <!-- Publications list -->
