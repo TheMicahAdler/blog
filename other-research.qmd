@@ -473,7 +473,7 @@ research involves applications of these kinds of techniques.
 * **[Understanding Empirical Unlearning with Combinatorial Interpretability](https://doi.org/10.48550/arXiv.2602.19215).**
   <span class="pub-topics" data-topics='["Artificial Intelligence"]' hidden></span>
   *Shingo Kodama, Niv Cohen, Micah Adler, Nir Shavit.*
-  CoRR abs/2602.19215 (2026).
+  ICLR Workshop on Trustworthy AI, 2026. CoRR abs/2602.19215 (2026).
 
 * **[Towards Combinatorial Interpretability of Neural Computation](https://doi.org/10.48550/ARXIV.2504.08842).**
   <span class="pub-topics" data-topics='["Artificial Intelligence"]' hidden></span>

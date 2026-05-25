@@ -1,7 +1,7 @@
 ---
 title: "Understanding Empirical Unlearning with Combinatorial Interpretability"
 date: 2026-02-22
-description: "Using combinatorial interpretability to examine whether unlearning methods genuinely erase knowledge or merely suppress its expression in neural networks."
+description: "**Accepted at ICLR 2026 Workshop (Trustworthy AI).** Using combinatorial interpretability to examine whether unlearning methods genuinely erase knowledge or merely suppress its expression in neural networks."
 categories: [Feature Channel Coding, Machine Unlearning]
 author:
   - name: Shingo Kodama
@@ -11,5 +11,7 @@ author:
 abstract: |
   This paper investigates how knowledge persists in neural networks despite unlearning attempts. Using combinatorial interpretability to examine two-layer networks directly, the authors assess whether unlearning methods genuinely eliminate target concepts or merely suppress their expression. The work explores how easily the supposedly erased knowledge can be recovered through various fine-tuning operations, providing insights into knowledge persistence mechanisms within interpretable settings.
 ---
+
+**Venue:** Accepted at ICLR 2026 Workshop (Trustworthy AI).
 
 **Paper:** [arXiv:2602.19215](https://arxiv.org/abs/2602.19215)
