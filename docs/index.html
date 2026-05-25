@@ -228,6 +228,36 @@ window.Quarto = {
 </div>
 <hr>
 <p>Click any title to view the abstract, then follow the arXiv link.</p>
+<script>
+// Fix: list.js sorts the "listing-title" field by innerHTML, which includes
+// the wrapping <a href="./posts/[file].html"> markup and orders posts by
+// filename instead of title text. Override with a textContent comparator.
+document.addEventListener('DOMContentLoaded', function() {
+  function titleSortFn(a, b) {
+    const at = (a.elm.querySelector('.listing-title') || {}).textContent || '';
+    const bt = (b.elm.querySelector('.listing-title') || {}).textContent || '';
+    return at.trim().toLowerCase().localeCompare(bt.trim().toLowerCase());
+  }
+
+  function attach() {
+    const list = (window['quarto-listings'] || {})['listing-listing'];
+    const select = document.getElementById('listing-listing-sort');
+    if (!list || !select) return false;
+    select.addEventListener('change', function() {
+      const opt = select.options[select.selectedIndex];
+      if (opt && opt.value === 'listing-title') {
+        const order = opt.getAttribute('data-direction') || 'asc';
+        list.sort('listing-title', { order: order, sortFunction: titleSortFn });
+      }
+    });
+    return true;
+  }
+
+  if (!attach()) {
+    const iv = setInterval(() => { if (attach()) clearInterval(iv); }, 50);
+  }
+});
+</script>
 
 
 
