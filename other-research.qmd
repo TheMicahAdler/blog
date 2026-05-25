@@ -478,7 +478,7 @@ research involves applications of these kinds of techniques.
 * **[Towards Combinatorial Interpretability of Neural Computation](https://doi.org/10.48550/ARXIV.2504.08842).**
   <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
   *Micah Adler, Dan Alistarh, Nir Shavit.*
-  CoRR abs/2504.08842 (2025).
+  ICLR Workshop on Scientific Methods for Deep Learning (Sci4DL), 2026. CoRR abs/2504.08842 (2025).
 
 * **[The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models](https://doi.org/10.48550/ARXIV.2505.19440).**
   <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
@@ -488,7 +488,7 @@ research involves applications of these kinds of techniques.
 * **[On the Complexity of Neural Computation in Superposition](https://doi.org/10.48550/ARXIV.2409.15318).**
   <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation", "Lower Bounds & Complexity Theory"]' hidden></span>
   *Micah Adler, Nir Shavit.*
-  CoRR abs/2409.15318 (2024).
+  ICLR Workshop on Scientific Methods for Deep Learning (Sci4DL), 2026. CoRR abs/2409.15318 (2024).
 
 * **[Search Space Reduction in R-trees](https://www.cs.williams.edu/~heeringa/publications/promise-pruning.pdf).**
   <span class="pub-topics" data-topics='["Search Structures"]' hidden></span>

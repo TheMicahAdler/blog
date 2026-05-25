@@ -1,7 +1,7 @@
 ---
 title: "Towards Combinatorial Interpretability of Neural Computation"
 date: 2025-05-05
-description: "Combinatorial interpretability via feature-channel coding: static weight analysis explains Boolean computations and links parameters to capacity."
+description: "**Accepted at ICLR 2026 Workshop (Sci4DL).** Combinatorial interpretability via feature-channel coding: static weight analysis explains Boolean computations and links parameters to capacity."
 categories: [Feature Channel Coding, Boolean Computation, Scaling Laws]
 author:
   - name: Micah Adler
@@ -10,5 +10,7 @@ author:
 abstract: |
   This work proposes combinatorial interpretability: understanding neural computation by analyzing combinatorial structure in the sign patterns of weights and biases. The authors introduce feature-channel coding, where features are encoded across groups of neurons; overlapping channels naturally yield polysemanticity and interference. Using only static analysis of weight matrices—no activation tracing or auxiliary autoencoders—they provide complete mechanistic interpretations of several small, gradient-trained networks. The framework reframes the superposition hypothesis in a way that proposes a mechanism for computation, beyond the usual representation aspect of the hypothesis.  It also uses the combinatorial interpretability framework to explain a scaling law.
 ---
+
+**Venue:** Accepted at ICLR 2026 Workshop (Sci4DL).
 
 **Paper:** [arXiv:2504.08842](https://arxiv.org/abs/2504.08842)
