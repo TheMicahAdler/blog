@@ -4,7 +4,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Micah's Mechanistic Interpretability Research"
+  title: "Micah's Artificial Intelligence Research"
   site-url: https://themicahadler.github.io/blog
   navbar:
     logo: images/logo.png
