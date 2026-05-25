@@ -1,0 +1,16 @@
+---
+title: "The Feature-Space Alignment Hypothesis for Neural Network Sparsity"
+date: 2026-03-02
+description: "**Accepted at ICLR 2026 Workshop (Sci4DL).** Investigates why magnitude pruning works and when it fails: performance degrades when sparse weights cause feature representations to diverge from the dense model, motivating feature-aware pruning."
+categories: [Sparsity, Pruning, Feature Channel Coding]
+author:
+  - name: Linghao Kong
+  - name: Micah Adler
+  - name: Nir Shavit
+abstract: |
+  This paper investigates why magnitude pruning remains effective despite removing most weights, and when it fails. Using a controlled experimental setting with explicit feature-space weights, the authors find that performance degradation correlates with divergence of feature representations from the dense model. They propose an optimization oracle that selects sparse weight matrices while preserving latent feature structure, recovering performance at high sparsity levels where standard magnitude pruning fails. The results suggest that sparsification constraints arise from misalignment between weight-space and feature-level organization, pointing toward feature-aware pruning methods.
+---
+
+**Venue:** Accepted at ICLR 2026 Workshop (Sci4DL).
+
+**Paper:** [OpenReview](https://openreview.net/forum?id=tZszYSchmV)

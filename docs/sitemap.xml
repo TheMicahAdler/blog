@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://themicahadler.github.io/blog/other-research.html</loc>
-    <lastmod>2026-05-25T00:54:37.094Z</lastmod>
+    <lastmod>2026-05-25T01:04:29.796Z</lastmod>
   </url>
   <url>
     <loc>https://themicahadler.github.io/blog/index.html</loc>
@@ -13,24 +13,28 @@
     <lastmod>2025-09-30T17:50:01.899Z</lastmod>
   </url>
   <url>
-    <loc>https://themicahadler.github.io/blog/posts/expand-neurons.html</loc>
-    <lastmod>2026-05-25T00:52:17.330Z</lastmod>
-  </url>
-  <url>
-    <loc>https://themicahadler.github.io/blog/posts/complexity-superposition.html</loc>
-    <lastmod>2025-09-30T17:43:51.984Z</lastmod>
-  </url>
-  <url>
-    <loc>https://themicahadler.github.io/blog/posts/birth-knowlege.html</loc>
-    <lastmod>2025-09-30T17:46:55.609Z</lastmod>
+    <loc>https://themicahadler.github.io/blog/posts/negative-syntax.html</loc>
+    <lastmod>2026-05-25T00:51:46.451Z</lastmod>
   </url>
   <url>
     <loc>https://themicahadler.github.io/blog/posts/empirical-unlearning.html</loc>
     <lastmod>2026-02-25T22:16:33.646Z</lastmod>
   </url>
   <url>
-    <loc>https://themicahadler.github.io/blog/posts/negative-syntax.html</loc>
-    <lastmod>2026-05-25T00:51:46.451Z</lastmod>
+    <loc>https://themicahadler.github.io/blog/posts/birth-knowlege.html</loc>
+    <lastmod>2025-09-30T17:46:55.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/complexity-superposition.html</loc>
+    <lastmod>2025-09-30T17:43:51.984Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/expand-neurons.html</loc>
+    <lastmod>2026-05-25T00:52:17.330Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/feature-alignment-sparsity.html</loc>
+    <lastmod>2026-05-25T01:04:16.378Z</lastmod>
   </url>
   <url>
     <loc>https://themicahadler.github.io/blog/posts/attention-capacity.html</loc>

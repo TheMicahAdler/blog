@@ -17,7 +17,31 @@
 <width>144</width>
 </image>
 <generator>quarto-1.8.21</generator>
-<lastBuildDate>Sun, 22 Feb 2026 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 02 Mar 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Feature-Space Alignment Hypothesis for Neural Network Sparsity</title>
+  <dc:creator>Linghao Kong</dc:creator>
+  <dc:creator>Micah Adler</dc:creator>
+  <dc:creator>Nir Shavit</dc:creator>
+  <link>https://themicahadler.github.io/blog/posts/feature-alignment-sparsity.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><strong>Venue:</strong> Accepted at ICLR 2026 Workshop (Sci4DL).</p>
+<p><strong>Paper:</strong> <a href="https://openreview.net/forum?id=tZszYSchmV">OpenReview</a></p>
+
+
+
+ ]]></description>
+  <category>Sparsity</category>
+  <category>Pruning</category>
+  <category>Feature Channel Coding</category>
+  <guid>https://themicahadler.github.io/blog/posts/feature-alignment-sparsity.html</guid>
+  <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Understanding Empirical Unlearning with Combinatorial Interpretability</title>
   <dc:creator>Shingo Kodama</dc:creator>

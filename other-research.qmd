@@ -465,6 +465,11 @@ research involves applications of these kinds of techniques.
 
 <details open><summary>Other Publications</summary>
 
+* **[The Feature-Space Alignment Hypothesis for Neural Network Sparsity](https://openreview.net/forum?id=tZszYSchmV).**
+  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  *Linghao Kong, Micah Adler, Nir Shavit.*
+  ICLR Workshop on Scientific Methods for Deep Learning (Sci4DL), 2026.
+
 * **[Understanding Empirical Unlearning with Combinatorial Interpretability](https://doi.org/10.48550/arXiv.2602.19215).**
   <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
   *Shingo Kodama, Niv Cohen, Micah Adler, Nir Shavit.*
