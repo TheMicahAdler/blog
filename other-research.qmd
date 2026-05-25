@@ -143,17 +143,17 @@ research involves applications of these kinds of techniques.
 <details open><summary>Publications in Selective Refereed Conferences</summary>
 
 * **[Negative Pre-activations Differentiate Syntax](https://doi.org/10.48550/ARXIV.2509.24198).**
-  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  <span class="pub-topics" data-topics='["Artificial Intelligence"]' hidden></span>
   *Linghao Kong, Angelina Ning, Micah Adler, Nir Shavit.*
   International Conference on Learning Representations (ICLR), 2026.
 
 * **[On the Capacity of Self-Attention](https://doi.org/10.48550/ARXIV.2509.22840).**
-  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  <span class="pub-topics" data-topics='["Artificial Intelligence"]' hidden></span>
   *Micah Adler.*
   Proceedings of the International Conference on Machine Learning (ICML), 2026.
 
 * **[Expand Neurons, Not Parameters](https://doi.org/10.48550/ARXIV.2510.04500).**
-  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  <span class="pub-topics" data-topics='["Artificial Intelligence"]' hidden></span>
   *Linghao Kong, Inimai Subramanian, Yonadav Shavit, Micah Adler, Dan Alistarh, Nir Shavit.*
   Proceedings of the International Conference on Machine Learning (ICML), 2026.
 
@@ -466,27 +466,27 @@ research involves applications of these kinds of techniques.
 <details open><summary>Other Publications</summary>
 
 * **[The Feature-Space Alignment Hypothesis for Neural Network Sparsity](https://openreview.net/forum?id=tZszYSchmV).**
-  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  <span class="pub-topics" data-topics='["Artificial Intelligence"]' hidden></span>
   *Linghao Kong, Micah Adler, Nir Shavit.*
   ICLR Workshop on Scientific Methods for Deep Learning (Sci4DL), 2026.
 
 * **[Understanding Empirical Unlearning with Combinatorial Interpretability](https://doi.org/10.48550/arXiv.2602.19215).**
-  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  <span class="pub-topics" data-topics='["Artificial Intelligence"]' hidden></span>
   *Shingo Kodama, Niv Cohen, Micah Adler, Nir Shavit.*
   CoRR abs/2602.19215 (2026).
 
 * **[Towards Combinatorial Interpretability of Neural Computation](https://doi.org/10.48550/ARXIV.2504.08842).**
-  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  <span class="pub-topics" data-topics='["Artificial Intelligence"]' hidden></span>
   *Micah Adler, Dan Alistarh, Nir Shavit.*
   ICLR Workshop on Scientific Methods for Deep Learning (Sci4DL), 2026. CoRR abs/2504.08842 (2025).
 
 * **[The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models](https://doi.org/10.48550/ARXIV.2505.19440).**
-  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  <span class="pub-topics" data-topics='["Artificial Intelligence"]' hidden></span>
   *Shashata Sawmya, Micah Adler, Nir Shavit.*
   CoRR abs/2505.19440 (2025).
 
 * **[On the Complexity of Neural Computation in Superposition](https://doi.org/10.48550/ARXIV.2409.15318).**
-  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation", "Lower Bounds & Complexity Theory"]' hidden></span>
+  <span class="pub-topics" data-topics='["Artificial Intelligence", "Lower Bounds & Complexity Theory"]' hidden></span>
   *Micah Adler, Nir Shavit.*
   ICLR Workshop on Scientific Methods for Deep Learning (Sci4DL), 2026. CoRR abs/2409.15318 (2024).
 
