@@ -142,6 +142,21 @@ research involves applications of these kinds of techniques.
 
 <details open><summary>Publications in Selective Refereed Conferences</summary>
 
+* **[Negative Pre-activations Differentiate Syntax](https://doi.org/10.48550/ARXIV.2509.24198).**
+  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  *Linghao Kong, Angelina Ning, Micah Adler, Nir Shavit.*
+  International Conference on Learning Representations (ICLR), 2026.
+
+* **[On the Capacity of Self-Attention](https://doi.org/10.48550/ARXIV.2509.22840).**
+  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  *Micah Adler.*
+  Proceedings of the International Conference on Machine Learning (ICML), 2026.
+
+* **[Expand Neurons, Not Parameters](https://doi.org/10.48550/ARXIV.2510.04500).**
+  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
+  *Linghao Kong, Inimai Subramanian, Yonadav Shavit, Micah Adler, Dan Alistarh, Nir Shavit.*
+  Proceedings of the International Conference on Machine Learning (ICML), 2026.
+
 * **[Search Space Reductions for Nearest-Neighbor Queries](https://ovf2dbuhz3kkjzkc.vyomaonline.com/studymaterial/uploads/pdf/2020/12/05_3f9debe8560161dfae5d6f466b5f21c1.pdf#page=565_).**
   <span class="pub-topics" data-topics='["Search Structures"]' hidden></span>
   *M Adler, B Heeringa.*
@@ -454,21 +469,6 @@ research involves applications of these kinds of techniques.
   <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
   *Shingo Kodama, Niv Cohen, Micah Adler, Nir Shavit.*
   CoRR abs/2602.19215 (2026).
-
-* **[On the Capacity of Self-Attention](https://doi.org/10.48550/ARXIV.2509.22840).**
-  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
-  *Micah Adler.*
-  CoRR abs/2509.22840 (2025).
-
-* **[Negative Pre-activations Differentiate Syntax](https://doi.org/10.48550/ARXIV.2509.24198).**
-  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
-  *Linghao Kong, Angelina Ning, Micah Adler, Nir Shavit.*
-  CoRR abs/2509.24198 (2025).
-
-* **[Expand Neurons, Not Parameters](https://doi.org/10.48550/ARXIV.2510.04500).**
-  <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
-  *Linghao Kong, Inimai Subramanian, Yonadav Shavit, Micah Adler, Dan Alistarh, Nir Shavit.*
-  CoRR abs/2510.04500 (2025).
 
 * **[Towards Combinatorial Interpretability of Neural Computation](https://doi.org/10.48550/ARXIV.2504.08842).**
   <span class="pub-topics" data-topics='["Mechanistic Interpretability & Neural Computation"]' hidden></span>
