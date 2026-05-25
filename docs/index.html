@@ -243,6 +243,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const list = (window['quarto-listings'] || {})['listing-listing'];
     const select = document.getElementById('listing-listing-sort');
     if (!list || !select) return false;
+    // Re-sort on initial load so the default title sort uses text content,
+    // not the innerHTML that includes the wrapping <a href> markup.
+    list.sort('listing-title', { order: 'asc', sortFunction: titleSortFn });
     select.addEventListener('change', function() {
       const opt = select.options[select.selectedIndex];
       if (opt && opt.value === 'listing-title') {
@@ -286,57 +289,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="U3BhcnNpdHklMkNQcnVuaW5nJTJDRmVhdHVyZSUyMENoYW5uZWwlMjBDb2Rpbmc=" data-listing-date-sort="1772427600000" data-listing-file-modified-sort="1779671056378" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/feature-alignment-sparsity.html" class="no-external">The Feature-Space Alignment Hypothesis for Neural Network Sparsity</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U3BhcnNpdHk='); return false;">Sparsity</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHJ1bmluZw=='); return false;">Pruning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmVhdHVyZSUyMENoYW5uZWwlMjBDb2Rpbmc='); return false;">Feature Channel Coding</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/feature-alignment-sparsity.html" class="no-external">
-<p><strong>Accepted at ICLR 2026 Workshop (Sci4DL).</strong> Investigates why magnitude pruning works and when it fails: performance degrades when sparse weights cause feature representations to diverge from the dense model, motivating feature-aware pruning.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/feature-alignment-sparsity.html" class="no-external">
-<div class="listing-date">
-Mar 2, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="RmVhdHVyZSUyMENoYW5uZWwlMjBDb2RpbmclMkNNYWNoaW5lJTIwVW5sZWFybmluZw==" data-listing-date-sort="1771736400000" data-listing-file-modified-sort="1779672979423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/empirical-unlearning.html" class="no-external">Understanding Empirical Unlearning with Combinatorial Interpretability</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmVhdHVyZSUyMENoYW5uZWwlMjBDb2Rpbmc='); return false;">Feature Channel Coding</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMFVubGVhcm5pbmc='); return false;">Machine Unlearning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/empirical-unlearning.html" class="no-external">
-<p><strong>Accepted at ICLR 2026 Workshop (Trustworthy AI).</strong> Using combinatorial interpretability to examine whether unlearning methods genuinely erase knowledge or merely suppress its expression in neural networks.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/empirical-unlearning.html" class="no-external">
-<div class="listing-date">
-Feb 22, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="U3VwZXJwb3NpdGlvbiUyQ1NwYXJzaXR5" data-listing-date-sort="1759723200000" data-listing-file-modified-sort="1779670337330" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="quarto-post image-right" data-index="0" data-categories="U3VwZXJwb3NpdGlvbiUyQ1NwYXJzaXR5" data-listing-date-sort="1759723200000" data-listing-file-modified-sort="1779670337330" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/expand-neurons.html" class="no-external">Expand Neurons, Not Parameters</a>
@@ -360,7 +313,7 @@ Oct 6, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="TExNcyUyQ1JlcHJlc2VudGF0aW9uJTIwTGVhcm5pbmc=" data-listing-date-sort="1759118400000" data-listing-file-modified-sort="1779670306451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="quarto-post image-right" data-index="1" data-categories="TExNcyUyQ1JlcHJlc2VudGF0aW9uJTIwTGVhcm5pbmc=" data-listing-date-sort="1759118400000" data-listing-file-modified-sort="1779670306451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/negative-syntax.html" class="no-external">Negative Pre-activations Differentiate Syntax</a>
@@ -384,7 +337,7 @@ Sep 29, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="QXR0ZW50aW9uJTJDQ2FwYWNpdHklMkNTY2FsaW5nJTIwTGF3cw==" data-listing-date-sort="1758859200000" data-listing-file-modified-sort="1779670325032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="quarto-post image-right" data-index="2" data-categories="QXR0ZW50aW9uJTJDQ2FwYWNpdHklMkNTY2FsaW5nJTIwTGF3cw==" data-listing-date-sort="1758859200000" data-listing-file-modified-sort="1779670325032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/attention-capacity.html" class="no-external">On the Capacity of Self-Attention</a>
@@ -410,7 +363,33 @@ Sep 26, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="TExNcyUyQ1NwYXJzZSUyMEF1dG9lbmNvZGVycyUyQ1JlcHJlc2VudGF0aW9uJTIwTGVhcm5pbmc=" data-listing-date-sort="1748232000000" data-listing-file-modified-sort="1759254415609" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="quarto-post image-right" data-index="3" data-categories="U3VwZXJwb3NpdGlvbiUyQ0NhcGFjaXR5JTJDQm9vbGVhbiUyMENvbXB1dGF0aW9u" data-listing-date-sort="1744948800000" data-listing-file-modified-sort="1779671270944" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/complexity-superposition.html" class="no-external">On the Complexity of Neural Computation in Superposition</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3VwZXJwb3NpdGlvbg=='); return false;">Superposition</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FwYWNpdHk='); return false;">Capacity</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vbGVhbiUyMENvbXB1dGF0aW9u'); return false;">Boolean Computation</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/complexity-superposition.html" class="no-external">
+<p><strong>Accepted at ICLR 2026 Workshop (Sci4DL).</strong> First lower and upper bounds for computing features in superposition; shows capacity <span class="math inline">\leq O(n^2 / \log n)</span> and gives constructive algorithms for logical ops.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/complexity-superposition.html" class="no-external">
+<div class="listing-date">
+Apr 18, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="TExNcyUyQ1NwYXJzZSUyMEF1dG9lbmNvZGVycyUyQ1JlcHJlc2VudGF0aW9uJTIwTGVhcm5pbmc=" data-listing-date-sort="1748232000000" data-listing-file-modified-sort="1759254415609" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/birth-knowlege.html" class="no-external">The Birth of Knowledge: Emergent Features across Time, Space, and Scale in Large Language Models</a>
@@ -432,6 +411,32 @@ Sep 26, 2025
 <a href="./posts/birth-knowlege.html" class="no-external">
 <div class="listing-date">
 May 26, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="U3BhcnNpdHklMkNQcnVuaW5nJTJDRmVhdHVyZSUyMENoYW5uZWwlMjBDb2Rpbmc=" data-listing-date-sort="1772427600000" data-listing-file-modified-sort="1779671056378" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/feature-alignment-sparsity.html" class="no-external">The Feature-Space Alignment Hypothesis for Neural Network Sparsity</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3BhcnNpdHk='); return false;">Sparsity</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJ1bmluZw=='); return false;">Pruning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RmVhdHVyZSUyMENoYW5uZWwlMjBDb2Rpbmc='); return false;">Feature Channel Coding</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/feature-alignment-sparsity.html" class="no-external">
+<p><strong>Accepted at ICLR 2026 Workshop (Sci4DL).</strong> Investigates why magnitude pruning works and when it fails: performance degrades when sparse weights cause feature representations to diverge from the dense model, motivating feature-aware pruning.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/feature-alignment-sparsity.html" class="no-external">
+<div class="listing-date">
+Mar 2, 2026
 </div>
 </a>
 </div>
@@ -462,28 +467,26 @@ May 5, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="U3VwZXJwb3NpdGlvbiUyQ0NhcGFjaXR5JTJDQm9vbGVhbiUyMENvbXB1dGF0aW9u" data-listing-date-sort="1744948800000" data-listing-file-modified-sort="1779671270944" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="quarto-post image-right" data-index="7" data-categories="RmVhdHVyZSUyMENoYW5uZWwlMjBDb2RpbmclMkNNYWNoaW5lJTIwVW5sZWFybmluZw==" data-listing-date-sort="1771736400000" data-listing-file-modified-sort="1779672979423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/complexity-superposition.html" class="no-external">On the Complexity of Neural Computation in Superposition</a>
+<a href="./posts/empirical-unlearning.html" class="no-external">Understanding Empirical Unlearning with Combinatorial Interpretability</a>
 </h3>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('U3VwZXJwb3NpdGlvbg=='); return false;">Superposition</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RmVhdHVyZSUyMENoYW5uZWwlMjBDb2Rpbmc='); return false;">Feature Channel Coding</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Q2FwYWNpdHk='); return false;">Capacity</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Qm9vbGVhbiUyMENvbXB1dGF0aW9u'); return false;">Boolean Computation</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMFVubGVhcm5pbmc='); return false;">Machine Unlearning</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/complexity-superposition.html" class="no-external">
-<p><strong>Accepted at ICLR 2026 Workshop (Sci4DL).</strong> First lower and upper bounds for computing features in superposition; shows capacity <span class="math inline">\leq O(n^2 / \log n)</span> and gives constructive algorithms for logical ops.</p>
+<div class="delink listing-description"><a href="./posts/empirical-unlearning.html" class="no-external">
+<p><strong>Accepted at ICLR 2026 Workshop (Trustworthy AI).</strong> Using combinatorial interpretability to examine whether unlearning methods genuinely erase knowledge or merely suppress its expression in neural networks.</p>
 </a></div>
 </div>
 <div class="metadata">
-<a href="./posts/complexity-superposition.html" class="no-external">
+<a href="./posts/empirical-unlearning.html" class="no-external">
 <div class="listing-date">
-Apr 18, 2025
+Feb 22, 2026
 </div>
 </a>
 </div>

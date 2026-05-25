@@ -11,7 +11,7 @@ image: images/blog-card.png                  # can reuse the banner or a square 
 # Existing listing config unchanged
 listing:
   contents: posts
-  sort: "date desc"
+  sort: "title"
   type: default
   categories: true
   sort-ui: true
@@ -55,6 +55,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const list = (window['quarto-listings'] || {})['listing-listing'];
     const select = document.getElementById('listing-listing-sort');
     if (!list || !select) return false;
+    // Re-sort on initial load so the default title sort uses text content,
+    // not the innerHTML that includes the wrapping <a href> markup.
+    list.sort('listing-title', { order: 'asc', sortFunction: titleSortFn });
     select.addEventListener('change', function() {
       const opt = select.options[select.selectedIndex];
       if (opt && opt.value === 'listing-title') {

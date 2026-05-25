@@ -2,14 +2,14 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/feature-alignment-sparsity.html",
-      "/posts/empirical-unlearning.html",
       "/posts/expand-neurons.html",
       "/posts/negative-syntax.html",
       "/posts/attention-capacity.html",
+      "/posts/complexity-superposition.html",
       "/posts/birth-knowlege.html",
+      "/posts/feature-alignment-sparsity.html",
       "/posts/combinatorial-interpretability.html",
-      "/posts/complexity-superposition.html"
+      "/posts/empirical-unlearning.html"
     ]
   }
 ]
