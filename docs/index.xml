@@ -17,7 +17,34 @@
 <width>144</width>
 </image>
 <generator>quarto-1.8.21</generator>
-<lastBuildDate>Mon, 02 Mar 2026 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 06 Aug 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Sparsity Whisperer</title>
+  <dc:creator>Linghao Kong</dc:creator>
+  <dc:creator>Inimai Subramanian</dc:creator>
+  <dc:creator>Micah Adler</dc:creator>
+  <dc:creator>Dan Alistarh</dc:creator>
+  <dc:creator>Dan Gutfreund</dc:creator>
+  <dc:creator>Nir Shavit</dc:creator>
+  <link>https://themicahadler.github.io/blog/posts/sparsity-whisperer.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><strong>Venue:</strong> Accepted at NeurIPS 2026.</p>
+<p><strong>Paper:</strong> <a href="https://arxiv.org/abs/2608.06630">arXiv:2608.06630</a></p>
+
+
+
+ ]]></description>
+  <category>Sparsity</category>
+  <category>Pruning</category>
+  <category>LLMs</category>
+  <guid>https://themicahadler.github.io/blog/posts/sparsity-whisperer.html</guid>
+  <pubDate>Thu, 06 Aug 2026 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>The Feature-Space Alignment Hypothesis for Neural Network Sparsity</title>
   <dc:creator>Linghao Kong</dc:creator>

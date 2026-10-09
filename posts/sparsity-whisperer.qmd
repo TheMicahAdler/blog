@@ -1,0 +1,19 @@
+---
+title: "The Sparsity Whisperer"
+date: 2026-08-06
+description: '**Accepted at NeurIPS 2026.** Difference-informed pruning for LLMs: preserving output differences—not just large activations—yields pruning methods (Wisp, Wisp+, Whisper) that outperform strong baselines like Wanda and SparseGPT.'
+categories: [Sparsity, Pruning, LLMs]
+author:
+  - name: Linghao Kong
+  - name: Inimai Subramanian
+  - name: Micah Adler
+  - name: Dan Alistarh
+  - name: Dan Gutfreund
+  - name: Nir Shavit
+abstract: |
+  This paper argues that existing pruning criteria for large language models overlook a key computation performed by particularly sparsity-sensitive neurons in the MLP up and gate projections: separating similar inputs into dissimilar outputs. Effective pruning should therefore preserve not only activations, but also the differences between outputs. The authors introduce a family of difference-informed pruning methods: Wisp, a first-order, update-free method that scores weights using input-difference norms; Wisp+, which refines this score neuronwise using the input pairs each neuron separates most strongly; and Whisper, a second-order method that uses a lightly regularized difference Hessian as its reconstruction objective. Across Llama 2 and 3.1 models from 7B to 405B parameters, these methods consistently improve over strong activation-aware and reconstruction-based baselines such as Wanda and SparseGPT, with gains extending to structured sparsity, downstream evaluations, and other model families. Augmenting stronger techniques such as RIA and ALPS with difference-informed criteria shifts the accuracy–runtime frontier outward at negligible additional cost.
+---
+
+**Venue:** Accepted at NeurIPS 2026.
+
+**Paper:** [arXiv:2608.06630](https://arxiv.org/abs/2608.06630)

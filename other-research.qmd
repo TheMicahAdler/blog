@@ -142,6 +142,11 @@ research involves applications of these kinds of techniques.
 
 <details open><summary>Publications in Selective Refereed Conferences</summary>
 
+* **[The Sparsity Whisperer](https://doi.org/10.48550/ARXIV.2608.06630).**
+  <span class="pub-topics" data-topics='["Artificial Intelligence"]' hidden></span>
+  *Linghao Kong, Inimai Subramanian, Micah Adler, Dan Alistarh, Dan Gutfreund, Nir Shavit.*
+  Advances in Neural Information Processing Systems (NeurIPS), 2026.
+
 * **[Negative Pre-activations Differentiate Syntax](https://doi.org/10.48550/ARXIV.2509.24198).**
   <span class="pub-topics" data-topics='["Artificial Intelligence"]' hidden></span>
   *Linghao Kong, Angelina Ning, Micah Adler, Nir Shavit.*

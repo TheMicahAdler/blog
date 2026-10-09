@@ -2,43 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://themicahadler.github.io/blog/other-research.html</loc>
-    <lastmod>2026-05-25T01:54:40.775Z</lastmod>
+    <lastmod>2026-10-09T21:42:31.445Z</lastmod>
   </url>
   <url>
     <loc>https://themicahadler.github.io/blog/index.html</loc>
     <lastmod>2026-05-25T02:04:06.276Z</lastmod>
   </url>
   <url>
-    <loc>https://themicahadler.github.io/blog/posts/combinatorial-interpretability.html</loc>
-    <lastmod>2026-05-25T01:07:41.881Z</lastmod>
-  </url>
-  <url>
-    <loc>https://themicahadler.github.io/blog/posts/negative-syntax.html</loc>
-    <lastmod>2026-05-25T00:51:46.451Z</lastmod>
-  </url>
-  <url>
-    <loc>https://themicahadler.github.io/blog/posts/empirical-unlearning.html</loc>
-    <lastmod>2026-05-25T01:36:19.423Z</lastmod>
-  </url>
-  <url>
-    <loc>https://themicahadler.github.io/blog/posts/birth-knowlege.html</loc>
-    <lastmod>2025-09-30T17:46:55.609Z</lastmod>
-  </url>
-  <url>
-    <loc>https://themicahadler.github.io/blog/posts/complexity-superposition.html</loc>
-    <lastmod>2026-05-25T01:07:50.944Z</lastmod>
-  </url>
-  <url>
-    <loc>https://themicahadler.github.io/blog/posts/expand-neurons.html</loc>
-    <lastmod>2026-05-25T00:52:17.330Z</lastmod>
+    <loc>https://themicahadler.github.io/blog/posts/attention-capacity.html</loc>
+    <lastmod>2026-05-25T00:52:05.032Z</lastmod>
   </url>
   <url>
     <loc>https://themicahadler.github.io/blog/posts/feature-alignment-sparsity.html</loc>
     <lastmod>2026-05-25T01:04:16.378Z</lastmod>
   </url>
   <url>
-    <loc>https://themicahadler.github.io/blog/posts/attention-capacity.html</loc>
-    <lastmod>2026-05-25T00:52:05.032Z</lastmod>
+    <loc>https://themicahadler.github.io/blog/posts/expand-neurons.html</loc>
+    <lastmod>2026-05-25T00:52:17.330Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/complexity-superposition.html</loc>
+    <lastmod>2026-05-25T01:07:50.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/birth-knowlege.html</loc>
+    <lastmod>2025-09-30T17:46:55.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/empirical-unlearning.html</loc>
+    <lastmod>2026-05-25T01:36:19.423Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/negative-syntax.html</loc>
+    <lastmod>2026-05-25T00:51:46.451Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/combinatorial-interpretability.html</loc>
+    <lastmod>2026-05-25T01:07:41.881Z</lastmod>
+  </url>
+  <url>
+    <loc>https://themicahadler.github.io/blog/posts/sparsity-whisperer.html</loc>
+    <lastmod>2026-10-09T21:42:28.399Z</lastmod>
   </url>
   <url>
     <loc>https://themicahadler.github.io/blog/about.html</loc>
